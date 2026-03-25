@@ -1,0 +1,302 @@
+[
+  {
+    "app": "accounts",
+    "role": "models",
+    "path": "apps/accounts/models.py"
+  },
+  {
+    "app": "accounts",
+    "role": "selectors",
+    "path": "apps/accounts/selectors.py"
+  },
+  {
+    "app": "accounts",
+    "role": "services",
+    "path": "apps/accounts/services.py"
+  },
+  {
+    "app": "accounts",
+    "role": "tasks",
+    "path": "apps/accounts/tasks.py"
+  },
+  {
+    "app": "accounts",
+    "role": "validators",
+    "path": "apps/accounts/validators.py"
+  },
+  {
+    "app": "accounts",
+    "role": "views",
+    "path": "apps/accounts/views.py"
+  },
+  {
+    "app": "analytics",
+    "role": "models",
+    "path": "apps/analytics/models.py"
+  },
+  {
+    "app": "analytics",
+    "role": "selectors",
+    "path": "apps/analytics/selectors.py"
+  },
+  {
+    "app": "analytics",
+    "role": "services",
+    "path": "apps/analytics/services.py"
+  },
+  {
+    "app": "analytics",
+    "role": "tasks",
+    "path": "apps/analytics/tasks.py"
+  },
+  {
+    "app": "analytics",
+    "role": "validators",
+    "path": "apps/analytics/validators.py"
+  },
+  {
+    "app": "analytics",
+    "role": "views",
+    "path": "apps/analytics/views.py"
+  },
+  {
+    "app": "billing",
+    "role": "models",
+    "path": "apps/billing/models.py"
+  },
+  {
+    "app": "billing",
+    "role": "selectors",
+    "path": "apps/billing/selectors.py"
+  },
+  {
+    "app": "billing",
+    "role": "services",
+    "path": "apps/billing/services.py"
+  },
+  {
+    "app": "billing",
+    "role": "tasks",
+    "path": "apps/billing/tasks.py"
+  },
+  {
+    "app": "billing",
+    "role": "validators",
+    "path": "apps/billing/validators.py"
+  },
+  {
+    "app": "billing",
+    "role": "views",
+    "path": "apps/billing/views.py"
+  },
+  {
+    "app": "catalog",
+    "role": "models",
+    "path": "apps/catalog/models.py"
+  },
+  {
+    "app": "catalog",
+    "role": "selectors",
+    "path": "apps/catalog/selectors.py"
+  },
+  {
+    "app": "catalog",
+    "role": "services",
+    "path": "apps/catalog/services.py"
+  },
+  {
+    "app": "catalog",
+    "role": "tasks",
+    "path": "apps/catalog/tasks.py"
+  },
+  {
+    "app": "catalog",
+    "role": "validators",
+    "path": "apps/catalog/validators.py"
+  },
+  {
+    "app": "catalog",
+    "role": "views",
+    "path": "apps/catalog/views.py"
+  },
+  {
+    "app": "inventory",
+    "role": "models",
+    "path": "apps/inventory/models.py"
+  },
+  {
+    "app": "inventory",
+    "role": "selectors",
+    "path": "apps/inventory/selectors.py"
+  },
+  {
+    "app": "inventory",
+    "role": "services",
+    "path": "apps/inventory/services.py"
+  },
+  {
+    "app": "inventory",
+    "role": "tasks",
+    "path": "apps/inventory/tasks.py"
+  },
+  {
+    "app": "inventory",
+    "role": "validators",
+    "path": "apps/inventory/validators.py"
+  },
+  {
+    "app": "inventory",
+    "role": "views",
+    "path": "apps/inventory/views.py"
+  },
+  {
+    "app": "notifications",
+    "role": "models",
+    "path": "apps/notifications/models.py"
+  },
+  {
+    "app": "notifications",
+    "role": "selectors",
+    "path": "apps/notifications/selectors.py"
+  },
+  {
+    "app": "notifications",
+    "role": "services",
+    "path": "apps/notifications/services.py"
+  },
+  {
+    "app": "notifications",
+    "role": "tasks",
+    "path": "apps/notifications/tasks.py"
+  },
+  {
+    "app": "notifications",
+    "role": "validators",
+    "path": "apps/notifications/validators.py"
+  },
+  {
+    "app": "notifications",
+    "role": "views",
+    "path": "apps/notifications/views.py"
+  },
+  {
+    "app": "orders",
+    "role": "models",
+    "path": "apps/orders/models.py"
+  },
+  {
+    "app": "orders",
+    "role": "selectors",
+    "path": "apps/orders/selectors.py"
+  },
+  {
+    "app": "orders",
+    "role": "services",
+    "path": "apps/orders/services.py"
+  },
+  {
+    "app": "orders",
+    "role": "tasks",
+    "path": "apps/orders/tasks.py"
+  },
+  {
+    "app": "orders",
+    "role": "validators",
+    "path": "apps/orders/validators.py"
+  },
+  {
+    "app": "orders",
+    "role": "views",
+    "path": "apps/orders/views.py"
+  },
+  {
+    "app": "payments",
+    "role": "models",
+    "path": "apps/payments/models.py"
+  },
+  {
+    "app": "payments",
+    "role": "selectors",
+    "path": "apps/payments/selectors.py"
+  },
+  {
+    "app": "payments",
+    "role": "services",
+    "path": "apps/payments/services.py"
+  },
+  {
+    "app": "payments",
+    "role": "tasks",
+    "path": "apps/payments/tasks.py"
+  },
+  {
+    "app": "payments",
+    "role": "validators",
+    "path": "apps/payments/validators.py"
+  },
+  {
+    "app": "payments",
+    "role": "views",
+    "path": "apps/payments/views.py"
+  },
+  {
+    "app": "reporting",
+    "role": "models",
+    "path": "apps/reporting/models.py"
+  },
+  {
+    "app": "reporting",
+    "role": "selectors",
+    "path": "apps/reporting/selectors.py"
+  },
+  {
+    "app": "reporting",
+    "role": "services",
+    "path": "apps/reporting/services.py"
+  },
+  {
+    "app": "reporting",
+    "role": "tasks",
+    "path": "apps/reporting/tasks.py"
+  },
+  {
+    "app": "reporting",
+    "role": "validators",
+    "path": "apps/reporting/validators.py"
+  },
+  {
+    "app": "reporting",
+    "role": "views",
+    "path": "apps/reporting/views.py"
+  },
+  {
+    "app": "support",
+    "role": "models",
+    "path": "apps/support/models.py"
+  },
+  {
+    "app": "support",
+    "role": "selectors",
+    "path": "apps/support/selectors.py"
+  },
+  {
+    "app": "support",
+    "role": "services",
+    "path": "apps/support/services.py"
+  },
+  {
+    "app": "support",
+    "role": "tasks",
+    "path": "apps/support/tasks.py"
+  },
+  {
+    "app": "support",
+    "role": "validators",
+    "path": "apps/support/validators.py"
+  },
+  {
+    "app": "support",
+    "role": "views",
+    "path": "apps/support/views.py"
+  }
+]

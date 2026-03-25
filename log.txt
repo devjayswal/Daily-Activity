@@ -1,1 +1,1 @@
-"init" 
+Evolution workflow initialized.\n

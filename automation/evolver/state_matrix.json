@@ -1,0 +1,142 @@
+[
+  {
+    "label": "seed",
+    "focus": "baseline integrity",
+    "guard": "strict schema checks",
+    "metric": "consistency ratio",
+    "style": "conservative"
+  },
+  {
+    "label": "draft",
+    "focus": "field expansion",
+    "guard": "type-aware casting",
+    "metric": "coverage span",
+    "style": "iterative"
+  },
+  {
+    "label": "shape",
+    "focus": "query simplification",
+    "guard": "null-safe fallback",
+    "metric": "query depth",
+    "style": "measured"
+  },
+  {
+    "label": "pulse",
+    "focus": "activity balancing",
+    "guard": "bounded retries",
+    "metric": "throughput signal",
+    "style": "adaptive"
+  },
+  {
+    "label": "prune",
+    "focus": "noise reduction",
+    "guard": "duplicate filters",
+    "metric": "delta precision",
+    "style": "surgical"
+  },
+  {
+    "label": "fuse",
+    "focus": "cross-module linkage",
+    "guard": "compatibility gates",
+    "metric": "link score",
+    "style": "composed"
+  },
+  {
+    "label": "trace",
+    "focus": "audit granularity",
+    "guard": "event hashing",
+    "metric": "trace fidelity",
+    "style": "forensic"
+  },
+  {
+    "label": "tilt",
+    "focus": "priority routing",
+    "guard": "load thresholds",
+    "metric": "queue smoothness",
+    "style": "dynamic"
+  },
+  {
+    "label": "merge",
+    "focus": "workflow convergence",
+    "guard": "conflict shields",
+    "metric": "merge stability",
+    "style": "balanced"
+  },
+  {
+    "label": "burst",
+    "focus": "peak handling",
+    "guard": "window caps",
+    "metric": "latency envelope",
+    "style": "elastic"
+  },
+  {
+    "label": "guard",
+    "focus": "resilience tuning",
+    "guard": "integrity sentinels",
+    "metric": "error gradient",
+    "style": "defensive"
+  },
+  {
+    "label": "orbit",
+    "focus": "cyclic refinement",
+    "guard": "state locks",
+    "metric": "evolution cadence",
+    "style": "self-healing"
+  },
+  {
+    "label": "sync",
+    "focus": "cross-node consistency",
+    "guard": "clock drift fences",
+    "metric": "sync confidence",
+    "style": "coordinated"
+  },
+  {
+    "label": "weave",
+    "focus": "dependency braiding",
+    "guard": "ordering contracts",
+    "metric": "link coherence",
+    "style": "layered"
+  },
+  {
+    "label": "drift",
+    "focus": "variance scanning",
+    "guard": "outlier cutoffs",
+    "metric": "spread signature",
+    "style": "probing"
+  },
+  {
+    "label": "anchor",
+    "focus": "baseline recovery",
+    "guard": "rollback anchors",
+    "metric": "stability rebound",
+    "style": "grounded"
+  },
+  {
+    "label": "glide",
+    "focus": "steady progression",
+    "guard": "step smoothers",
+    "metric": "transition friction",
+    "style": "fluid"
+  },
+  {
+    "label": "spark",
+    "focus": "exploration bursts",
+    "guard": "blast radius limits",
+    "metric": "novelty yield",
+    "style": "experimental"
+  },
+  {
+    "label": "lattice",
+    "focus": "mesh alignment",
+    "guard": "graph invariants",
+    "metric": "topology health",
+    "style": "structured"
+  },
+  {
+    "label": "zenith",
+    "focus": "peak harmonization",
+    "guard": "plateau dampers",
+    "metric": "apex stability",
+    "style": "stabilizing"
+  }
+]

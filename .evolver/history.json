@@ -1,0 +1,154 @@
+[
+  {
+    "timestamp": "2026-03-25 05:56:36 UTC",
+    "filesChanged": 2,
+    "driftAfter": 32,
+    "entropyAfter": 0.6144,
+    "changes": [
+      {
+        "path": "apps/accounts/views.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 3.192756494711405
+      },
+      {
+        "path": "apps/orders/selectors.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 2.8722314933464954
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 05:57:49 UTC",
+    "filesChanged": 2,
+    "driftAfter": 30,
+    "entropyAfter": 0.9142,
+    "changes": [
+      {
+        "path": "apps/orders/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.886701928308886
+      },
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.548340390256558
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 05:57:52 UTC",
+    "filesChanged": 2,
+    "driftAfter": 28,
+    "entropyAfter": 1.0975,
+    "changes": [
+      {
+        "path": "apps/support/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.664382781777812
+      },
+      {
+        "path": "apps/billing/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.342068601875853
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 05:57:54 UTC",
+    "filesChanged": 2,
+    "driftAfter": 26,
+    "entropyAfter": 1.2332,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.235416544329054
+      },
+      {
+        "path": "apps/accounts/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 6.990684970703588
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 05:59:10 UTC",
+    "filesChanged": 2,
+    "driftAfter": 24,
+    "entropyAfter": 1.3355,
+    "changes": [
+      {
+        "path": "apps/analytics/validators.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.0053073361582205
+      },
+      {
+        "path": "apps/analytics/services.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 6.884089425715484
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 06:02:08 UTC",
+    "filesChanged": 1,
+    "driftAfter": 47,
+    "entropyAfter": 1.0136,
+    "changes": [
+      {
+        "path": "apps/billing/validators.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.483251082173996
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-03-25 06:04:37 UTC",
+    "filesChanged": 1,
+    "driftAfter": 46,
+    "entropyAfter": 1.0518,
+    "changes": [
+      {
+        "path": "apps/reporting/selectors.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.5098635581516895
+      }
+    ]
+  }
+]

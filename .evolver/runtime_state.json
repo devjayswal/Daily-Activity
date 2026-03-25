@@ -1,0 +1,17 @@
+{
+  "tick": 7,
+  "fileTouches": {
+    "apps/accounts/views.py": 1,
+    "apps/orders/selectors.py": 1,
+    "apps/orders/models.py": 2,
+    "apps/accounts/tasks.py": 2,
+    "apps/support/models.py": 3,
+    "apps/billing/tasks.py": 3,
+    "apps/orders/tasks.py": 4,
+    "apps/accounts/models.py": 4,
+    "apps/analytics/validators.py": 5,
+    "apps/analytics/services.py": 5,
+    "apps/billing/validators.py": 6,
+    "apps/reporting/selectors.py": 7
+  }
+}
