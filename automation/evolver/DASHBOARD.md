@@ -1,16 +1,16 @@
 # Evolver Dashboard
 
-Last run: 2026-03-25 06:30:13 UTC
+Last run: 2026-03-25 22:44:32 UTC
 Files changed this run: 2
-Skew: 46 -> 44
-Entropy: 1.052 -> 1.120
+Skew: 44 -> 42
+Entropy: 1.120 -> 1.177
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 46 | 44 |
-| 1 | draft | 10 | 12 |
+| 0 | seed | 44 | 42 |
+| 1 | draft | 12 | 14 |
 | 2 | shape | 2 | 2 |
 | 3 | pulse | 0 | 0 |
 | 4 | prune | 0 | 0 |
@@ -34,7 +34,7 @@ Entropy: 1.052 -> 1.120
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | seed (0) | 3 |
+| accounts | draft (1) | 3 |
 | analytics | seed (0) | 4 |
 | billing | seed (0) | 3 |
 | catalog | seed (0) | 5 |
@@ -43,26 +43,27 @@ Entropy: 1.052 -> 1.120
 | orders | seed (0) | 3 |
 | payments | seed (0) | 6 |
 | reporting | seed (0) | 5 |
-| support | seed (0) | 4 |
+| support | seed (0) | 3 |
 
 ## Role Distribution
 
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | seed (0) | 6 |
-| selectors | seed (0) | 6 |
-| services | seed (0) | 9 |
+| selectors | seed (0) | 5 |
+| services | seed (0) | 8 |
 | tasks | seed (0) | 7 |
 | validators | seed (0) | 8 |
 | views | seed (0) | 8 |
 
 ## This Run Changes
 
-- `apps/inventory/models.py`: 0 -> 1 (seed -> draft, score=7.660)
-- `apps/catalog/selectors.py`: 0 -> 1 (seed -> draft, score=7.335)
+- `apps/accounts/selectors.py`: 0 -> 1 (seed -> draft, score=7.451)
+- `apps/support/services.py`: 0 -> 1 (seed -> draft, score=7.314)
 
 ## Recent History
 
+- 2026-03-25 22:44:32 UTC: changed=2, drift=42
 - 2026-03-25 06:30:13 UTC: changed=2, drift=44
 - 2026-03-25 06:04:37 UTC: changed=1, drift=46
 - 2026-03-25 06:02:08 UTC: changed=1, drift=47

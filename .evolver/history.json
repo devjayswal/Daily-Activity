@@ -174,5 +174,29 @@
         "score": 7.335118632877013
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-25 22:44:32 UTC",
+    "filesChanged": 2,
+    "driftAfter": 42,
+    "entropyAfter": 1.1772,
+    "changes": [
+      {
+        "path": "apps/accounts/selectors.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.451099193794006
+      },
+      {
+        "path": "apps/support/services.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.314450691067979
+      }
+    ]
   }
 ]
