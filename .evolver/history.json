@@ -150,5 +150,29 @@
         "score": 7.5098635581516895
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-25 06:30:13 UTC",
+    "filesChanged": 2,
+    "driftAfter": 44,
+    "entropyAfter": 1.1196,
+    "changes": [
+      {
+        "path": "apps/inventory/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.660179438952323
+      },
+      {
+        "path": "apps/catalog/selectors.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 7.335118632877013
+      }
+    ]
   }
 ]
