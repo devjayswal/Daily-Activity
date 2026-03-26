@@ -22,6 +22,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.AUTH_CODE }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -36,8 +38,8 @@ jobs:
 
       - name: Commit and push when changed
         run: |
-          git config --global user.name "era"
-          git config --global user.email "era@github.com"
+          git config  user.name "devjayswal"
+          git config  user.email "devjayswal@gmail.com"
           git add apps automation/evolver .evolver
           if git diff --cached --quiet; then
             echo "No changes to commit"
