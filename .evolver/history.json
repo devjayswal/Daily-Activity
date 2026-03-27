@@ -334,5 +334,21 @@
         "score": 6.682804018954228
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-27 14:44:07 UTC",
+    "filesChanged": 1,
+    "driftAfter": 31,
+    "entropyAfter": 1.3456,
+    "changes": [
+      {
+        "path": "apps/inventory/services.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 6.889810288110588
+      }
+    ]
   }
 ]
