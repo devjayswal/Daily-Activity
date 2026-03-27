@@ -45,5 +45,5 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore(evolver): balanced state transition [bot]"
+          git commit -m "chore(evolver): balanced state transition"
           git push
