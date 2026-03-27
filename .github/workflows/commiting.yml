@@ -39,7 +39,7 @@ jobs:
       - name: Commit and push when changed
         run: |
           git config  user.name "devjayswal"
-          git config  user.email "devjayswal@gmail.com"
+          git config  user.email "devjayswal404@gmail.com"
           git add apps automation/evolver .evolver
           if git diff --cached --quiet; then
             echo "No changes to commit"
