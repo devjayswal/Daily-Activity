@@ -350,5 +350,21 @@
         "score": 6.889810288110588
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-28 14:23:41 UTC",
+    "filesChanged": 1,
+    "driftAfter": 30,
+    "entropyAfter": 1.3499,
+    "changes": [
+      {
+        "path": "apps/catalog/services.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 6.607914722028676
+      }
+    ]
   }
 ]
