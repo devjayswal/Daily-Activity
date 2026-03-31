@@ -1,15 +1,15 @@
 # Evolver Dashboard
 
-Last run: 2026-03-31 07:24:28 UTC
-Files changed this run: 1
+Last run: 2026-03-31 14:55:31 UTC
+Files changed this run: 2
 Skew: 27 -> 27
-Entropy: 1.687 -> 1.727
+Entropy: 1.727 -> 1.790
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 24 | 23 |
+| 0 | seed | 23 | 21 |
 | 1 | draft | 27 | 27 |
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 0 | 0 |
@@ -28,7 +28,7 @@ Entropy: 1.687 -> 1.727
 | 16 | glide | 0 | 0 |
 | 17 | spark | 0 | 0 |
 | 18 | lattice | 0 | 0 |
-| 19 | zenith | 4 | 5 |
+| 19 | zenith | 5 | 7 |
 
 ## App Distribution
 
@@ -42,7 +42,7 @@ Entropy: 1.687 -> 1.727
 | notifications | seed (0) | 3 |
 | orders | seed (0) | 3 |
 | payments | draft (1) | 4 |
-| reporting | seed (0) | 3 |
+| reporting | zenith (19) | 3 |
 | support | draft (1) | 3 |
 
 ## Role Distribution
@@ -58,10 +58,12 @@ Entropy: 1.687 -> 1.727
 
 ## This Run Changes
 
-- `apps/notifications/models.py`: 0 -> 19 (seed -> zenith, score=2.931)
+- `apps/reporting/services.py`: 0 -> 19 (seed -> zenith, score=3.200)
+- `apps/reporting/models.py`: 0 -> 19 (seed -> zenith, score=2.923)
 
 ## Recent History
 
+- 2026-03-31 14:55:31 UTC: changed=2, drift=27
 - 2026-03-31 07:24:28 UTC: changed=1, drift=27
 - 2026-03-31 05:02:37 UTC: changed=1, drift=27
 - 2026-03-30 22:37:52 UTC: changed=2, drift=28
@@ -71,4 +73,3 @@ Entropy: 1.687 -> 1.727
 - 2026-03-28 14:23:41 UTC: changed=1, drift=30
 - 2026-03-27 14:44:07 UTC: changed=1, drift=31
 - 2026-03-27 07:15:47 UTC: changed=2, drift=32
-- 2026-03-27 05:06:12 UTC: changed=1, drift=34
