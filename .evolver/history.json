@@ -446,5 +446,21 @@
         "score": 3.1463788156270174
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-31 05:02:37 UTC",
+    "filesChanged": 1,
+    "driftAfter": 27,
+    "entropyAfter": 1.6873,
+    "changes": [
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 7.7501996413678444
+      }
+    ]
   }
 ]
