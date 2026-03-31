@@ -502,5 +502,29 @@
         "score": 2.9228673720767318
       }
     ]
+  },
+  {
+    "timestamp": "2026-03-31 22:40:15 UTC",
+    "filesChanged": 2,
+    "driftAfter": 25,
+    "entropyAfter": 1.8803,
+    "changes": [
+      {
+        "path": "apps/orders/models.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 8.005501036558778
+      },
+      {
+        "path": "apps/support/models.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 7.828417231686755
+      }
+    ]
   }
 ]
