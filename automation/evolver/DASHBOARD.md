@@ -1,17 +1,17 @@
 # Evolver Dashboard
 
-Last run: 2026-03-31 22:40:15 UTC
+Last run: 2026-04-01 07:34:54 UTC
 Files changed this run: 2
-Skew: 27 -> 25
-Entropy: 1.790 -> 1.880
+Skew: 25 -> 24
+Entropy: 1.880 -> 1.940
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 21 | 21 |
-| 1 | draft | 27 | 25 |
-| 2 | shape | 3 | 5 |
+| 0 | seed | 21 | 20 |
+| 1 | draft | 25 | 24 |
+| 2 | shape | 5 | 6 |
 | 3 | pulse | 0 | 0 |
 | 4 | prune | 0 | 0 |
 | 5 | fuse | 0 | 0 |
@@ -28,7 +28,7 @@ Entropy: 1.790 -> 1.880
 | 16 | glide | 0 | 0 |
 | 17 | spark | 0 | 0 |
 | 18 | lattice | 0 | 0 |
-| 19 | zenith | 7 | 7 |
+| 19 | zenith | 7 | 8 |
 
 ## App Distribution
 
@@ -36,9 +36,9 @@ Entropy: 1.790 -> 1.880
 |---|---|---:|
 | accounts | draft (1) | 3 |
 | analytics | draft (1) | 4 |
-| billing | draft (1) | 3 |
+| billing | seed (0) | 2 |
 | catalog | seed (0) | 3 |
-| inventory | seed (0) | 3 |
+| inventory | draft (1) | 2 |
 | notifications | seed (0) | 3 |
 | orders | seed (0) | 3 |
 | payments | draft (1) | 4 |
@@ -52,17 +52,18 @@ Entropy: 1.790 -> 1.880
 | models | draft (1) | 3 |
 | selectors | draft (1) | 4 |
 | services | draft (1) | 6 |
-| tasks | draft (1) | 4 |
+| tasks | draft (1) | 3 |
 | validators | draft (1) | 5 |
-| views | seed (0) | 4 |
+| views | draft (1) | 3 |
 
 ## This Run Changes
 
-- `apps/orders/models.py`: 1 -> 2 (draft -> shape, score=8.006)
-- `apps/support/models.py`: 1 -> 2 (draft -> shape, score=7.828)
+- `apps/billing/tasks.py`: 1 -> 2 (draft -> shape, score=7.732)
+- `apps/inventory/views.py`: 0 -> 19 (seed -> zenith, score=3.145)
 
 ## Recent History
 
+- 2026-04-01 07:34:54 UTC: changed=2, drift=24
 - 2026-03-31 22:40:15 UTC: changed=2, drift=25
 - 2026-03-31 14:55:31 UTC: changed=2, drift=27
 - 2026-03-31 07:24:28 UTC: changed=1, drift=27
@@ -72,4 +73,3 @@ Entropy: 1.790 -> 1.880
 - 2026-03-29 07:08:50 UTC: changed=1, drift=28
 - 2026-03-28 22:23:51 UTC: changed=1, drift=29
 - 2026-03-28 14:23:41 UTC: changed=1, drift=30
-- 2026-03-27 14:44:07 UTC: changed=1, drift=31
