@@ -574,5 +574,29 @@
         "score": 2.9360322335490596
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-01 22:38:38 UTC",
+    "filesChanged": 2,
+    "driftAfter": 23,
+    "entropyAfter": 2.0197,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 7.6869764705251695
+      },
+      {
+        "path": "apps/notifications/selectors.py",
+        "from": 0,
+        "to": 19,
+        "fromLabel": "seed",
+        "toLabel": "zenith",
+        "score": 2.8808125633074066
+      }
+    ]
   }
 ]
