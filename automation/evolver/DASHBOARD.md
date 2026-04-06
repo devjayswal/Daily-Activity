@@ -1,18 +1,18 @@
 # Evolver Dashboard
 
-Last run: 2026-04-06 07:50:12 UTC
+Last run: 2026-04-06 14:43:54 UTC
 Files changed this run: 2
-Skew: 20 -> 20
-Entropy: 2.109 -> 2.247
+Skew: 20 -> 22
+Entropy: 2.247 -> 2.211
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 11 | 11 |
-| 1 | draft | 20 | 20 |
-| 2 | shape | 14 | 12 |
-| 3 | pulse | 0 | 2 |
+| 0 | seed | 11 | 9 |
+| 1 | draft | 20 | 22 |
+| 2 | shape | 12 | 12 |
+| 3 | pulse | 2 | 2 |
 | 4 | prune | 0 | 0 |
 | 5 | fuse | 0 | 0 |
 | 6 | trace | 0 | 0 |
@@ -41,7 +41,7 @@ Entropy: 2.109 -> 2.247
 | inventory | zenith (19) | 4 |
 | notifications | zenith (19) | 3 |
 | orders | shape (2) | 2 |
-| payments | draft (1) | 4 |
+| payments | draft (1) | 5 |
 | reporting | zenith (19) | 3 |
 | support | draft (1) | 3 |
 
@@ -52,17 +52,18 @@ Entropy: 2.109 -> 2.247
 | models | shape (2) | 3 |
 | selectors | shape (2) | 3 |
 | services | draft (1) | 6 |
-| tasks | shape (2) | 3 |
-| validators | draft (1) | 4 |
+| tasks | draft (1) | 4 |
+| validators | draft (1) | 5 |
 | views | draft (1) | 4 |
 
 ## This Run Changes
 
-- `apps/orders/selectors.py`: 2 -> 3 (shape -> pulse, score=5.709)
-- `apps/accounts/views.py`: 2 -> 3 (shape -> pulse, score=5.569)
+- `apps/orders/validators.py`: 0 -> 1 (seed -> draft, score=2.507)
+- `apps/payments/tasks.py`: 0 -> 1 (seed -> draft, score=2.670)
 
 ## Recent History
 
+- 2026-04-06 14:43:54 UTC: changed=2, drift=22
 - 2026-04-06 07:50:12 UTC: changed=2, drift=20
 - 2026-04-05 14:42:05 UTC: changed=1, drift=20
 - 2026-04-05 07:24:59 UTC: changed=1, drift=21
@@ -72,4 +73,3 @@ Entropy: 2.109 -> 2.247
 - 2026-04-03 22:30:03 UTC: changed=2, drift=23
 - 2026-04-03 07:21:41 UTC: changed=1, drift=22
 - 2026-04-03 05:02:33 UTC: changed=1, drift=21
-- 2026-04-02 14:47:24 UTC: changed=1, drift=22

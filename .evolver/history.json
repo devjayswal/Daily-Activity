@@ -806,5 +806,29 @@
         "score": 5.568993636004597
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-06 14:43:54 UTC",
+    "filesChanged": 2,
+    "driftAfter": 22,
+    "entropyAfter": 2.2109,
+    "changes": [
+      {
+        "path": "apps/orders/validators.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 2.5068925194473994
+      },
+      {
+        "path": "apps/payments/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 2.6699463909838936
+      }
+    ]
   }
 ]
