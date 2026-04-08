@@ -910,5 +910,29 @@
         "score": 7.289816381267256
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-08 15:07:54 UTC",
+    "filesChanged": 2,
+    "driftAfter": 20,
+    "entropyAfter": 2.1812,
+    "changes": [
+      {
+        "path": "apps/orders/views.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 2.447037398586993
+      },
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 2.278580297605977
+      }
+    ]
   }
 ]
