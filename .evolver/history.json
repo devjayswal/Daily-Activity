@@ -886,5 +886,29 @@
         "score": 2.5485062762101967
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-08 07:34:31 UTC",
+    "filesChanged": 2,
+    "driftAfter": 18,
+    "entropyAfter": 2.2294,
+    "changes": [
+      {
+        "path": "apps/payments/selectors.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 7.349672671072107
+      },
+      {
+        "path": "apps/analytics/views.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 7.289816381267256
+      }
+    ]
   }
 ]
