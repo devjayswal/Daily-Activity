@@ -1,16 +1,16 @@
 # Evolver Dashboard
 
-Last run: 2026-04-09 07:30:01 UTC
+Last run: 2026-04-09 15:29:07 UTC
 Files changed this run: 1
-Skew: 19 -> 18
-Entropy: 2.184 -> 2.209
+Skew: 18 -> 19
+Entropy: 2.209 -> 2.184
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 6 | 7 |
-| 1 | draft | 19 | 18 |
+| 0 | seed | 7 | 6 |
+| 1 | draft | 18 | 19 |
 | 2 | shape | 18 | 18 |
 | 3 | pulse | 2 | 2 |
 | 4 | prune | 0 | 0 |
@@ -37,7 +37,7 @@ Entropy: 2.184 -> 2.209
 | accounts | shape (2) | 3 |
 | analytics | shape (2) | 3 |
 | billing | shape (2) | 2 |
-| catalog | seed (0) | 2 |
+| catalog | draft (1) | 3 |
 | inventory | zenith (19) | 4 |
 | notifications | zenith (19) | 3 |
 | orders | draft (1) | 3 |
@@ -58,10 +58,11 @@ Entropy: 2.184 -> 2.209
 
 ## This Run Changes
 
-- `apps/payments/services.py`: 1 -> 0 (draft -> seed, score=5.345)
+- `apps/catalog/models.py`: 0 -> 1 (seed -> draft, score=2.481)
 
 ## Recent History
 
+- 2026-04-09 15:29:07 UTC: changed=1, drift=19
 - 2026-04-09 07:30:01 UTC: changed=1, drift=18
 - 2026-04-08 22:50:13 UTC: changed=1, drift=19
 - 2026-04-08 15:07:54 UTC: changed=2, drift=20
@@ -71,4 +72,3 @@ Entropy: 2.184 -> 2.209
 - 2026-04-07 05:06:02 UTC: changed=2, drift=20
 - 2026-04-06 14:43:54 UTC: changed=2, drift=22
 - 2026-04-06 07:50:12 UTC: changed=2, drift=20
-- 2026-04-05 14:42:05 UTC: changed=1, drift=20
