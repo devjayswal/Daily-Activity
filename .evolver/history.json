@@ -1094,5 +1094,21 @@
         "score": 2.3465387018686634
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-12 07:21:26 UTC",
+    "filesChanged": 1,
+    "driftAfter": 18,
+    "entropyAfter": 2.1681,
+    "changes": [
+      {
+        "path": "apps/notifications/views.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 5.224042966087369
+      }
+    ]
   }
 ]
