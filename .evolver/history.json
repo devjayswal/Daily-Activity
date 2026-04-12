@@ -1110,5 +1110,29 @@
         "score": 5.224042966087369
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-12 14:40:26 UTC",
+    "filesChanged": 2,
+    "driftAfter": 18,
+    "entropyAfter": 2.2183,
+    "changes": [
+      {
+        "path": "apps/support/validators.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 3.0270859924487556
+      },
+      {
+        "path": "apps/catalog/services.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.958810883553191
+      }
+    ]
   }
 ]
