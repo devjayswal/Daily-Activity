@@ -1150,5 +1150,29 @@
         "score": 5.349758453047751
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-13 05:34:26 UTC",
+    "filesChanged": 2,
+    "driftAfter": 19,
+    "entropyAfter": 2.2141,
+    "changes": [
+      {
+        "path": "apps/billing/selectors.py",
+        "from": 11,
+        "to": 10,
+        "fromLabel": "orbit",
+        "toLabel": "guard",
+        "score": 5.208849490801643
+      },
+      {
+        "path": "apps/inventory/services.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 2.8735947858105684
+      }
+    ]
   }
 ]
