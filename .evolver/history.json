@@ -1174,5 +1174,29 @@
         "score": 2.8735947858105684
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-13 08:20:47 UTC",
+    "filesChanged": 2,
+    "driftAfter": 19,
+    "entropyAfter": 2.2411,
+    "changes": [
+      {
+        "path": "apps/billing/views.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.6776469614833576
+      },
+      {
+        "path": "apps/accounts/services.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.7863171386940158
+      }
+    ]
   }
 ]
