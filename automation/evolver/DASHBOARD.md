@@ -1,18 +1,18 @@
 # Evolver Dashboard
 
-Last run: 2026-04-19 22:36:11 UTC
+Last run: 2026-04-20 05:42:12 UTC
 Files changed this run: 1
 Skew: 15 -> 15
-Entropy: 2.585 -> 2.585
+Entropy: 2.585 -> 2.582
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 15 | 15 |
-| 1 | draft | 11 | 11 |
-| 2 | shape | 12 | 11 |
-| 3 | pulse | 11 | 12 |
+| 1 | draft | 11 | 10 |
+| 2 | shape | 11 | 12 |
+| 3 | pulse | 12 | 12 |
 | 4 | prune | 0 | 0 |
 | 5 | fuse | 0 | 0 |
 | 6 | trace | 0 | 0 |
@@ -58,10 +58,11 @@ Entropy: 2.585 -> 2.585
 
 ## This Run Changes
 
-- `apps/reporting/selectors.py`: 2 -> 3 (shape -> pulse, score=4.939)
+- `apps/orders/services.py`: 1 -> 2 (draft -> shape, score=4.972)
 
 ## Recent History
 
+- 2026-04-20 05:42:12 UTC: changed=1, drift=15
 - 2026-04-19 22:36:11 UTC: changed=1, drift=15
 - 2026-04-19 14:41:28 UTC: changed=2, drift=15
 - 2026-04-19 07:32:53 UTC: changed=1, drift=14
@@ -71,4 +72,3 @@ Entropy: 2.585 -> 2.585
 - 2026-04-17 05:20:56 UTC: changed=1, drift=14
 - 2026-04-16 22:33:43 UTC: changed=2, drift=14
 - 2026-04-16 15:21:09 UTC: changed=1, drift=14
-- 2026-04-16 07:59:09 UTC: changed=1, drift=14
