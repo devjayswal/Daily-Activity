@@ -1718,5 +1718,21 @@
         "score": 2.5717773913104622
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-22 15:08:25 UTC",
+    "filesChanged": 1,
+    "driftAfter": 15,
+    "entropyAfter": 2.6606,
+    "changes": [
+      {
+        "path": "apps/reporting/views.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 5.049366403782731
+      }
+    ]
   }
 ]
