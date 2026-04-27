@@ -1926,5 +1926,21 @@
         "score": 4.939026272129352
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-27 15:46:56 UTC",
+    "filesChanged": 1,
+    "driftAfter": 16,
+    "entropyAfter": 2.7202,
+    "changes": [
+      {
+        "path": "apps/inventory/services.py",
+        "from": 2,
+        "to": 3,
+        "fromLabel": "shape",
+        "toLabel": "pulse",
+        "score": 2.6806121457544405
+      }
+    ]
   }
 ]
