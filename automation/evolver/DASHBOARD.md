@@ -1,19 +1,19 @@
 # Evolver Dashboard
 
-Last run: 2026-04-27 22:57:32 UTC
-Files changed this run: 2
-Skew: 16 -> 16
-Entropy: 2.720 -> 2.711
+Last run: 2026-04-28 08:36:16 UTC
+Files changed this run: 1
+Skew: 16 -> 15
+Entropy: 2.711 -> 2.741
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 9 | 8 |
+| 0 | seed | 8 | 8 |
 | 1 | draft | 8 | 8 |
-| 2 | shape | 12 | 13 |
-| 3 | pulse | 16 | 16 |
-| 4 | prune | 4 | 4 |
+| 2 | shape | 13 | 13 |
+| 3 | pulse | 16 | 15 |
+| 4 | prune | 4 | 5 |
 | 5 | fuse | 0 | 0 |
 | 6 | trace | 0 | 0 |
 | 7 | tilt | 0 | 0 |
@@ -49,7 +49,7 @@ Entropy: 2.720 -> 2.711
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | pulse (3) | 4 |
+| models | pulse (3) | 3 |
 | selectors | pulse (3) | 3 |
 | services | pulse (3) | 3 |
 | tasks | shape (2) | 3 |
@@ -58,11 +58,11 @@ Entropy: 2.720 -> 2.711
 
 ## This Run Changes
 
-- `apps/analytics/models.py`: 1 -> 2 (draft -> shape, score=4.714)
-- `apps/support/validators.py`: 0 -> 1 (seed -> draft, score=5.115)
+- `apps/orders/models.py`: 3 -> 4 (pulse -> prune, score=7.661)
 
 ## Recent History
 
+- 2026-04-28 08:36:16 UTC: changed=1, drift=15
 - 2026-04-27 22:57:32 UTC: changed=2, drift=16
 - 2026-04-27 15:46:56 UTC: changed=1, drift=16
 - 2026-04-27 05:41:32 UTC: changed=2, drift=15
@@ -72,4 +72,3 @@ Entropy: 2.720 -> 2.711
 - 2026-04-24 22:46:34 UTC: changed=2, drift=17
 - 2026-04-24 08:22:06 UTC: changed=1, drift=17
 - 2026-04-23 22:40:41 UTC: changed=1, drift=17
-- 2026-04-23 08:14:16 UTC: changed=2, drift=17
