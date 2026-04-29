@@ -1998,5 +1998,21 @@
         "score": 4.769422035326582
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-29 08:36:34 UTC",
+    "filesChanged": 1,
+    "driftAfter": 14,
+    "entropyAfter": 2.7219,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 3,
+        "to": 4,
+        "fromLabel": "pulse",
+        "toLabel": "prune",
+        "score": 7.401257991138701
+      }
+    ]
   }
 ]
