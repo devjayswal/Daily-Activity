@@ -2014,5 +2014,29 @@
         "score": 7.401257991138701
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-29 22:56:25 UTC",
+    "filesChanged": 2,
+    "driftAfter": 14,
+    "entropyAfter": 2.7162,
+    "changes": [
+      {
+        "path": "apps/billing/views.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.925007727439536
+      },
+      {
+        "path": "apps/accounts/services.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.972315223899962
+      }
+    ]
   }
 ]
