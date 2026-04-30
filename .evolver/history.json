@@ -2078,5 +2078,21 @@
         "score": 4.756211021457764
       }
     ]
+  },
+  {
+    "timestamp": "2026-04-30 15:38:41 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 2.6655,
+    "changes": [
+      {
+        "path": "apps/accounts/models.py",
+        "from": 3,
+        "to": 4,
+        "fromLabel": "pulse",
+        "toLabel": "prune",
+        "score": 5.0680858600930145
+      }
+    ]
   }
 ]
