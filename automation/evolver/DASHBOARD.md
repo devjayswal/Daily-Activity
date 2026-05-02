@@ -1,16 +1,16 @@
 # Evolver Dashboard
 
-Last run: 2026-05-02 05:24:21 UTC
-Files changed this run: 1
-Skew: 12 -> 12
-Entropy: 2.694 -> 2.694
+Last run: 2026-05-02 08:01:49 UTC
+Files changed this run: 2
+Skew: 12 -> 14
+Entropy: 2.694 -> 2.648
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 6 | 6 |
-| 1 | draft | 12 | 12 |
+| 0 | seed | 6 | 4 |
+| 1 | draft | 12 | 14 |
 | 2 | shape | 12 | 12 |
 | 3 | pulse | 12 | 12 |
 | 4 | prune | 9 | 9 |
@@ -19,8 +19,8 @@ Entropy: 2.694 -> 2.694
 | 7 | tilt | 0 | 0 |
 | 8 | merge | 0 | 0 |
 | 9 | burst | 1 | 1 |
-| 10 | guard | 1 | 0 |
-| 11 | orbit | 0 | 1 |
+| 10 | guard | 0 | 0 |
+| 11 | orbit | 1 | 1 |
 | 12 | sync | 0 | 0 |
 | 13 | weave | 0 | 0 |
 | 14 | drift | 0 | 0 |
@@ -52,16 +52,18 @@ Entropy: 2.694 -> 2.694
 | models | prune (4) | 3 |
 | selectors | pulse (3) | 3 |
 | services | draft (1) | 3 |
-| tasks | prune (4) | 3 |
+| tasks | draft (1) | 4 |
 | validators | shape (2) | 3 |
 | views | draft (1) | 3 |
 
 ## This Run Changes
 
-- `apps/billing/selectors.py`: 10 -> 11 (guard -> orbit, score=4.957)
+- `apps/catalog/tasks.py`: 0 -> 1 (seed -> draft, score=2.527)
+- `apps/inventory/tasks.py`: 0 -> 1 (seed -> draft, score=2.481)
 
 ## Recent History
 
+- 2026-05-02 08:01:49 UTC: changed=2, drift=14
 - 2026-05-02 05:24:21 UTC: changed=1, drift=12
 - 2026-05-01 22:56:52 UTC: changed=1, drift=12
 - 2026-05-01 14:51:14 UTC: changed=1, drift=13
@@ -71,4 +73,3 @@ Entropy: 2.694 -> 2.694
 - 2026-04-30 06:01:58 UTC: changed=1, drift=14
 - 2026-04-29 22:56:25 UTC: changed=2, drift=14
 - 2026-04-29 08:36:34 UTC: changed=1, drift=14
-- 2026-04-28 23:00:13 UTC: changed=1, drift=15
