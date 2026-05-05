@@ -1,19 +1,19 @@
 # Evolver Dashboard
 
-Last run: 2026-05-05 08:28:14 UTC
+Last run: 2026-05-05 15:58:38 UTC
 Files changed this run: 2
-Skew: 14 -> 13
-Entropy: 2.947 -> 2.949
+Skew: 13 -> 13
+Entropy: 2.949 -> 2.935
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 3 |
-| 1 | draft | 14 | 13 |
-| 2 | shape | 9 | 10 |
-| 3 | pulse | 10 | 9 |
-| 4 | prune | 12 | 13 |
+| 0 | seed | 3 | 2 |
+| 1 | draft | 13 | 13 |
+| 2 | shape | 10 | 9 |
+| 3 | pulse | 9 | 10 |
+| 4 | prune | 13 | 13 |
 | 5 | fuse | 2 | 2 |
 | 6 | trace | 0 | 0 |
 | 7 | tilt | 0 | 0 |
@@ -28,7 +28,7 @@ Entropy: 2.947 -> 2.949
 | 16 | glide | 0 | 0 |
 | 17 | spark | 1 | 1 |
 | 18 | lattice | 3 | 3 |
-| 19 | zenith | 4 | 4 |
+| 19 | zenith | 4 | 5 |
 
 ## App Distribution
 
@@ -39,7 +39,7 @@ Entropy: 2.947 -> 2.949
 | billing | prune (4) | 2 |
 | catalog | shape (2) | 2 |
 | inventory | lattice (18) | 2 |
-| notifications | zenith (19) | 2 |
+| notifications | zenith (19) | 3 |
 | orders | prune (4) | 2 |
 | payments | pulse (3) | 2 |
 | reporting | zenith (19) | 2 |
@@ -53,16 +53,17 @@ Entropy: 2.947 -> 2.949
 | selectors | prune (4) | 3 |
 | services | pulse (3) | 3 |
 | tasks | draft (1) | 4 |
-| validators | draft (1) | 3 |
+| validators | pulse (3) | 3 |
 | views | draft (1) | 3 |
 
 ## This Run Changes
 
-- `apps/payments/services.py`: 1 -> 2 (draft -> shape, score=7.113)
-- `apps/inventory/models.py`: 3 -> 4 (pulse -> prune, score=4.585)
+- `apps/notifications/selectors.py`: 0 -> 19 (seed -> zenith, score=2.276)
+- `apps/orders/validators.py`: 2 -> 3 (shape -> pulse, score=4.946)
 
 ## Recent History
 
+- 2026-05-05 15:58:38 UTC: changed=2, drift=13
 - 2026-05-05 08:28:14 UTC: changed=2, drift=13
 - 2026-05-05 05:42:45 UTC: changed=1, drift=14
 - 2026-05-04 23:00:17 UTC: changed=1, drift=14
@@ -72,4 +73,3 @@ Entropy: 2.947 -> 2.949
 - 2026-05-03 14:50:47 UTC: changed=1, drift=14
 - 2026-05-03 08:11:51 UTC: changed=2, drift=14
 - 2026-05-02 22:46:50 UTC: changed=2, drift=14
-- 2026-05-02 14:39:21 UTC: changed=2, drift=14
