@@ -2446,5 +2446,21 @@
         "score": 2.4654563064611517
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-06 22:43:15 UTC",
+    "filesChanged": 1,
+    "driftAfter": 14,
+    "entropyAfter": 2.933,
+    "changes": [
+      {
+        "path": "apps/payments/selectors.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 4.963707017354829
+      }
+    ]
   }
 ]
