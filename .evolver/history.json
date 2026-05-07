@@ -2478,5 +2478,21 @@
         "score": 5.110594219859476
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-07 23:15:05 UTC",
+    "filesChanged": 1,
+    "driftAfter": 14,
+    "entropyAfter": 2.9405,
+    "changes": [
+      {
+        "path": "apps/payments/models.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 2.3622470757976926
+      }
+    ]
   }
 ]
