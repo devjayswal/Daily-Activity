@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-05-07 23:15:05 UTC
-Files changed this run: 1
+Last run: 2026-05-08 05:20:15 UTC
+Files changed this run: 2
 Skew: 14 -> 14
-Entropy: 2.946 -> 2.940
+Entropy: 2.940 -> 2.946
 
 ## State Distribution
 
@@ -11,8 +11,8 @@ Entropy: 2.946 -> 2.940
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
 | 1 | draft | 12 | 12 |
-| 2 | shape | 10 | 11 |
-| 3 | pulse | 9 | 8 |
+| 2 | shape | 11 | 9 |
+| 3 | pulse | 8 | 10 |
 | 4 | prune | 14 | 14 |
 | 5 | fuse | 2 | 2 |
 | 6 | trace | 0 | 0 |
@@ -41,7 +41,7 @@ Entropy: 2.946 -> 2.940
 | inventory | spark (17) | 2 |
 | notifications | zenith (19) | 3 |
 | orders | prune (4) | 2 |
-| payments | shape (2) | 4 |
+| payments | shape (2) | 3 |
 | reporting | zenith (19) | 2 |
 | support | prune (4) | 2 |
 
@@ -54,14 +54,16 @@ Entropy: 2.946 -> 2.940
 | services | draft (1) | 2 |
 | tasks | draft (1) | 4 |
 | validators | pulse (3) | 3 |
-| views | draft (1) | 3 |
+| views | pulse (3) | 3 |
 
 ## This Run Changes
 
-- `apps/payments/models.py`: 3 -> 2 (pulse -> shape, score=2.362)
+- `apps/payments/tasks.py`: 2 -> 3 (shape -> pulse, score=5.070)
+- `apps/reporting/views.py`: 2 -> 3 (shape -> pulse, score=4.883)
 
 ## Recent History
 
+- 2026-05-08 05:20:15 UTC: changed=2, drift=14
 - 2026-05-07 23:15:05 UTC: changed=1, drift=14
 - 2026-05-07 16:03:35 UTC: changed=1, drift=14
 - 2026-05-06 22:43:15 UTC: changed=1, drift=14
@@ -71,4 +73,3 @@ Entropy: 2.946 -> 2.940
 - 2026-05-05 05:42:45 UTC: changed=1, drift=14
 - 2026-05-04 23:00:17 UTC: changed=1, drift=14
 - 2026-05-04 16:04:02 UTC: changed=2, drift=14
-- 2026-05-04 08:39:55 UTC: changed=2, drift=14
