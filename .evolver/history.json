@@ -2566,5 +2566,29 @@
         "score": 7.577023300489674
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-09 22:50:11 UTC",
+    "filesChanged": 2,
+    "driftAfter": 13,
+    "entropyAfter": 2.9218,
+    "changes": [
+      {
+        "path": "apps/inventory/selectors.py",
+        "from": 18,
+        "to": 17,
+        "fromLabel": "lattice",
+        "toLabel": "spark",
+        "score": 5.048788105141949
+      },
+      {
+        "path": "apps/billing/models.py",
+        "from": 18,
+        "to": 17,
+        "fromLabel": "lattice",
+        "toLabel": "spark",
+        "score": 4.738262026666224
+      }
+    ]
   }
 ]
