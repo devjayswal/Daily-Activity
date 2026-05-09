@@ -2550,5 +2550,21 @@
         "score": 5.1005454119504146
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-09 08:11:34 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 2.9884,
+    "changes": [
+      {
+        "path": "apps/support/models.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 7.577023300489674
+      }
+    ]
   }
 ]
