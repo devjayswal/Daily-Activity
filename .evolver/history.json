@@ -2646,5 +2646,29 @@
         "score": 4.812152566911958
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-11 09:53:36 UTC",
+    "filesChanged": 2,
+    "driftAfter": 13,
+    "entropyAfter": 2.9483,
+    "changes": [
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 7.416391376328633
+      },
+      {
+        "path": "apps/notifications/validators.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 4.766480502639528
+      }
+    ]
   }
 ]
