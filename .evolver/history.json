@@ -2686,5 +2686,21 @@
         "score": 4.747526491855734
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-12 09:01:10 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 2.9437,
+    "changes": [
+      {
+        "path": "apps/billing/services.py",
+        "from": 2,
+        "to": 3,
+        "fromLabel": "shape",
+        "toLabel": "pulse",
+        "score": 4.701133670352351
+      }
+    ]
   }
 ]
