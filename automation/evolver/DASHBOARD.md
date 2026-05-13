@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-05-13 08:58:47 UTC
+Last run: 2026-05-13 16:25:25 UTC
 Files changed this run: 1
-Skew: 14 -> 14
-Entropy: 2.937 -> 2.933
+Skew: 14 -> 13
+Entropy: 2.933 -> 2.959
 
 ## State Distribution
 
@@ -11,10 +11,10 @@ Entropy: 2.937 -> 2.933
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
 | 1 | draft | 8 | 8 |
-| 2 | shape | 10 | 9 |
-| 3 | pulse | 11 | 12 |
-| 4 | prune | 14 | 14 |
-| 5 | fuse | 4 | 4 |
+| 2 | shape | 9 | 9 |
+| 3 | pulse | 12 | 12 |
+| 4 | prune | 14 | 13 |
+| 5 | fuse | 4 | 5 |
 | 6 | trace | 0 | 0 |
 | 7 | tilt | 0 | 0 |
 | 8 | merge | 0 | 0 |
@@ -49,7 +49,7 @@ Entropy: 2.937 -> 2.933
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | prune (4) | 3 |
+| models | prune (4) | 2 |
 | selectors | prune (4) | 3 |
 | services | prune (4) | 3 |
 | tasks | pulse (3) | 3 |
@@ -58,10 +58,11 @@ Entropy: 2.937 -> 2.933
 
 ## This Run Changes
 
-- `apps/catalog/validators.py`: 2 -> 3 (shape -> pulse, score=4.769)
+- `apps/orders/models.py`: 4 -> 5 (prune -> fuse, score=7.350)
 
 ## Recent History
 
+- 2026-05-13 16:25:25 UTC: changed=1, drift=13
 - 2026-05-13 08:58:47 UTC: changed=1, drift=14
 - 2026-05-12 16:14:21 UTC: changed=2, drift=14
 - 2026-05-12 09:01:10 UTC: changed=1, drift=13
@@ -71,4 +72,3 @@ Entropy: 2.937 -> 2.933
 - 2026-05-10 14:46:11 UTC: changed=1, drift=14
 - 2026-05-10 08:22:22 UTC: changed=2, drift=13
 - 2026-05-09 22:50:11 UTC: changed=2, drift=13
-- 2026-05-09 08:11:34 UTC: changed=1, drift=13
