@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-05-13 16:25:25 UTC
-Files changed this run: 1
-Skew: 14 -> 13
-Entropy: 2.933 -> 2.959
+Last run: 2026-05-13 23:05:51 UTC
+Files changed this run: 2
+Skew: 13 -> 13
+Entropy: 2.959 -> 2.969
 
 ## State Distribution
 
@@ -11,10 +11,10 @@ Entropy: 2.933 -> 2.959
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
 | 1 | draft | 8 | 8 |
-| 2 | shape | 9 | 9 |
-| 3 | pulse | 12 | 12 |
-| 4 | prune | 14 | 13 |
-| 5 | fuse | 4 | 5 |
+| 2 | shape | 9 | 8 |
+| 3 | pulse | 12 | 13 |
+| 4 | prune | 13 | 12 |
+| 5 | fuse | 5 | 6 |
 | 6 | trace | 0 | 0 |
 | 7 | tilt | 0 | 0 |
 | 8 | merge | 0 | 0 |
@@ -35,12 +35,12 @@ Entropy: 2.933 -> 2.959
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | prune (4) | 2 |
-| analytics | shape (2) | 3 |
+| analytics | prune (4) | 2 |
 | billing | prune (4) | 2 |
 | catalog | pulse (3) | 3 |
 | inventory | spark (17) | 3 |
 | notifications | zenith (19) | 3 |
-| orders | pulse (3) | 3 |
+| orders | fuse (5) | 3 |
 | payments | shape (2) | 3 |
 | reporting | zenith (19) | 2 |
 | support | fuse (5) | 1 |
@@ -58,10 +58,12 @@ Entropy: 2.933 -> 2.959
 
 ## This Run Changes
 
-- `apps/orders/models.py`: 4 -> 5 (prune -> fuse, score=7.350)
+- `apps/orders/tasks.py`: 4 -> 5 (prune -> fuse, score=7.392)
+- `apps/analytics/models.py`: 2 -> 3 (shape -> pulse, score=2.644)
 
 ## Recent History
 
+- 2026-05-13 23:05:51 UTC: changed=2, drift=13
 - 2026-05-13 16:25:25 UTC: changed=1, drift=13
 - 2026-05-13 08:58:47 UTC: changed=1, drift=14
 - 2026-05-12 16:14:21 UTC: changed=2, drift=14
@@ -71,4 +73,3 @@ Entropy: 2.933 -> 2.959
 - 2026-05-10 22:56:52 UTC: changed=1, drift=14
 - 2026-05-10 14:46:11 UTC: changed=1, drift=14
 - 2026-05-10 08:22:22 UTC: changed=2, drift=13
-- 2026-05-09 22:50:11 UTC: changed=2, drift=13
