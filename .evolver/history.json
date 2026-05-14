@@ -2854,5 +2854,21 @@
         "score": 4.807696533432014
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-14 23:07:14 UTC",
+    "filesChanged": 1,
+    "driftAfter": 12,
+    "entropyAfter": 2.9729,
+    "changes": [
+      {
+        "path": "apps/analytics/services.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 4.976429923352033
+      }
+    ]
   }
 ]
