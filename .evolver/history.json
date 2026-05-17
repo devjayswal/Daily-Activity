@@ -3022,5 +3022,21 @@
         "score": 5.332010232710054
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-17 22:55:12 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 3.089,
+    "changes": [
+      {
+        "path": "apps/notifications/models.py",
+        "from": 19,
+        "to": 18,
+        "fromLabel": "zenith",
+        "toLabel": "lattice",
+        "score": 5.181809892825336
+      }
+    ]
   }
 ]
