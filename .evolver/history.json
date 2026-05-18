@@ -3038,5 +3038,29 @@
         "score": 5.181809892825336
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-18 10:20:53 UTC",
+    "filesChanged": 2,
+    "driftAfter": 13,
+    "entropyAfter": 3.1097,
+    "changes": [
+      {
+        "path": "apps/inventory/tasks.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.3662198105900982
+      },
+      {
+        "path": "apps/orders/services.py",
+        "from": 3,
+        "to": 4,
+        "fromLabel": "pulse",
+        "toLabel": "prune",
+        "score": 4.95984043564326
+      }
+    ]
   }
 ]
