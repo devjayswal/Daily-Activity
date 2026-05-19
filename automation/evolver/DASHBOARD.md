@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-05-19 10:06:34 UTC
+Last run: 2026-05-19 16:42:55 UTC
 Files changed this run: 1
 Skew: 13 -> 13
-Entropy: 3.075 -> 3.096
+Entropy: 3.096 -> 3.096
 
 ## State Distribution
 
@@ -19,16 +19,16 @@ Entropy: 3.075 -> 3.096
 | 7 | tilt | 0 | 0 |
 | 8 | merge | 1 | 1 |
 | 9 | burst | 0 | 0 |
-| 10 | guard | 0 | 0 |
-| 11 | orbit | 1 | 1 |
+| 10 | guard | 0 | 1 |
+| 11 | orbit | 1 | 0 |
 | 12 | sync | 0 | 0 |
 | 13 | weave | 0 | 0 |
 | 14 | drift | 0 | 0 |
 | 15 | anchor | 0 | 0 |
 | 16 | glide | 0 | 0 |
 | 17 | spark | 4 | 4 |
-| 18 | lattice | 1 | 2 |
-| 19 | zenith | 4 | 3 |
+| 18 | lattice | 2 | 2 |
+| 19 | zenith | 3 | 3 |
 
 ## App Distribution
 
@@ -58,10 +58,11 @@ Entropy: 3.075 -> 3.096
 
 ## This Run Changes
 
-- `apps/reporting/models.py`: 19 -> 18 (zenith -> lattice, score=5.197)
+- `apps/billing/selectors.py`: 11 -> 10 (orbit -> guard, score=4.968)
 
 ## Recent History
 
+- 2026-05-19 16:42:55 UTC: changed=1, drift=13
 - 2026-05-19 10:06:34 UTC: changed=1, drift=13
 - 2026-05-19 06:38:30 UTC: changed=2, drift=13
 - 2026-05-18 16:58:47 UTC: changed=2, drift=12
@@ -71,4 +72,3 @@ Entropy: 3.075 -> 3.096
 - 2026-05-17 06:05:32 UTC: changed=1, drift=13
 - 2026-05-16 22:48:33 UTC: changed=2, drift=13
 - 2026-05-16 14:51:26 UTC: changed=2, drift=13
-- 2026-05-16 08:24:56 UTC: changed=2, drift=13

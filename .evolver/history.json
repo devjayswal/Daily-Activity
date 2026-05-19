@@ -3126,5 +3126,21 @@
         "score": 5.197425277881424
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-19 16:42:55 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 3.0958,
+    "changes": [
+      {
+        "path": "apps/billing/selectors.py",
+        "from": 11,
+        "to": 10,
+        "fromLabel": "orbit",
+        "toLabel": "guard",
+        "score": 4.967626834134212
+      }
+    ]
   }
 ]
