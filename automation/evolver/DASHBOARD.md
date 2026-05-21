@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-05-21 16:46:21 UTC
+Last run: 2026-05-21 23:07:11 UTC
 Files changed this run: 1
 Skew: 13 -> 13
-Entropy: 3.159 -> 3.164
+Entropy: 3.164 -> 3.161
 
 ## State Distribution
 
@@ -11,9 +11,9 @@ Entropy: 3.159 -> 3.164
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
 | 1 | draft | 2 | 2 |
-| 2 | shape | 10 | 10 |
-| 3 | pulse | 11 | 10 |
-| 4 | prune | 8 | 9 |
+| 2 | shape | 10 | 9 |
+| 3 | pulse | 10 | 11 |
+| 4 | prune | 9 | 9 |
 | 5 | fuse | 13 | 13 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 0 | 0 |
@@ -58,10 +58,11 @@ Entropy: 3.159 -> 3.164
 
 ## This Run Changes
 
-- `apps/reporting/views.py`: 3 -> 4 (pulse -> prune, score=5.121)
+- `apps/reporting/tasks.py`: 2 -> 3 (shape -> pulse, score=4.866)
 
 ## Recent History
 
+- 2026-05-21 23:07:11 UTC: changed=1, drift=13
 - 2026-05-21 16:46:21 UTC: changed=1, drift=13
 - 2026-05-21 10:03:06 UTC: changed=2, drift=13
 - 2026-05-21 06:48:51 UTC: changed=2, drift=13
@@ -71,4 +72,3 @@ Entropy: 3.159 -> 3.164
 - 2026-05-20 06:36:17 UTC: changed=2, drift=12
 - 2026-05-19 16:42:55 UTC: changed=1, drift=13
 - 2026-05-19 10:06:34 UTC: changed=1, drift=13
-- 2026-05-19 06:38:30 UTC: changed=2, drift=13
