@@ -3446,5 +3446,29 @@
         "score": 4.7194004838301185
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-25 16:23:04 UTC",
+    "filesChanged": 2,
+    "driftAfter": 13,
+    "entropyAfter": 3.1476,
+    "changes": [
+      {
+        "path": "apps/inventory/services.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 2.670798247092681
+      },
+      {
+        "path": "apps/billing/services.py",
+        "from": 3,
+        "to": 4,
+        "fromLabel": "pulse",
+        "toLabel": "prune",
+        "score": 4.6984075232095055
+      }
+    ]
   }
 ]
