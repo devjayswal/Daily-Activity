@@ -3606,5 +3606,21 @@
         "score": 4.913248797893548
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-27 23:24:34 UTC",
+    "filesChanged": 1,
+    "driftAfter": 11,
+    "entropyAfter": 3.1005,
+    "changes": [
+      {
+        "path": "apps/support/tasks.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 7.017621275077818
+      }
+    ]
   }
 ]
