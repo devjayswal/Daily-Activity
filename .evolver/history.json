@@ -3686,5 +3686,29 @@
         "score": 4.581985906424521
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-28 23:12:56 UTC",
+    "filesChanged": 2,
+    "driftAfter": 11,
+    "entropyAfter": 3.1838,
+    "changes": [
+      {
+        "path": "apps/orders/selectors.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 5.172289652594938
+      },
+      {
+        "path": "apps/accounts/views.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 5.150420793780344
+      }
+    ]
   }
 ]
