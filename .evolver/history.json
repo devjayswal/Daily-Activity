@@ -3726,5 +3726,21 @@
         "score": 4.643714077124419
       }
     ]
+  },
+  {
+    "timestamp": "2026-05-29 23:13:25 UTC",
+    "filesChanged": 1,
+    "driftAfter": 11,
+    "entropyAfter": 3.1838,
+    "changes": [
+      {
+        "path": "apps/reporting/validators.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 3.7015269063217437
+      }
+    ]
   }
 ]
