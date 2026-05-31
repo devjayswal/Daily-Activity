@@ -1,21 +1,21 @@
 # Evolver Dashboard
 
-Last run: 2026-05-31 06:56:24 UTC
+Last run: 2026-05-31 15:20:19 UTC
 Files changed this run: 1
-Skew: 10 -> 10
-Entropy: 3.186 -> 3.174
+Skew: 10 -> 11
+Entropy: 3.174 -> 3.171
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
-| 1 | draft | 2 | 3 |
-| 2 | shape | 2 | 1 |
+| 1 | draft | 3 | 3 |
+| 2 | shape | 1 | 1 |
 | 3 | pulse | 10 | 10 |
 | 4 | prune | 10 | 10 |
-| 5 | fuse | 10 | 10 |
-| 6 | trace | 10 | 10 |
+| 5 | fuse | 10 | 9 |
+| 6 | trace | 10 | 11 |
 | 7 | tilt | 2 | 2 |
 | 8 | merge | 1 | 1 |
 | 9 | burst | 0 | 0 |
@@ -34,7 +34,7 @@ Entropy: 3.186 -> 3.174
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | trace (6) | 2 |
+| accounts | trace (6) | 3 |
 | analytics | trace (6) | 2 |
 | billing | trace (6) | 2 |
 | catalog | prune (4) | 2 |
@@ -50,7 +50,7 @@ Entropy: 3.186 -> 3.174
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | trace (6) | 3 |
-| selectors | fuse (5) | 2 |
+| selectors | trace (6) | 2 |
 | services | fuse (5) | 3 |
 | tasks | trace (6) | 3 |
 | validators | fuse (5) | 2 |
@@ -58,10 +58,11 @@ Entropy: 3.186 -> 3.174
 
 ## This Run Changes
 
-- `apps/accounts/services.py`: 2 -> 1 (shape -> draft, score=3.392)
+- `apps/accounts/selectors.py`: 5 -> 6 (fuse -> trace, score=2.423)
 
 ## Recent History
 
+- 2026-05-31 15:20:19 UTC: changed=1, drift=11
 - 2026-05-31 06:56:24 UTC: changed=1, drift=10
 - 2026-05-30 23:00:20 UTC: changed=1, drift=10
 - 2026-05-30 06:12:57 UTC: changed=2, drift=11
@@ -71,4 +72,3 @@ Entropy: 3.186 -> 3.174
 - 2026-05-28 17:44:44 UTC: changed=2, drift=11
 - 2026-05-28 10:09:22 UTC: changed=2, drift=11
 - 2026-05-28 06:37:41 UTC: changed=1, drift=11
-- 2026-05-27 23:24:34 UTC: changed=1, drift=11
