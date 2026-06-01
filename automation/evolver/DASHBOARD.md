@@ -1,21 +1,21 @@
 # Evolver Dashboard
 
-Last run: 2026-05-31 15:20:19 UTC
-Files changed this run: 1
-Skew: 10 -> 11
-Entropy: 3.174 -> 3.171
+Last run: 2026-06-01 07:30:58 UTC
+Files changed this run: 2
+Skew: 11 -> 11
+Entropy: 3.171 -> 3.223
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 3 |
-| 1 | draft | 3 | 3 |
+| 0 | seed | 3 | 4 |
+| 1 | draft | 3 | 2 |
 | 2 | shape | 1 | 1 |
 | 3 | pulse | 10 | 10 |
 | 4 | prune | 10 | 10 |
-| 5 | fuse | 10 | 9 |
-| 6 | trace | 10 | 11 |
+| 5 | fuse | 9 | 9 |
+| 6 | trace | 11 | 11 |
 | 7 | tilt | 2 | 2 |
 | 8 | merge | 1 | 1 |
 | 9 | burst | 0 | 0 |
@@ -26,8 +26,8 @@ Entropy: 3.174 -> 3.171
 | 14 | drift | 0 | 0 |
 | 15 | anchor | 0 | 0 |
 | 16 | glide | 4 | 4 |
-| 17 | spark | 0 | 0 |
-| 18 | lattice | 5 | 5 |
+| 17 | spark | 0 | 1 |
+| 18 | lattice | 5 | 4 |
 | 19 | zenith | 0 | 0 |
 
 ## App Distribution
@@ -39,7 +39,7 @@ Entropy: 3.174 -> 3.171
 | billing | trace (6) | 2 |
 | catalog | prune (4) | 2 |
 | inventory | glide (16) | 3 |
-| notifications | lattice (18) | 3 |
+| notifications | lattice (18) | 2 |
 | orders | trace (6) | 2 |
 | payments | pulse (3) | 2 |
 | reporting | lattice (18) | 2 |
@@ -58,10 +58,12 @@ Entropy: 3.174 -> 3.171
 
 ## This Run Changes
 
-- `apps/accounts/selectors.py`: 5 -> 6 (fuse -> trace, score=2.423)
+- `apps/analytics/selectors.py`: 1 -> 0 (draft -> seed, score=4.964)
+- `apps/notifications/models.py`: 18 -> 17 (lattice -> spark, score=5.149)
 
 ## Recent History
 
+- 2026-06-01 07:30:58 UTC: changed=2, drift=11
 - 2026-05-31 15:20:19 UTC: changed=1, drift=11
 - 2026-05-31 06:56:24 UTC: changed=1, drift=10
 - 2026-05-30 23:00:20 UTC: changed=1, drift=10
@@ -71,4 +73,3 @@ Entropy: 3.174 -> 3.171
 - 2026-05-28 23:12:56 UTC: changed=2, drift=11
 - 2026-05-28 17:44:44 UTC: changed=2, drift=11
 - 2026-05-28 10:09:22 UTC: changed=2, drift=11
-- 2026-05-28 06:37:41 UTC: changed=1, drift=11
