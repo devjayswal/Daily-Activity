@@ -1,22 +1,22 @@
 # Evolver Dashboard
 
-Last run: 2026-06-02 18:14:44 UTC
+Last run: 2026-06-02 23:40:31 UTC
 Files changed this run: 2
-Skew: 12 -> 11
-Entropy: 3.273 -> 3.322
+Skew: 11 -> 12
+Entropy: 3.322 -> 3.310
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 2 |
+| 0 | seed | 2 | 2 |
 | 1 | draft | 2 | 2 |
 | 2 | shape | 1 | 1 |
-| 3 | pulse | 9 | 9 |
-| 4 | prune | 10 | 10 |
-| 5 | fuse | 9 | 9 |
-| 6 | trace | 12 | 11 |
-| 7 | tilt | 2 | 3 |
+| 3 | pulse | 9 | 8 |
+| 4 | prune | 10 | 11 |
+| 5 | fuse | 9 | 8 |
+| 6 | trace | 11 | 12 |
+| 7 | tilt | 3 | 3 |
 | 8 | merge | 1 | 1 |
 | 9 | burst | 0 | 0 |
 | 10 | guard | 1 | 1 |
@@ -28,14 +28,14 @@ Entropy: 3.273 -> 3.322
 | 16 | glide | 4 | 4 |
 | 17 | spark | 1 | 1 |
 | 18 | lattice | 4 | 4 |
-| 19 | zenith | 1 | 2 |
+| 19 | zenith | 2 | 2 |
 
 ## App Distribution
 
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | trace (6) | 3 |
-| analytics | trace (6) | 2 |
+| analytics | prune (4) | 2 |
 | billing | trace (6) | 2 |
 | catalog | prune (4) | 2 |
 | inventory | glide (16) | 3 |
@@ -43,7 +43,7 @@ Entropy: 3.273 -> 3.322
 | orders | trace (6) | 2 |
 | payments | prune (4) | 3 |
 | reporting | lattice (18) | 2 |
-| support | fuse (5) | 2 |
+| support | tilt (7) | 1 |
 
 ## Role Distribution
 
@@ -51,18 +51,19 @@ Entropy: 3.273 -> 3.322
 |---|---|---:|
 | models | trace (6) | 2 |
 | selectors | trace (6) | 3 |
-| services | fuse (5) | 3 |
+| services | trace (6) | 2 |
 | tasks | trace (6) | 3 |
 | validators | fuse (5) | 3 |
-| views | pulse (3) | 3 |
+| views | prune (4) | 3 |
 
 ## This Run Changes
 
-- `apps/support/models.py`: 6 -> 7 (trace -> tilt, score=7.264)
-- `apps/inventory/tasks.py`: 0 -> 19 (seed -> zenith, score=4.738)
+- `apps/support/services.py`: 5 -> 6 (fuse -> trace, score=2.479)
+- `apps/analytics/views.py`: 3 -> 4 (pulse -> prune, score=4.700)
 
 ## Recent History
 
+- 2026-06-02 23:40:31 UTC: changed=2, drift=12
 - 2026-06-02 18:14:44 UTC: changed=2, drift=11
 - 2026-06-02 10:45:40 UTC: changed=2, drift=12
 - 2026-06-01 23:26:41 UTC: changed=1, drift=11
@@ -72,4 +73,3 @@ Entropy: 3.273 -> 3.322
 - 2026-05-31 06:56:24 UTC: changed=1, drift=10
 - 2026-05-30 23:00:20 UTC: changed=1, drift=10
 - 2026-05-30 06:12:57 UTC: changed=2, drift=11
-- 2026-05-29 23:13:25 UTC: changed=1, drift=11
