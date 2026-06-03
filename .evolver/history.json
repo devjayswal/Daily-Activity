@@ -3958,5 +3958,21 @@
         "score": 5.024976734686304
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-03 11:20:48 UTC",
+    "filesChanged": 1,
+    "driftAfter": 13,
+    "entropyAfter": 3.3056,
+    "changes": [
+      {
+        "path": "apps/inventory/models.py",
+        "from": 5,
+        "to": 6,
+        "fromLabel": "fuse",
+        "toLabel": "trace",
+        "score": 2.5185736771057723
+      }
+    ]
   }
 ]
