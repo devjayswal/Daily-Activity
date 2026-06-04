@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-03 11:20:48 UTC
+Last run: 2026-06-04 07:10:34 UTC
 Files changed this run: 1
-Skew: 12 -> 13
-Entropy: 3.315 -> 3.306
+Skew: 13 -> 13
+Entropy: 3.306 -> 3.326
 
 ## State Distribution
 
@@ -14,8 +14,8 @@ Entropy: 3.315 -> 3.306
 | 2 | shape | 1 | 1 |
 | 3 | pulse | 8 | 8 |
 | 4 | prune | 10 | 10 |
-| 5 | fuse | 9 | 8 |
-| 6 | trace | 12 | 13 |
+| 5 | fuse | 8 | 8 |
+| 6 | trace | 13 | 13 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 1 | 1 |
 | 9 | burst | 0 | 0 |
@@ -26,8 +26,8 @@ Entropy: 3.315 -> 3.306
 | 14 | drift | 0 | 0 |
 | 15 | anchor | 0 | 0 |
 | 16 | glide | 4 | 4 |
-| 17 | spark | 1 | 1 |
-| 18 | lattice | 4 | 4 |
+| 17 | spark | 1 | 2 |
+| 18 | lattice | 4 | 3 |
 | 19 | zenith | 2 | 2 |
 
 ## App Distribution
@@ -42,7 +42,7 @@ Entropy: 3.315 -> 3.306
 | notifications | lattice (18) | 2 |
 | orders | trace (6) | 2 |
 | payments | prune (4) | 2 |
-| reporting | lattice (18) | 2 |
+| reporting | spark (17) | 1 |
 | support | tilt (7) | 1 |
 
 ## Role Distribution
@@ -58,10 +58,11 @@ Entropy: 3.315 -> 3.306
 
 ## This Run Changes
 
-- `apps/inventory/models.py`: 5 -> 6 (fuse -> trace, score=2.519)
+- `apps/reporting/models.py`: 18 -> 17 (lattice -> spark, score=5.023)
 
 ## Recent History
 
+- 2026-06-04 07:10:34 UTC: changed=1, drift=13
 - 2026-06-03 11:20:48 UTC: changed=1, drift=13
 - 2026-06-03 07:33:25 UTC: changed=1, drift=12
 - 2026-06-02 23:40:31 UTC: changed=2, drift=12
@@ -71,4 +72,3 @@ Entropy: 3.315 -> 3.306
 - 2026-06-01 19:21:16 UTC: changed=1, drift=11
 - 2026-06-01 07:30:58 UTC: changed=2, drift=11
 - 2026-05-31 15:20:19 UTC: changed=1, drift=11
-- 2026-05-31 06:56:24 UTC: changed=1, drift=10
