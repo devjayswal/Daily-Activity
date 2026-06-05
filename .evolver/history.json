@@ -4054,5 +4054,29 @@
         "score": 4.504997700720844
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-05 10:02:43 UTC",
+    "filesChanged": 2,
+    "driftAfter": 12,
+    "entropyAfter": 3.354,
+    "changes": [
+      {
+        "path": "apps/payments/models.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 5.315220207485659
+      },
+      {
+        "path": "apps/reporting/tasks.py",
+        "from": 3,
+        "to": 4,
+        "fromLabel": "pulse",
+        "toLabel": "prune",
+        "score": 4.790815365155808
+      }
+    ]
   }
 ]
