@@ -4118,5 +4118,29 @@
         "score": 2.380137314680747
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-06 15:21:14 UTC",
+    "filesChanged": 2,
+    "driftAfter": 12,
+    "entropyAfter": 3.3693,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 7.561868425634136
+      },
+      {
+        "path": "apps/billing/selectors.py",
+        "from": 10,
+        "to": 11,
+        "fromLabel": "guard",
+        "toLabel": "orbit",
+        "score": 4.77237620936632
+      }
+    ]
   }
 ]
