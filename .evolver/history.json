@@ -4430,5 +4430,21 @@
         "score": 4.969042139627181
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-10 23:34:26 UTC",
+    "filesChanged": 1,
+    "driftAfter": 10,
+    "entropyAfter": 3.502,
+    "changes": [
+      {
+        "path": "apps/inventory/selectors.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 4.8232326905627065
+      }
+    ]
   }
 ]
