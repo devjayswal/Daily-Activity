@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-12 16:50:24 UTC
-Files changed this run: 2
+Last run: 2026-06-12 23:28:32 UTC
+Files changed this run: 1
 Skew: 10 -> 10
-Entropy: 3.507 -> 3.456
+Entropy: 3.456 -> 3.430
 
 ## State Distribution
 
@@ -12,10 +12,10 @@ Entropy: 3.507 -> 3.456
 | 0 | seed | 2 | 2 |
 | 1 | draft | 2 | 2 |
 | 2 | shape | 3 | 3 |
-| 3 | pulse | 3 | 3 |
-| 4 | prune | 7 | 7 |
-| 5 | fuse | 10 | 9 |
-| 6 | trace | 8 | 9 |
+| 3 | pulse | 3 | 2 |
+| 4 | prune | 7 | 8 |
+| 5 | fuse | 9 | 9 |
+| 6 | trace | 9 | 9 |
 | 7 | tilt | 10 | 10 |
 | 8 | merge | 2 | 2 |
 | 9 | burst | 1 | 1 |
@@ -24,8 +24,8 @@ Entropy: 3.507 -> 3.456
 | 12 | sync | 0 | 0 |
 | 13 | weave | 0 | 0 |
 | 14 | drift | 0 | 0 |
-| 15 | anchor | 3 | 4 |
-| 16 | glide | 1 | 0 |
+| 15 | anchor | 4 | 4 |
+| 16 | glide | 0 | 0 |
 | 17 | spark | 5 | 5 |
 | 18 | lattice | 0 | 0 |
 | 19 | zenith | 2 | 2 |
@@ -43,7 +43,7 @@ Entropy: 3.507 -> 3.456
 | orders | tilt (7) | 2 |
 | payments | prune (4) | 2 |
 | reporting | spark (17) | 2 |
-| support | tilt (7) | 1 |
+| support | prune (4) | 2 |
 
 ## Role Distribution
 
@@ -58,11 +58,11 @@ Entropy: 3.507 -> 3.456
 
 ## This Run Changes
 
-- `apps/billing/models.py`: 16 -> 15 (glide -> anchor, score=4.876)
-- `apps/orders/services.py`: 5 -> 6 (fuse -> trace, score=4.921)
+- `apps/support/validators.py`: 3 -> 4 (pulse -> prune, score=4.773)
 
 ## Recent History
 
+- 2026-06-12 23:28:32 UTC: changed=1, drift=10
 - 2026-06-12 16:50:24 UTC: changed=2, drift=10
 - 2026-06-12 10:34:43 UTC: changed=2, drift=10
 - 2026-06-10 23:34:26 UTC: changed=1, drift=10
@@ -72,4 +72,3 @@ Entropy: 3.507 -> 3.456
 - 2026-06-09 23:14:26 UTC: changed=2, drift=11
 - 2026-06-09 16:41:43 UTC: changed=1, drift=11
 - 2026-06-09 09:58:26 UTC: changed=2, drift=10
-- 2026-06-09 06:49:56 UTC: changed=2, drift=10
