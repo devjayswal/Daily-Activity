@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-12 10:34:43 UTC
+Last run: 2026-06-12 16:50:24 UTC
 Files changed this run: 2
 Skew: 10 -> 10
-Entropy: 3.502 -> 3.507
+Entropy: 3.507 -> 3.456
 
 ## State Distribution
 
@@ -11,12 +11,12 @@ Entropy: 3.502 -> 3.507
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
 | 1 | draft | 2 | 2 |
-| 2 | shape | 2 | 3 |
-| 3 | pulse | 4 | 3 |
+| 2 | shape | 3 | 3 |
+| 3 | pulse | 3 | 3 |
 | 4 | prune | 7 | 7 |
-| 5 | fuse | 10 | 10 |
-| 6 | trace | 9 | 8 |
-| 7 | tilt | 9 | 10 |
+| 5 | fuse | 10 | 9 |
+| 6 | trace | 8 | 9 |
+| 7 | tilt | 10 | 10 |
 | 8 | merge | 2 | 2 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 0 | 0 |
@@ -24,8 +24,8 @@ Entropy: 3.502 -> 3.507
 | 12 | sync | 0 | 0 |
 | 13 | weave | 0 | 0 |
 | 14 | drift | 0 | 0 |
-| 15 | anchor | 3 | 3 |
-| 16 | glide | 1 | 1 |
+| 15 | anchor | 3 | 4 |
+| 16 | glide | 1 | 0 |
 | 17 | spark | 5 | 5 |
 | 18 | lattice | 0 | 0 |
 | 19 | zenith | 2 | 2 |
@@ -40,7 +40,7 @@ Entropy: 3.502 -> 3.507
 | catalog | fuse (5) | 2 |
 | inventory | anchor (15) | 3 |
 | notifications | spark (17) | 3 |
-| orders | fuse (5) | 3 |
+| orders | tilt (7) | 2 |
 | payments | prune (4) | 2 |
 | reporting | spark (17) | 2 |
 | support | tilt (7) | 1 |
@@ -51,18 +51,19 @@ Entropy: 3.502 -> 3.507
 |---|---|---:|
 | models | tilt (7) | 3 |
 | selectors | trace (6) | 2 |
-| services | fuse (5) | 2 |
+| services | trace (6) | 3 |
 | tasks | tilt (7) | 3 |
 | validators | trace (6) | 2 |
 | views | prune (4) | 2 |
 
 ## This Run Changes
 
-- `apps/catalog/services.py`: 3 -> 2 (pulse -> shape, score=4.739)
-- `apps/reporting/selectors.py`: 6 -> 7 (trace -> tilt, score=4.776)
+- `apps/billing/models.py`: 16 -> 15 (glide -> anchor, score=4.876)
+- `apps/orders/services.py`: 5 -> 6 (fuse -> trace, score=4.921)
 
 ## Recent History
 
+- 2026-06-12 16:50:24 UTC: changed=2, drift=10
 - 2026-06-12 10:34:43 UTC: changed=2, drift=10
 - 2026-06-10 23:34:26 UTC: changed=1, drift=10
 - 2026-06-10 17:01:43 UTC: changed=2, drift=10
@@ -72,4 +73,3 @@ Entropy: 3.502 -> 3.507
 - 2026-06-09 16:41:43 UTC: changed=1, drift=11
 - 2026-06-09 09:58:26 UTC: changed=2, drift=10
 - 2026-06-09 06:49:56 UTC: changed=2, drift=10
-- 2026-06-08 23:14:49 UTC: changed=2, drift=11

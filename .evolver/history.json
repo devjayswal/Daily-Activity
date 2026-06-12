@@ -4470,5 +4470,29 @@
         "score": 4.7763644012585935
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-12 16:50:24 UTC",
+    "filesChanged": 2,
+    "driftAfter": 10,
+    "entropyAfter": 3.4561,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 4.876389222265654
+      },
+      {
+        "path": "apps/orders/services.py",
+        "from": 5,
+        "to": 6,
+        "fromLabel": "fuse",
+        "toLabel": "trace",
+        "score": 4.920894163055995
+      }
+    ]
   }
 ]
