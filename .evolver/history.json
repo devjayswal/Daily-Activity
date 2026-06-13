@@ -4534,5 +4534,21 @@
         "score": 2.5961214270151785
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-13 23:14:11 UTC",
+    "filesChanged": 1,
+    "driftAfter": 11,
+    "entropyAfter": 3.398,
+    "changes": [
+      {
+        "path": "apps/billing/views.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 4.880041942828307
+      }
+    ]
   }
 ]
