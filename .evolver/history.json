@@ -4510,5 +4510,29 @@
         "score": 4.772982686440061
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-13 09:21:52 UTC",
+    "filesChanged": 2,
+    "driftAfter": 11,
+    "entropyAfter": 3.4187,
+    "changes": [
+      {
+        "path": "apps/payments/services.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 4.524379173556712
+      },
+      {
+        "path": "apps/accounts/selectors.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 2.5961214270151785
+      }
+    ]
   }
 ]
