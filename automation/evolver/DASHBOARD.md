@@ -1,22 +1,22 @@
 # Evolver Dashboard
 
-Last run: 2026-06-15 18:24:23 UTC
-Files changed this run: 1
-Skew: 10 -> 11
-Entropy: 3.435 -> 3.430
+Last run: 2026-06-15 23:41:36 UTC
+Files changed this run: 2
+Skew: 11 -> 11
+Entropy: 3.430 -> 3.418
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 2 | 2 |
-| 1 | draft | 2 | 2 |
+| 1 | draft | 2 | 1 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 1 | 1 |
 | 4 | prune | 7 | 7 |
 | 5 | fuse | 9 | 9 |
-| 6 | trace | 9 | 8 |
-| 7 | tilt | 10 | 11 |
+| 6 | trace | 8 | 8 |
+| 7 | tilt | 11 | 11 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 0 | 0 |
@@ -28,7 +28,7 @@ Entropy: 3.435 -> 3.430
 | 16 | glide | 0 | 0 |
 | 17 | spark | 5 | 5 |
 | 18 | lattice | 0 | 0 |
-| 19 | zenith | 2 | 2 |
+| 19 | zenith | 2 | 3 |
 
 ## App Distribution
 
@@ -58,10 +58,12 @@ Entropy: 3.435 -> 3.430
 
 ## This Run Changes
 
-- `apps/catalog/selectors.py`: 6 -> 7 (trace -> tilt, score=2.523)
+- `apps/support/selectors.py`: 0 -> 19 (seed -> zenith, score=4.687)
+- `apps/reporting/validators.py`: 1 -> 0 (draft -> seed, score=4.774)
 
 ## Recent History
 
+- 2026-06-15 23:41:36 UTC: changed=2, drift=11
 - 2026-06-15 18:24:23 UTC: changed=1, drift=11
 - 2026-06-15 12:32:39 UTC: changed=1, drift=10
 - 2026-06-15 08:37:14 UTC: changed=1, drift=10
@@ -71,4 +73,3 @@ Entropy: 3.435 -> 3.430
 - 2026-06-12 16:50:24 UTC: changed=2, drift=10
 - 2026-06-12 10:34:43 UTC: changed=2, drift=10
 - 2026-06-10 23:34:26 UTC: changed=1, drift=10
-- 2026-06-10 17:01:43 UTC: changed=2, drift=10
