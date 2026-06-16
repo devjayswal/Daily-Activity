@@ -1,23 +1,23 @@
 # Evolver Dashboard
 
-Last run: 2026-06-16 18:30:38 UTC
-Files changed this run: 1
-Skew: 11 -> 12
-Entropy: 3.471 -> 3.464
+Last run: 2026-06-16 23:28:51 UTC
+Files changed this run: 2
+Skew: 12 -> 11
+Entropy: 3.464 -> 3.447
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 2 |
-| 1 | draft | 1 | 1 |
+| 0 | seed | 2 | 3 |
+| 1 | draft | 1 | 0 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 1 | 1 |
 | 4 | prune | 6 | 6 |
 | 5 | fuse | 9 | 9 |
-| 6 | trace | 9 | 8 |
-| 7 | tilt | 11 | 12 |
-| 8 | merge | 3 | 3 |
+| 6 | trace | 8 | 8 |
+| 7 | tilt | 12 | 11 |
+| 8 | merge | 3 | 4 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 0 | 0 |
 | 11 | orbit | 1 | 1 |
@@ -34,7 +34,7 @@ Entropy: 3.471 -> 3.464
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | tilt (7) | 3 |
+| accounts | tilt (7) | 2 |
 | analytics | tilt (7) | 2 |
 | billing | tilt (7) | 2 |
 | catalog | fuse (5) | 2 |
@@ -52,16 +52,18 @@ Entropy: 3.471 -> 3.464
 | models | tilt (7) | 2 |
 | selectors | tilt (7) | 3 |
 | services | tilt (7) | 2 |
-| tasks | tilt (7) | 3 |
+| tasks | tilt (7) | 2 |
 | validators | trace (6) | 3 |
 | views | prune (4) | 2 |
 
 ## This Run Changes
 
-- `apps/support/services.py`: 6 -> 7 (trace -> tilt, score=2.563)
+- `apps/accounts/services.py`: 1 -> 0 (draft -> seed, score=4.752)
+- `apps/accounts/tasks.py`: 7 -> 8 (tilt -> merge, score=7.224)
 
 ## Recent History
 
+- 2026-06-16 23:28:51 UTC: changed=2, drift=11
 - 2026-06-16 18:30:38 UTC: changed=1, drift=12
 - 2026-06-16 11:21:57 UTC: changed=2, drift=11
 - 2026-06-16 08:40:28 UTC: changed=1, drift=11
@@ -71,4 +73,3 @@ Entropy: 3.471 -> 3.464
 - 2026-06-15 08:37:14 UTC: changed=1, drift=10
 - 2026-06-13 23:14:11 UTC: changed=1, drift=11
 - 2026-06-13 09:21:52 UTC: changed=2, drift=11
-- 2026-06-12 23:28:32 UTC: changed=1, drift=10
