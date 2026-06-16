@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-16 11:21:57 UTC
-Files changed this run: 2
-Skew: 11 -> 11
-Entropy: 3.409 -> 3.471
+Last run: 2026-06-16 18:30:38 UTC
+Files changed this run: 1
+Skew: 11 -> 12
+Entropy: 3.471 -> 3.464
 
 ## State Distribution
 
@@ -14,9 +14,9 @@ Entropy: 3.409 -> 3.471
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 1 | 1 |
 | 4 | prune | 6 | 6 |
-| 5 | fuse | 10 | 9 |
-| 6 | trace | 8 | 9 |
-| 7 | tilt | 11 | 11 |
+| 5 | fuse | 9 | 9 |
+| 6 | trace | 9 | 8 |
+| 7 | tilt | 11 | 12 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 0 | 0 |
@@ -25,8 +25,8 @@ Entropy: 3.409 -> 3.471
 | 13 | weave | 0 | 0 |
 | 14 | drift | 0 | 0 |
 | 15 | anchor | 4 | 4 |
-| 16 | glide | 0 | 1 |
-| 17 | spark | 5 | 4 |
+| 16 | glide | 1 | 1 |
+| 17 | spark | 4 | 4 |
 | 18 | lattice | 0 | 0 |
 | 19 | zenith | 3 | 3 |
 
@@ -51,18 +51,18 @@ Entropy: 3.409 -> 3.471
 |---|---|---:|
 | models | tilt (7) | 2 |
 | selectors | tilt (7) | 3 |
-| services | trace (6) | 3 |
+| services | tilt (7) | 2 |
 | tasks | tilt (7) | 3 |
 | validators | trace (6) | 3 |
 | views | prune (4) | 2 |
 
 ## This Run Changes
 
-- `apps/notifications/models.py`: 17 -> 16 (spark -> glide, score=5.009)
-- `apps/payments/tasks.py`: 5 -> 6 (fuse -> trace, score=4.759)
+- `apps/support/services.py`: 6 -> 7 (trace -> tilt, score=2.563)
 
 ## Recent History
 
+- 2026-06-16 18:30:38 UTC: changed=1, drift=12
 - 2026-06-16 11:21:57 UTC: changed=2, drift=11
 - 2026-06-16 08:40:28 UTC: changed=1, drift=11
 - 2026-06-15 23:41:36 UTC: changed=2, drift=11
@@ -72,4 +72,3 @@ Entropy: 3.409 -> 3.471
 - 2026-06-13 23:14:11 UTC: changed=1, drift=11
 - 2026-06-13 09:21:52 UTC: changed=2, drift=11
 - 2026-06-12 23:28:32 UTC: changed=1, drift=10
-- 2026-06-12 16:50:24 UTC: changed=2, drift=10
