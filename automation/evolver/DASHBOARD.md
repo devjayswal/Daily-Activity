@@ -1,23 +1,23 @@
 # Evolver Dashboard
 
-Last run: 2026-06-16 23:28:51 UTC
-Files changed this run: 2
-Skew: 12 -> 11
-Entropy: 3.464 -> 3.447
+Last run: 2026-06-17 07:49:34 UTC
+Files changed this run: 1
+Skew: 11 -> 11
+Entropy: 3.447 -> 3.493
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 3 |
-| 1 | draft | 1 | 0 |
+| 0 | seed | 3 | 2 |
+| 1 | draft | 0 | 1 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 1 | 1 |
 | 4 | prune | 6 | 6 |
 | 5 | fuse | 9 | 9 |
 | 6 | trace | 8 | 8 |
-| 7 | tilt | 12 | 11 |
-| 8 | merge | 3 | 4 |
+| 7 | tilt | 11 | 11 |
+| 8 | merge | 4 | 4 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 0 | 0 |
 | 11 | orbit | 1 | 1 |
@@ -58,11 +58,11 @@ Entropy: 3.464 -> 3.447
 
 ## This Run Changes
 
-- `apps/accounts/services.py`: 1 -> 0 (draft -> seed, score=4.752)
-- `apps/accounts/tasks.py`: 7 -> 8 (tilt -> merge, score=7.224)
+- `apps/analytics/selectors.py`: 0 -> 1 (seed -> draft, score=4.793)
 
 ## Recent History
 
+- 2026-06-17 07:49:34 UTC: changed=1, drift=11
 - 2026-06-16 23:28:51 UTC: changed=2, drift=11
 - 2026-06-16 18:30:38 UTC: changed=1, drift=12
 - 2026-06-16 11:21:57 UTC: changed=2, drift=11
@@ -72,4 +72,3 @@ Entropy: 3.464 -> 3.447
 - 2026-06-15 12:32:39 UTC: changed=1, drift=10
 - 2026-06-15 08:37:14 UTC: changed=1, drift=10
 - 2026-06-13 23:14:11 UTC: changed=1, drift=11
-- 2026-06-13 09:21:52 UTC: changed=2, drift=11
