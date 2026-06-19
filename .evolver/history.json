@@ -4806,5 +4806,21 @@
         "score": 7.2605519075829426
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-19 10:39:40 UTC",
+    "filesChanged": 1,
+    "driftAfter": 10,
+    "entropyAfter": 3.5961,
+    "changes": [
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 4.799412515026016
+      }
+    ]
   }
 ]
