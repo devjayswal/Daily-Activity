@@ -4790,5 +4790,21 @@
         "score": 4.9278427782224306
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-19 08:00:08 UTC",
+    "filesChanged": 1,
+    "driftAfter": 10,
+    "entropyAfter": 3.5887,
+    "changes": [
+      {
+        "path": "apps/orders/models.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 7.2605519075829426
+      }
+    ]
   }
 ]
