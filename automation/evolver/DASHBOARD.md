@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-23 09:46:22 UTC
+Last run: 2026-06-23 23:11:44 UTC
 Files changed this run: 1
 Skew: 9 -> 9
-Entropy: 3.647 -> 3.701
+Entropy: 3.701 -> 3.701
 
 ## State Distribution
 
@@ -16,15 +16,15 @@ Entropy: 3.647 -> 3.701
 | 4 | prune | 6 | 6 |
 | 5 | fuse | 7 | 7 |
 | 6 | trace | 7 | 7 |
-| 7 | tilt | 9 | 9 |
-| 8 | merge | 8 | 8 |
+| 7 | tilt | 9 | 8 |
+| 8 | merge | 8 | 9 |
 | 9 | burst | 0 | 0 |
 | 10 | guard | 1 | 1 |
 | 11 | orbit | 1 | 1 |
 | 12 | sync | 0 | 0 |
 | 13 | weave | 0 | 0 |
-| 14 | drift | 0 | 1 |
-| 15 | anchor | 4 | 3 |
+| 14 | drift | 1 | 1 |
+| 15 | anchor | 3 | 3 |
 | 16 | glide | 3 | 3 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 1 | 1 |
@@ -35,7 +35,7 @@ Entropy: 3.647 -> 3.701
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | merge (8) | 3 |
-| analytics | tilt (7) | 2 |
+| analytics | fuse (5) | 1 |
 | billing | anchor (15) | 1 |
 | catalog | trace (6) | 2 |
 | inventory | tilt (7) | 2 |
@@ -51,17 +51,18 @@ Entropy: 3.647 -> 3.701
 |---|---|---:|
 | models | merge (8) | 3 |
 | selectors | tilt (7) | 3 |
-| services | tilt (7) | 3 |
+| services | fuse (5) | 2 |
 | tasks | merge (8) | 3 |
 | validators | trace (6) | 2 |
 | views | trace (6) | 2 |
 
 ## This Run Changes
 
-- `apps/inventory/validators.py`: 15 -> 14 (anchor -> drift, score=5.019)
+- `apps/analytics/services.py`: 7 -> 8 (tilt -> merge, score=4.793)
 
 ## Recent History
 
+- 2026-06-23 23:11:44 UTC: changed=1, drift=9
 - 2026-06-23 09:46:22 UTC: changed=1, drift=9
 - 2026-06-23 06:50:45 UTC: changed=2, drift=9
 - 2026-06-22 08:54:08 UTC: changed=1, drift=9
@@ -71,4 +72,3 @@ Entropy: 3.647 -> 3.701
 - 2026-06-20 09:18:30 UTC: changed=2, drift=9
 - 2026-06-20 06:55:37 UTC: changed=2, drift=10
 - 2026-06-19 16:32:28 UTC: changed=2, drift=10
-- 2026-06-19 10:39:40 UTC: changed=1, drift=10
