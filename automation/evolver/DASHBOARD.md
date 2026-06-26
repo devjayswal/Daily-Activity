@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-26 06:48:46 UTC
+Last run: 2026-06-26 09:47:23 UTC
 Files changed this run: 1
-Skew: 9 -> 10
-Entropy: 3.690 -> 3.688
+Skew: 10 -> 10
+Entropy: 3.688 -> 3.684
 
 ## State Distribution
 
@@ -14,10 +14,10 @@ Entropy: 3.690 -> 3.688
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 2 | 2 |
 | 4 | prune | 5 | 5 |
-| 5 | fuse | 7 | 7 |
-| 6 | trace | 7 | 7 |
-| 7 | tilt | 9 | 8 |
-| 8 | merge | 9 | 10 |
+| 5 | fuse | 7 | 6 |
+| 6 | trace | 7 | 8 |
+| 7 | tilt | 8 | 8 |
+| 8 | merge | 10 | 10 |
 | 9 | burst | 0 | 0 |
 | 10 | guard | 1 | 1 |
 | 11 | orbit | 0 | 0 |
@@ -37,7 +37,7 @@ Entropy: 3.690 -> 3.688
 | accounts | merge (8) | 3 |
 | analytics | merge (8) | 2 |
 | billing | anchor (15) | 1 |
-| catalog | tilt (7) | 2 |
+| catalog | trace (6) | 2 |
 | inventory | tilt (7) | 2 |
 | notifications | spark (17) | 2 |
 | orders | merge (8) | 3 |
@@ -53,15 +53,16 @@ Entropy: 3.690 -> 3.688
 | selectors | tilt (7) | 3 |
 | services | trace (6) | 2 |
 | tasks | merge (8) | 3 |
-| validators | fuse (5) | 3 |
+| validators | trace (6) | 3 |
 | views | merge (8) | 1 |
 
 ## This Run Changes
 
-- `apps/analytics/validators.py`: 7 -> 8 (tilt -> merge, score=2.392)
+- `apps/catalog/validators.py`: 5 -> 6 (fuse -> trace, score=4.689)
 
 ## Recent History
 
+- 2026-06-26 09:47:23 UTC: changed=1, drift=10
 - 2026-06-26 06:48:46 UTC: changed=1, drift=10
 - 2026-06-25 23:29:32 UTC: changed=1, drift=9
 - 2026-06-24 23:00:08 UTC: changed=1, drift=9
@@ -71,4 +72,3 @@ Entropy: 3.690 -> 3.688
 - 2026-06-23 06:50:45 UTC: changed=2, drift=9
 - 2026-06-22 08:54:08 UTC: changed=1, drift=9
 - 2026-06-21 15:54:39 UTC: changed=1, drift=9
-- 2026-06-21 10:03:25 UTC: changed=2, drift=10
