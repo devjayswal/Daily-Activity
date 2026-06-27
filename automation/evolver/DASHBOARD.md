@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-27 15:22:55 UTC
-Files changed this run: 2
-Skew: 9 -> 10
-Entropy: 3.759 -> 3.749
+Last run: 2026-06-27 23:17:04 UTC
+Files changed this run: 1
+Skew: 10 -> 10
+Entropy: 3.749 -> 3.729
 
 ## State Distribution
 
@@ -14,10 +14,10 @@ Entropy: 3.759 -> 3.749
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 2 | 2 |
 | 4 | prune | 5 | 5 |
-| 5 | fuse | 6 | 5 |
-| 6 | trace | 7 | 8 |
-| 7 | tilt | 9 | 8 |
-| 8 | merge | 9 | 10 |
+| 5 | fuse | 5 | 5 |
+| 6 | trace | 8 | 8 |
+| 7 | tilt | 8 | 8 |
+| 8 | merge | 10 | 10 |
 | 9 | burst | 1 | 1 |
 | 10 | guard | 1 | 1 |
 | 11 | orbit | 0 | 0 |
@@ -25,8 +25,8 @@ Entropy: 3.759 -> 3.749
 | 13 | weave | 0 | 0 |
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
-| 16 | glide | 3 | 3 |
-| 17 | spark | 2 | 2 |
+| 16 | glide | 3 | 4 |
+| 17 | spark | 2 | 1 |
 | 18 | lattice | 1 | 1 |
 | 19 | zenith | 1 | 1 |
 
@@ -39,7 +39,7 @@ Entropy: 3.759 -> 3.749
 | billing | merge (8) | 2 |
 | catalog | trace (6) | 2 |
 | inventory | tilt (7) | 2 |
-| notifications | spark (17) | 2 |
+| notifications | glide (16) | 2 |
 | orders | merge (8) | 2 |
 | payments | fuse (5) | 3 |
 | reporting | glide (16) | 2 |
@@ -58,11 +58,11 @@ Entropy: 3.759 -> 3.749
 
 ## This Run Changes
 
-- `apps/billing/validators.py`: 7 -> 8 (tilt -> merge, score=2.373)
-- `apps/analytics/models.py`: 5 -> 6 (fuse -> trace, score=4.649)
+- `apps/notifications/services.py`: 17 -> 16 (spark -> glide, score=4.608)
 
 ## Recent History
 
+- 2026-06-27 23:17:04 UTC: changed=1, drift=10
 - 2026-06-27 15:22:55 UTC: changed=2, drift=10
 - 2026-06-27 08:43:13 UTC: changed=1, drift=9
 - 2026-06-26 23:10:34 UTC: changed=1, drift=9
@@ -72,4 +72,3 @@ Entropy: 3.759 -> 3.749
 - 2026-06-24 23:00:08 UTC: changed=1, drift=9
 - 2026-06-24 16:06:40 UTC: changed=2, drift=9
 - 2026-06-23 23:11:44 UTC: changed=1, drift=9
-- 2026-06-23 09:46:22 UTC: changed=1, drift=9
