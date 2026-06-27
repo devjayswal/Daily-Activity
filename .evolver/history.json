@@ -5142,5 +5142,29 @@
         "score": 4.8072315079755565
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-27 15:22:55 UTC",
+    "filesChanged": 2,
+    "driftAfter": 10,
+    "entropyAfter": 3.7493,
+    "changes": [
+      {
+        "path": "apps/billing/validators.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 2.3732521518908403
+      },
+      {
+        "path": "apps/analytics/models.py",
+        "from": 5,
+        "to": 6,
+        "fromLabel": "fuse",
+        "toLabel": "trace",
+        "score": 4.6490309171934925
+      }
+    ]
   }
 ]
