@@ -5206,5 +5206,21 @@
         "score": 4.694298456886157
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-28 09:07:09 UTC",
+    "filesChanged": 1,
+    "driftAfter": 9,
+    "entropyAfter": 3.7811,
+    "changes": [
+      {
+        "path": "apps/accounts/views.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 7.379512366504436
+      }
+    ]
   }
 ]
