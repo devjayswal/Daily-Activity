@@ -5222,5 +5222,29 @@
         "score": 7.379512366504436
       }
     ]
+  },
+  {
+    "timestamp": "2026-06-28 23:11:04 UTC",
+    "filesChanged": 2,
+    "driftAfter": 10,
+    "entropyAfter": 3.7754,
+    "changes": [
+      {
+        "path": "apps/orders/services.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.643027545108407
+      },
+      {
+        "path": "apps/reporting/selectors.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 2.4745158275323074
+      }
+    ]
   }
 ]
