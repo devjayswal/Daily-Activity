@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-06-29 07:16:29 UTC
-Files changed this run: 1
-Skew: 10 -> 9
-Entropy: 3.775 -> 3.808
+Last run: 2026-06-30 06:47:28 UTC
+Files changed this run: 2
+Skew: 9 -> 10
+Entropy: 3.808 -> 3.769
 
 ## State Distribution
 
@@ -16,9 +16,9 @@ Entropy: 3.775 -> 3.808
 | 4 | prune | 4 | 4 |
 | 5 | fuse | 6 | 6 |
 | 6 | trace | 7 | 7 |
-| 7 | tilt | 8 | 8 |
-| 8 | merge | 10 | 9 |
-| 9 | burst | 2 | 3 |
+| 7 | tilt | 8 | 7 |
+| 8 | merge | 9 | 10 |
+| 9 | burst | 3 | 3 |
 | 10 | guard | 1 | 1 |
 | 11 | orbit | 0 | 0 |
 | 12 | sync | 1 | 1 |
@@ -26,15 +26,15 @@ Entropy: 3.775 -> 3.808
 | 14 | drift | 2 | 2 |
 | 15 | anchor | 2 | 2 |
 | 16 | glide | 4 | 4 |
-| 17 | spark | 1 | 1 |
-| 18 | lattice | 1 | 1 |
+| 17 | spark | 1 | 0 |
+| 18 | lattice | 1 | 2 |
 | 19 | zenith | 1 | 1 |
 
 ## App Distribution
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | merge (8) | 2 |
+| accounts | merge (8) | 3 |
 | analytics | merge (8) | 2 |
 | billing | merge (8) | 2 |
 | catalog | trace (6) | 2 |
@@ -50,7 +50,7 @@ Entropy: 3.775 -> 3.808
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | merge (8) | 2 |
-| selectors | tilt (7) | 2 |
+| selectors | merge (8) | 2 |
 | services | tilt (7) | 3 |
 | tasks | merge (8) | 3 |
 | validators | merge (8) | 2 |
@@ -58,10 +58,12 @@ Entropy: 3.775 -> 3.808
 
 ## This Run Changes
 
-- `apps/support/models.py`: 8 -> 9 (merge -> burst, score=7.380)
+- `apps/notifications/selectors.py`: 17 -> 18 (spark -> lattice, score=2.103)
+- `apps/accounts/selectors.py`: 7 -> 8 (tilt -> merge, score=2.321)
 
 ## Recent History
 
+- 2026-06-30 06:47:28 UTC: changed=2, drift=10
 - 2026-06-29 07:16:29 UTC: changed=1, drift=9
 - 2026-06-28 23:11:04 UTC: changed=2, drift=10
 - 2026-06-28 09:07:09 UTC: changed=1, drift=9
@@ -71,4 +73,3 @@ Entropy: 3.775 -> 3.808
 - 2026-06-27 08:43:13 UTC: changed=1, drift=9
 - 2026-06-26 23:10:34 UTC: changed=1, drift=9
 - 2026-06-26 09:47:23 UTC: changed=1, drift=10
-- 2026-06-26 06:48:46 UTC: changed=1, drift=10
