@@ -5342,5 +5342,21 @@
         "score": 4.855832107095684
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-01 16:12:26 UTC",
+    "filesChanged": 1,
+    "driftAfter": 10,
+    "entropyAfter": 3.7544,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 15,
+        "to": 14,
+        "fromLabel": "anchor",
+        "toLabel": "drift",
+        "score": 4.95919193119476
+      }
+    ]
   }
 ]
