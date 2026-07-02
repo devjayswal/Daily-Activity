@@ -5382,5 +5382,21 @@
         "score": 4.9902019557161
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-02 08:58:56 UTC",
+    "filesChanged": 1,
+    "driftAfter": 9,
+    "entropyAfter": 3.7223,
+    "changes": [
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 7.04294732244453
+      }
+    ]
   }
 ]
