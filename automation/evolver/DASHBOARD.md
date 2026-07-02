@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-02 08:58:56 UTC
+Last run: 2026-07-02 16:04:00 UTC
 Files changed this run: 1
-Skew: 10 -> 9
-Entropy: 3.698 -> 3.722
+Skew: 9 -> 9
+Entropy: 3.722 -> 3.722
 
 ## State Distribution
 
@@ -15,10 +15,10 @@ Entropy: 3.698 -> 3.722
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 4 | 4 |
 | 5 | fuse | 6 | 6 |
-| 6 | trace | 6 | 6 |
-| 7 | tilt | 7 | 7 |
-| 8 | merge | 10 | 9 |
-| 9 | burst | 3 | 4 |
+| 6 | trace | 6 | 7 |
+| 7 | tilt | 7 | 6 |
+| 8 | merge | 9 | 9 |
+| 9 | burst | 4 | 4 |
 | 10 | guard | 1 | 1 |
 | 11 | orbit | 0 | 0 |
 | 12 | sync | 1 | 1 |
@@ -37,7 +37,7 @@ Entropy: 3.698 -> 3.722
 | accounts | merge (8) | 2 |
 | analytics | draft (1) | 2 |
 | billing | merge (8) | 2 |
-| catalog | trace (6) | 2 |
+| catalog | trace (6) | 3 |
 | inventory | tilt (7) | 2 |
 | notifications | glide (16) | 2 |
 | orders | merge (8) | 2 |
@@ -58,10 +58,11 @@ Entropy: 3.698 -> 3.722
 
 ## This Run Changes
 
-- `apps/accounts/tasks.py`: 8 -> 9 (merge -> burst, score=7.043)
+- `apps/catalog/selectors.py`: 7 -> 6 (tilt -> trace, score=3.610)
 
 ## Recent History
 
+- 2026-07-02 16:04:00 UTC: changed=1, drift=9
 - 2026-07-02 08:58:56 UTC: changed=1, drift=9
 - 2026-07-02 06:28:10 UTC: changed=2, drift=10
 - 2026-07-01 16:12:26 UTC: changed=1, drift=10
@@ -71,4 +72,3 @@ Entropy: 3.698 -> 3.722
 - 2026-06-30 06:47:28 UTC: changed=2, drift=10
 - 2026-06-29 07:16:29 UTC: changed=1, drift=9
 - 2026-06-28 23:11:04 UTC: changed=2, drift=10
-- 2026-06-28 09:07:09 UTC: changed=1, drift=9
