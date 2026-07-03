@@ -5478,5 +5478,29 @@
         "score": 4.526163704499014
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-03 15:51:36 UTC",
+    "filesChanged": 2,
+    "driftAfter": 9,
+    "entropyAfter": 3.7169,
+    "changes": [
+      {
+        "path": "apps/support/services.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 2.399983234653672
+      },
+      {
+        "path": "apps/orders/models.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 7.190830479613437
+      }
+    ]
   }
 ]
