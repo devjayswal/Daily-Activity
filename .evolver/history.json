@@ -5502,5 +5502,29 @@
         "score": 7.190830479613437
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-04 08:44:21 UTC",
+    "filesChanged": 2,
+    "driftAfter": 8,
+    "entropyAfter": 3.6815,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 7.023794056825482
+      },
+      {
+        "path": "apps/support/selectors.py",
+        "from": 19,
+        "to": 18,
+        "fromLabel": "zenith",
+        "toLabel": "lattice",
+        "score": 4.538850299036839
+      }
+    ]
   }
 ]
