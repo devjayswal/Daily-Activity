@@ -1,22 +1,22 @@
 # Evolver Dashboard
 
-Last run: 2026-07-04 22:59:55 UTC
+Last run: 2026-07-05 06:38:25 UTC
 Files changed this run: 2
 Skew: 8 -> 8
-Entropy: 3.747 -> 3.738
+Entropy: 3.738 -> 3.784
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 2 |
+| 0 | seed | 2 | 1 |
 | 1 | draft | 5 | 5 |
-| 2 | shape | 1 | 1 |
-| 3 | pulse | 3 | 3 |
+| 2 | shape | 1 | 2 |
+| 3 | pulse | 3 | 2 |
 | 4 | prune | 5 | 5 |
-| 5 | fuse | 6 | 7 |
+| 5 | fuse | 7 | 7 |
 | 6 | trace | 6 | 6 |
-| 7 | tilt | 5 | 4 |
+| 7 | tilt | 4 | 4 |
 | 8 | merge | 8 | 8 |
 | 9 | burst | 6 | 6 |
 | 10 | guard | 1 | 1 |
@@ -28,14 +28,14 @@ Entropy: 3.747 -> 3.738
 | 16 | glide | 4 | 4 |
 | 17 | spark | 0 | 0 |
 | 18 | lattice | 3 | 3 |
-| 19 | zenith | 0 | 0 |
+| 19 | zenith | 0 | 1 |
 
 ## App Distribution
 
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | merge (8) | 2 |
-| analytics | merge (8) | 2 |
+| analytics | shape (2) | 2 |
 | billing | merge (8) | 2 |
 | catalog | trace (6) | 3 |
 | inventory | drift (14) | 2 |
@@ -58,11 +58,12 @@ Entropy: 3.747 -> 3.738
 
 ## This Run Changes
 
-- `apps/reporting/views.py`: 6 -> 5 (trace -> fuse, score=4.545)
-- `apps/inventory/models.py`: 7 -> 6 (tilt -> trace, score=3.257)
+- `apps/accounts/services.py`: 0 -> 19 (seed -> zenith, score=4.630)
+- `apps/analytics/views.py`: 3 -> 2 (pulse -> shape, score=4.635)
 
 ## Recent History
 
+- 2026-07-05 06:38:25 UTC: changed=2, drift=8
 - 2026-07-04 22:59:55 UTC: changed=2, drift=8
 - 2026-07-04 14:55:50 UTC: changed=1, drift=8
 - 2026-07-04 08:44:21 UTC: changed=2, drift=8
@@ -72,4 +73,3 @@ Entropy: 3.747 -> 3.738
 - 2026-07-02 23:04:15 UTC: changed=2, drift=9
 - 2026-07-02 16:04:00 UTC: changed=1, drift=9
 - 2026-07-02 08:58:56 UTC: changed=1, drift=9
-- 2026-07-02 06:28:10 UTC: changed=2, drift=10
