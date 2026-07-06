@@ -5646,5 +5646,21 @@
         "score": 6.840811975333501
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-06 10:28:50 UTC",
+    "filesChanged": 1,
+    "driftAfter": 7,
+    "entropyAfter": 3.8621,
+    "changes": [
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 4,
+        "to": 3,
+        "fromLabel": "prune",
+        "toLabel": "pulse",
+        "score": 4.886970876123637
+      }
+    ]
   }
 ]
