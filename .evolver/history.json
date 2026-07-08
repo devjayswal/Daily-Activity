@@ -5806,5 +5806,21 @@
         "score": 4.908837034992278
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-08 16:14:01 UTC",
+    "filesChanged": 1,
+    "driftAfter": 9,
+    "entropyAfter": 3.9148,
+    "changes": [
+      {
+        "path": "apps/notifications/validators.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 4.678344397896055
+      }
+    ]
   }
 ]
