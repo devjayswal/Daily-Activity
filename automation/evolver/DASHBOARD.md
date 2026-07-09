@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-09 16:28:12 UTC
-Files changed this run: 2
-Skew: 9 -> 7
-Entropy: 3.961 -> 4.036
+Last run: 2026-07-09 23:20:39 UTC
+Files changed this run: 1
+Skew: 7 -> 8
+Entropy: 4.036 -> 4.026
 
 ## State Distribution
 
@@ -15,11 +15,11 @@ Entropy: 3.961 -> 4.036
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 5 | 5 |
 | 5 | fuse | 4 | 4 |
-| 6 | trace | 5 | 4 |
-| 7 | tilt | 4 | 5 |
-| 8 | merge | 6 | 6 |
-| 9 | burst | 9 | 8 |
-| 10 | guard | 0 | 1 |
+| 6 | trace | 4 | 4 |
+| 7 | tilt | 5 | 5 |
+| 8 | merge | 6 | 5 |
+| 9 | burst | 8 | 9 |
+| 10 | guard | 1 | 1 |
 | 11 | orbit | 1 | 1 |
 | 12 | sync | 1 | 1 |
 | 13 | weave | 1 | 1 |
@@ -36,7 +36,7 @@ Entropy: 3.961 -> 4.036
 |---|---|---:|
 | accounts | burst (9) | 3 |
 | analytics | shape (2) | 2 |
-| billing | drift (14) | 1 |
+| billing | burst (9) | 2 |
 | catalog | trace (6) | 2 |
 | inventory | trace (6) | 1 |
 | notifications | prune (4) | 2 |
@@ -58,11 +58,11 @@ Entropy: 3.961 -> 4.036
 
 ## This Run Changes
 
-- `apps/orders/selectors.py`: 9 -> 10 (burst -> guard, score=9.453)
-- `apps/billing/services.py`: 6 -> 7 (trace -> tilt, score=4.622)
+- `apps/billing/validators.py`: 8 -> 9 (merge -> burst, score=2.234)
 
 ## Recent History
 
+- 2026-07-09 23:20:39 UTC: changed=1, drift=8
 - 2026-07-09 16:28:12 UTC: changed=2, drift=7
 - 2026-07-09 09:54:24 UTC: changed=2, drift=9
 - 2026-07-09 06:43:49 UTC: changed=2, drift=9
@@ -72,4 +72,3 @@ Entropy: 3.961 -> 4.036
 - 2026-07-07 23:05:48 UTC: changed=1, drift=8
 - 2026-07-07 16:15:50 UTC: changed=1, drift=8
 - 2026-07-07 09:55:09 UTC: changed=2, drift=8
-- 2026-07-06 23:05:33 UTC: changed=2, drift=7

@@ -5894,5 +5894,21 @@
         "score": 4.62189064384416
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-09 23:20:39 UTC",
+    "filesChanged": 1,
+    "driftAfter": 8,
+    "entropyAfter": 4.0258,
+    "changes": [
+      {
+        "path": "apps/billing/validators.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 2.233674019976121
+      }
+    ]
   }
 ]
