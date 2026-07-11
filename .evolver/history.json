@@ -6014,5 +6014,29 @@
         "score": 4.564882726630008
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-11 22:42:42 UTC",
+    "filesChanged": 2,
+    "driftAfter": 8,
+    "entropyAfter": 4.0318,
+    "changes": [
+      {
+        "path": "apps/support/tasks.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 4.4463786708999
+      },
+      {
+        "path": "apps/reporting/selectors.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 2.454140306542693
+      }
+    ]
   }
 ]
