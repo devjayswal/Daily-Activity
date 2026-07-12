@@ -6038,5 +6038,21 @@
         "score": 2.454140306542693
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-12 06:01:51 UTC",
+    "filesChanged": 1,
+    "driftAfter": 8,
+    "entropyAfter": 4.0318,
+    "changes": [
+      {
+        "path": "apps/inventory/views.py",
+        "from": 14,
+        "to": 13,
+        "fromLabel": "drift",
+        "toLabel": "weave",
+        "score": 4.7959516915294405
+      }
+    ]
   }
 ]

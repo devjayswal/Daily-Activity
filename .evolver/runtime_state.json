@@ -1,5 +1,5 @@
 {
-  "tick": 301,
+  "tick": 302,
   "fileTouches": {
     "apps/accounts/views.py": 297,
     "apps/orders/selectors.py": 294,
@@ -38,7 +38,7 @@
     "apps/notifications/models.py": 273,
     "apps/reporting/services.py": 285,
     "apps/reporting/models.py": 288,
-    "apps/inventory/views.py": 260,
+    "apps/inventory/views.py": 302,
     "apps/inventory/validators.py": 292,
     "apps/notifications/services.py": 300,
     "apps/notifications/selectors.py": 264,
