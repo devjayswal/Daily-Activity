@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-12 08:28:20 UTC
+Last run: 2026-07-12 22:42:53 UTC
 Files changed this run: 1
-Skew: 8 -> 9
-Entropy: 4.032 -> 4.017
+Skew: 9 -> 9
+Entropy: 4.017 -> 4.021
 
 ## State Distribution
 
@@ -12,13 +12,13 @@ Entropy: 4.032 -> 4.017
 | 0 | seed | 1 | 1 |
 | 1 | draft | 4 | 4 |
 | 2 | shape | 3 | 3 |
-| 3 | pulse | 4 | 4 |
-| 4 | prune | 6 | 6 |
+| 3 | pulse | 4 | 5 |
+| 4 | prune | 6 | 5 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 5 | 5 |
-| 8 | merge | 5 | 4 |
-| 9 | burst | 8 | 9 |
+| 8 | merge | 4 | 4 |
+| 9 | burst | 9 | 9 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 2 | 2 |
 | 12 | sync | 0 | 0 |
@@ -41,7 +41,7 @@ Entropy: 4.032 -> 4.017
 | inventory | weave (13) | 2 |
 | notifications | prune (4) | 2 |
 | orders | burst (9) | 2 |
-| payments | prune (4) | 3 |
+| payments | prune (4) | 2 |
 | reporting | anchor (15) | 2 |
 | support | guard (10) | 1 |
 
@@ -58,10 +58,11 @@ Entropy: 4.032 -> 4.017
 
 ## This Run Changes
 
-- `apps/accounts/selectors.py`: 8 -> 9 (merge -> burst, score=2.344)
+- `apps/payments/services.py`: 4 -> 3 (prune -> pulse, score=4.808)
 
 ## Recent History
 
+- 2026-07-12 22:42:53 UTC: changed=1, drift=9
 - 2026-07-12 08:28:20 UTC: changed=1, drift=9
 - 2026-07-12 06:01:51 UTC: changed=1, drift=8
 - 2026-07-11 22:42:42 UTC: changed=2, drift=8
@@ -71,4 +72,3 @@ Entropy: 4.032 -> 4.017
 - 2026-07-10 09:38:40 UTC: changed=2, drift=8
 - 2026-07-10 06:37:55 UTC: changed=1, drift=8
 - 2026-07-09 23:20:39 UTC: changed=1, drift=8
-- 2026-07-09 16:28:12 UTC: changed=2, drift=7
