@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-12 06:01:51 UTC
+Last run: 2026-07-12 08:28:20 UTC
 Files changed this run: 1
-Skew: 8 -> 8
-Entropy: 4.032 -> 4.032
+Skew: 8 -> 9
+Entropy: 4.032 -> 4.017
 
 ## State Distribution
 
@@ -17,13 +17,13 @@ Entropy: 4.032 -> 4.032
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 5 | 5 |
-| 8 | merge | 5 | 5 |
-| 9 | burst | 8 | 8 |
+| 8 | merge | 5 | 4 |
+| 9 | burst | 8 | 9 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 2 | 2 |
 | 12 | sync | 0 | 0 |
-| 13 | weave | 1 | 2 |
-| 14 | drift | 2 | 1 |
+| 13 | weave | 2 | 2 |
+| 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 1 | 1 |
 | 17 | spark | 2 | 2 |
@@ -34,7 +34,7 @@ Entropy: 4.032 -> 4.032
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | burst (9) | 2 |
+| accounts | burst (9) | 3 |
 | analytics | tilt (7) | 2 |
 | billing | burst (9) | 2 |
 | catalog | tilt (7) | 2 |
@@ -50,7 +50,7 @@ Entropy: 4.032 -> 4.032
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | burst (9) | 2 |
-| selectors | lattice (18) | 2 |
+| selectors | burst (9) | 2 |
 | services | merge (8) | 2 |
 | tasks | burst (9) | 3 |
 | validators | tilt (7) | 2 |
@@ -58,10 +58,11 @@ Entropy: 4.032 -> 4.032
 
 ## This Run Changes
 
-- `apps/inventory/views.py`: 14 -> 13 (drift -> weave, score=4.796)
+- `apps/accounts/selectors.py`: 8 -> 9 (merge -> burst, score=2.344)
 
 ## Recent History
 
+- 2026-07-12 08:28:20 UTC: changed=1, drift=9
 - 2026-07-12 06:01:51 UTC: changed=1, drift=8
 - 2026-07-11 22:42:42 UTC: changed=2, drift=8
 - 2026-07-11 14:57:45 UTC: changed=2, drift=7
@@ -71,4 +72,3 @@ Entropy: 4.032 -> 4.032
 - 2026-07-10 06:37:55 UTC: changed=1, drift=8
 - 2026-07-09 23:20:39 UTC: changed=1, drift=8
 - 2026-07-09 16:28:12 UTC: changed=2, drift=7
-- 2026-07-09 09:54:24 UTC: changed=2, drift=9
