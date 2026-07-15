@@ -6238,5 +6238,21 @@
         "score": 6.981335270323778
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-15 22:57:01 UTC",
+    "filesChanged": 1,
+    "driftAfter": 6,
+    "entropyAfter": 3.9673,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 14,
+        "to": 13,
+        "fromLabel": "drift",
+        "toLabel": "weave",
+        "score": 2.0637448188660357
+      }
+    ]
   }
 ]
