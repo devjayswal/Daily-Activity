@@ -6222,5 +6222,21 @@
         "score": 2.0330698630343758
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-15 15:33:41 UTC",
+    "filesChanged": 1,
+    "driftAfter": 6,
+    "entropyAfter": 4.0132,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 9,
+        "to": 10,
+        "fromLabel": "burst",
+        "toLabel": "guard",
+        "score": 6.981335270323778
+      }
+    ]
   }
 ]
