@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-16 08:21:26 UTC
-Files changed this run: 1
+Last run: 2026-07-16 22:51:30 UTC
+Files changed this run: 2
 Skew: 6 -> 6
-Entropy: 3.967 -> 3.967
+Entropy: 3.967 -> 3.994
 
 ## State Distribution
 
@@ -13,9 +13,9 @@ Entropy: 3.967 -> 3.967
 | 1 | draft | 2 | 2 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 5 | 5 |
-| 4 | prune | 5 | 5 |
-| 5 | fuse | 2 | 3 |
-| 6 | trace | 3 | 2 |
+| 4 | prune | 5 | 6 |
+| 5 | fuse | 3 | 2 |
+| 6 | trace | 2 | 2 |
 | 7 | tilt | 5 | 5 |
 | 8 | merge | 4 | 4 |
 | 9 | burst | 6 | 6 |
@@ -24,8 +24,8 @@ Entropy: 3.967 -> 3.967
 | 12 | sync | 0 | 0 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 0 | 0 |
-| 15 | anchor | 3 | 3 |
-| 16 | glide | 0 | 0 |
+| 15 | anchor | 3 | 2 |
+| 16 | glide | 0 | 1 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 1 | 1 |
 | 19 | zenith | 3 | 3 |
@@ -58,10 +58,12 @@ Entropy: 3.967 -> 3.967
 
 ## This Run Changes
 
-- `apps/catalog/selectors.py`: 6 -> 5 (trace -> fuse, score=4.766)
+- `apps/notifications/models.py`: 15 -> 16 (anchor -> glide, score=4.684)
+- `apps/payments/tasks.py`: 5 -> 4 (fuse -> prune, score=4.640)
 
 ## Recent History
 
+- 2026-07-16 22:51:30 UTC: changed=2, drift=6
 - 2026-07-16 08:21:26 UTC: changed=1, drift=6
 - 2026-07-15 22:57:01 UTC: changed=1, drift=6
 - 2026-07-15 15:33:41 UTC: changed=1, drift=6
@@ -71,4 +73,3 @@ Entropy: 3.967 -> 3.967
 - 2026-07-14 15:25:47 UTC: changed=2, drift=8
 - 2026-07-14 05:20:00 UTC: changed=1, drift=8
 - 2026-07-13 22:55:33 UTC: changed=1, drift=8
-- 2026-07-13 16:22:17 UTC: changed=1, drift=8
