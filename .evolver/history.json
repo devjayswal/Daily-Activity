@@ -6310,5 +6310,29 @@
         "score": 2.097128082931595
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-17 22:57:31 UTC",
+    "filesChanged": 2,
+    "driftAfter": 7,
+    "entropyAfter": 3.8982,
+    "changes": [
+      {
+        "path": "apps/support/services.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 2.3869910931431426
+      },
+      {
+        "path": "apps/reporting/validators.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.112347256799151
+      }
+    ]
   }
 ]
