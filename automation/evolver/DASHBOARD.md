@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-19 08:37:58 UTC
-Files changed this run: 2
+Last run: 2026-07-19 22:43:55 UTC
+Files changed this run: 1
 Skew: 7 -> 7
-Entropy: 3.904 -> 3.950
+Entropy: 3.950 -> 3.955
 
 ## State Distribution
 
@@ -11,15 +11,15 @@ Entropy: 3.904 -> 3.950
 |---|---|---:|---:|
 | 0 | seed | 4 | 4 |
 | 1 | draft | 1 | 1 |
-| 2 | shape | 4 | 4 |
-| 3 | pulse | 6 | 6 |
+| 2 | shape | 4 | 5 |
+| 3 | pulse | 6 | 5 |
 | 4 | prune | 5 | 5 |
 | 5 | fuse | 2 | 2 |
 | 6 | trace | 2 | 2 |
 | 7 | tilt | 5 | 5 |
 | 8 | merge | 3 | 3 |
-| 9 | burst | 7 | 6 |
-| 10 | guard | 6 | 7 |
+| 9 | burst | 6 | 6 |
+| 10 | guard | 7 | 7 |
 | 11 | orbit | 2 | 2 |
 | 12 | sync | 0 | 0 |
 | 13 | weave | 3 | 3 |
@@ -27,8 +27,8 @@ Entropy: 3.904 -> 3.950
 | 15 | anchor | 2 | 2 |
 | 16 | glide | 1 | 1 |
 | 17 | spark | 4 | 4 |
-| 18 | lattice | 0 | 1 |
-| 19 | zenith | 3 | 2 |
+| 18 | lattice | 1 | 1 |
+| 19 | zenith | 2 | 2 |
 
 ## App Distribution
 
@@ -54,15 +54,15 @@ Entropy: 3.904 -> 3.950
 | services | burst (9) | 2 |
 | tasks | guard (10) | 2 |
 | validators | tilt (7) | 2 |
-| views | shape (2) | 2 |
+| views | shape (2) | 3 |
 
 ## This Run Changes
 
-- `apps/accounts/models.py`: 9 -> 10 (burst -> guard, score=4.673)
-- `apps/accounts/services.py`: 19 -> 18 (zenith -> lattice, score=4.816)
+- `apps/orders/views.py`: 3 -> 2 (pulse -> shape, score=4.767)
 
 ## Recent History
 
+- 2026-07-19 22:43:55 UTC: changed=1, drift=7
 - 2026-07-19 08:37:58 UTC: changed=2, drift=7
 - 2026-07-19 05:53:34 UTC: changed=2, drift=7
 - 2026-07-18 05:17:46 UTC: changed=1, drift=7
@@ -72,4 +72,3 @@ Entropy: 3.904 -> 3.950
 - 2026-07-16 08:21:26 UTC: changed=1, drift=6
 - 2026-07-15 22:57:01 UTC: changed=1, drift=6
 - 2026-07-15 15:33:41 UTC: changed=1, drift=6
-- 2026-07-15 08:27:40 UTC: changed=1, drift=7
