@@ -6414,5 +6414,21 @@
         "score": 4.76696055579376
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-20 09:25:00 UTC",
+    "filesChanged": 1,
+    "driftAfter": 7,
+    "entropyAfter": 3.9819,
+    "changes": [
+      {
+        "path": "apps/analytics/views.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 4.643302250160169
+      }
+    ]
   }
 ]
