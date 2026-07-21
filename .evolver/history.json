@@ -6494,5 +6494,29 @@
         "score": 4.624445368086613
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-21 15:31:56 UTC",
+    "filesChanged": 2,
+    "driftAfter": 7,
+    "entropyAfter": 3.9791,
+    "changes": [
+      {
+        "path": "apps/payments/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.680425798551516
+      },
+      {
+        "path": "apps/reporting/tasks.py",
+        "from": 2,
+        "to": 3,
+        "fromLabel": "shape",
+        "toLabel": "pulse",
+        "score": 4.728099578709772
+      }
+    ]
   }
 ]
