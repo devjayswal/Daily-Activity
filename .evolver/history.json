@@ -6574,5 +6574,21 @@
         "score": 4.886951235002996
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-22 23:02:00 UTC",
+    "filesChanged": 1,
+    "driftAfter": 7,
+    "entropyAfter": 4.0376,
+    "changes": [
+      {
+        "path": "apps/reporting/services.py",
+        "from": 15,
+        "to": 14,
+        "fromLabel": "anchor",
+        "toLabel": "drift",
+        "score": 4.672105936828758
+      }
+    ]
   }
 ]
