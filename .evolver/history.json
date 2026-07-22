@@ -6534,5 +6534,21 @@
         "score": 4.41042503830772
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-22 08:40:55 UTC",
+    "filesChanged": 1,
+    "driftAfter": 7,
+    "entropyAfter": 3.9812,
+    "changes": [
+      {
+        "path": "apps/billing/tasks.py",
+        "from": 9,
+        "to": 8,
+        "fromLabel": "burst",
+        "toLabel": "merge",
+        "score": 4.694088310681846
+      }
+    ]
   }
 ]
