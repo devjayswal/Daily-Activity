@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-22 23:02:00 UTC
+Last run: 2026-07-23 05:56:45 UTC
 Files changed this run: 1
 Skew: 7 -> 7
-Entropy: 4.004 -> 4.038
+Entropy: 4.038 -> 4.064
 
 ## State Distribution
 
@@ -15,16 +15,16 @@ Entropy: 4.004 -> 4.038
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 6 | 6 |
 | 5 | fuse | 3 | 3 |
-| 6 | trace | 1 | 1 |
-| 7 | tilt | 5 | 5 |
+| 6 | trace | 1 | 2 |
+| 7 | tilt | 5 | 4 |
 | 8 | merge | 4 | 4 |
 | 9 | burst | 5 | 5 |
 | 10 | guard | 7 | 7 |
 | 11 | orbit | 2 | 2 |
 | 12 | sync | 0 | 0 |
 | 13 | weave | 3 | 3 |
-| 14 | drift | 0 | 1 |
-| 15 | anchor | 2 | 1 |
+| 14 | drift | 1 | 1 |
+| 15 | anchor | 1 | 1 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 2 | 2 |
@@ -37,7 +37,7 @@ Entropy: 4.004 -> 4.038
 | accounts | guard (10) | 3 |
 | analytics | tilt (7) | 2 |
 | billing | weave (13) | 1 |
-| catalog | tilt (7) | 2 |
+| catalog | trace (6) | 1 |
 | inventory | weave (13) | 2 |
 | notifications | glide (16) | 1 |
 | orders | guard (10) | 3 |
@@ -58,10 +58,11 @@ Entropy: 4.004 -> 4.038
 
 ## This Run Changes
 
-- `apps/reporting/services.py`: 15 -> 14 (anchor -> drift, score=4.672)
+- `apps/catalog/models.py`: 7 -> 6 (tilt -> trace, score=4.706)
 
 ## Recent History
 
+- 2026-07-23 05:56:45 UTC: changed=1, drift=7
 - 2026-07-22 23:02:00 UTC: changed=1, drift=7
 - 2026-07-22 15:40:16 UTC: changed=2, drift=7
 - 2026-07-22 08:40:55 UTC: changed=1, drift=7
@@ -71,4 +72,3 @@ Entropy: 4.004 -> 4.038
 - 2026-07-21 05:35:58 UTC: changed=1, drift=7
 - 2026-07-20 23:04:09 UTC: changed=1, drift=7
 - 2026-07-20 15:56:15 UTC: changed=1, drift=7
-- 2026-07-20 09:25:00 UTC: changed=1, drift=7
