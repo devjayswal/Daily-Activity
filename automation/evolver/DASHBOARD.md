@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-26 15:11:16 UTC
+Last run: 2026-07-26 23:11:46 UTC
 Files changed this run: 1
-Skew: 6 -> 5
-Entropy: 4.132 -> 4.151
+Skew: 5 -> 6
+Entropy: 4.151 -> 4.146
 
 ## State Distribution
 
@@ -18,9 +18,9 @@ Entropy: 4.132 -> 4.151
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 4 | 4 |
 | 8 | merge | 3 | 3 |
-| 9 | burst | 5 | 5 |
-| 10 | guard | 6 | 5 |
-| 11 | orbit | 2 | 3 |
+| 9 | burst | 5 | 4 |
+| 10 | guard | 5 | 6 |
+| 11 | orbit | 3 | 3 |
 | 12 | sync | 2 | 2 |
 | 13 | weave | 2 | 2 |
 | 14 | drift | 2 | 2 |
@@ -58,10 +58,11 @@ Entropy: 4.132 -> 4.151
 
 ## This Run Changes
 
-- `apps/accounts/views.py`: 10 -> 11 (guard -> orbit, score=6.799)
+- `apps/billing/validators.py`: 9 -> 10 (burst -> guard, score=2.488)
 
 ## Recent History
 
+- 2026-07-26 23:11:46 UTC: changed=1, drift=6
 - 2026-07-26 15:11:16 UTC: changed=1, drift=5
 - 2026-07-26 05:49:41 UTC: changed=2, drift=6
 - 2026-07-25 15:04:32 UTC: changed=2, drift=6
@@ -71,4 +72,3 @@ Entropy: 4.132 -> 4.151
 - 2026-07-23 05:56:45 UTC: changed=1, drift=7
 - 2026-07-22 23:02:00 UTC: changed=1, drift=7
 - 2026-07-22 15:40:16 UTC: changed=2, drift=7
-- 2026-07-22 08:40:55 UTC: changed=1, drift=7
