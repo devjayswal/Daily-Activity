@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-25 15:04:32 UTC
+Last run: 2026-07-26 05:49:41 UTC
 Files changed this run: 2
 Skew: 6 -> 6
-Entropy: 4.113 -> 4.125
+Entropy: 4.125 -> 4.132
 
 ## State Distribution
 
@@ -17,14 +17,14 @@ Entropy: 4.113 -> 4.125
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 4 | 4 |
-| 8 | merge | 4 | 4 |
-| 9 | burst | 4 | 4 |
+| 8 | merge | 4 | 3 |
+| 9 | burst | 4 | 5 |
 | 10 | guard | 6 | 6 |
-| 11 | orbit | 3 | 2 |
-| 12 | sync | 0 | 1 |
-| 13 | weave | 3 | 3 |
-| 14 | drift | 1 | 2 |
-| 15 | anchor | 1 | 0 |
+| 11 | orbit | 2 | 2 |
+| 12 | sync | 1 | 2 |
+| 13 | weave | 3 | 2 |
+| 14 | drift | 2 | 2 |
+| 15 | anchor | 0 | 0 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 2 | 2 |
@@ -38,7 +38,7 @@ Entropy: 4.113 -> 4.125
 | analytics | draft (1) | 2 |
 | billing | weave (13) | 1 |
 | catalog | trace (6) | 1 |
-| inventory | weave (13) | 2 |
+| inventory | fuse (5) | 1 |
 | notifications | fuse (5) | 2 |
 | orders | guard (10) | 2 |
 | payments | pulse (3) | 3 |
@@ -58,11 +58,12 @@ Entropy: 4.113 -> 4.125
 
 ## This Run Changes
 
-- `apps/reporting/models.py`: 15 -> 14 (anchor -> drift, score=3.448)
-- `apps/support/views.py`: 11 -> 12 (orbit -> sync, score=4.642)
+- `apps/catalog/views.py`: 8 -> 9 (merge -> burst, score=4.574)
+- `apps/inventory/validators.py`: 13 -> 12 (weave -> sync, score=4.741)
 
 ## Recent History
 
+- 2026-07-26 05:49:41 UTC: changed=2, drift=6
 - 2026-07-25 15:04:32 UTC: changed=2, drift=6
 - 2026-07-25 05:29:48 UTC: changed=2, drift=6
 - 2026-07-24 23:03:19 UTC: changed=2, drift=6
@@ -72,4 +73,3 @@ Entropy: 4.113 -> 4.125
 - 2026-07-22 15:40:16 UTC: changed=2, drift=7
 - 2026-07-22 08:40:55 UTC: changed=1, drift=7
 - 2026-07-22 05:48:10 UTC: changed=1, drift=7
-- 2026-07-21 15:31:56 UTC: changed=2, drift=7

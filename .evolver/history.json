@@ -6694,5 +6694,29 @@
         "score": 4.6421178866561705
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-26 05:49:41 UTC",
+    "filesChanged": 2,
+    "driftAfter": 6,
+    "entropyAfter": 4.1318,
+    "changes": [
+      {
+        "path": "apps/catalog/views.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 4.574418136491623
+      },
+      {
+        "path": "apps/inventory/validators.py",
+        "from": 13,
+        "to": 12,
+        "fromLabel": "weave",
+        "toLabel": "sync",
+        "score": 4.740941795058706
+      }
+    ]
   }
 ]
