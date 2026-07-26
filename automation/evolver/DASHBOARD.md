@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-26 05:49:41 UTC
-Files changed this run: 2
-Skew: 6 -> 6
-Entropy: 4.125 -> 4.132
+Last run: 2026-07-26 15:11:16 UTC
+Files changed this run: 1
+Skew: 6 -> 5
+Entropy: 4.132 -> 4.151
 
 ## State Distribution
 
@@ -17,12 +17,12 @@ Entropy: 4.125 -> 4.132
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 4 | 4 |
-| 8 | merge | 4 | 3 |
-| 9 | burst | 4 | 5 |
-| 10 | guard | 6 | 6 |
-| 11 | orbit | 2 | 2 |
-| 12 | sync | 1 | 2 |
-| 13 | weave | 3 | 2 |
+| 8 | merge | 3 | 3 |
+| 9 | burst | 5 | 5 |
+| 10 | guard | 6 | 5 |
+| 11 | orbit | 2 | 3 |
+| 12 | sync | 2 | 2 |
+| 13 | weave | 2 | 2 |
 | 14 | drift | 2 | 2 |
 | 15 | anchor | 0 | 0 |
 | 16 | glide | 2 | 2 |
@@ -34,7 +34,7 @@ Entropy: 4.125 -> 4.132
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | guard (10) | 3 |
+| accounts | guard (10) | 2 |
 | analytics | draft (1) | 2 |
 | billing | weave (13) | 1 |
 | catalog | trace (6) | 1 |
@@ -58,11 +58,11 @@ Entropy: 4.125 -> 4.132
 
 ## This Run Changes
 
-- `apps/catalog/views.py`: 8 -> 9 (merge -> burst, score=4.574)
-- `apps/inventory/validators.py`: 13 -> 12 (weave -> sync, score=4.741)
+- `apps/accounts/views.py`: 10 -> 11 (guard -> orbit, score=6.799)
 
 ## Recent History
 
+- 2026-07-26 15:11:16 UTC: changed=1, drift=5
 - 2026-07-26 05:49:41 UTC: changed=2, drift=6
 - 2026-07-25 15:04:32 UTC: changed=2, drift=6
 - 2026-07-25 05:29:48 UTC: changed=2, drift=6
@@ -72,4 +72,3 @@ Entropy: 4.125 -> 4.132
 - 2026-07-22 23:02:00 UTC: changed=1, drift=7
 - 2026-07-22 15:40:16 UTC: changed=2, drift=7
 - 2026-07-22 08:40:55 UTC: changed=1, drift=7
-- 2026-07-22 05:48:10 UTC: changed=1, drift=7
