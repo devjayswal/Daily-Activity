@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-27 16:08:38 UTC
+Last run: 2026-07-27 23:06:46 UTC
 Files changed this run: 2
 Skew: 5 -> 5
-Entropy: 4.157 -> 4.165
+Entropy: 4.165 -> 4.151
 
 ## State Distribution
 
@@ -12,21 +12,21 @@ Entropy: 4.157 -> 4.165
 | 0 | seed | 3 | 3 |
 | 1 | draft | 3 | 3 |
 | 2 | shape | 4 | 4 |
-| 3 | pulse | 4 | 5 |
-| 4 | prune | 5 | 4 |
+| 3 | pulse | 5 | 5 |
+| 4 | prune | 4 | 4 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 3 | 3 |
-| 8 | merge | 4 | 4 |
+| 7 | tilt | 3 | 2 |
+| 8 | merge | 4 | 5 |
 | 9 | burst | 4 | 4 |
 | 10 | guard | 5 | 5 |
-| 11 | orbit | 4 | 3 |
-| 12 | sync | 2 | 3 |
+| 11 | orbit | 3 | 3 |
+| 12 | sync | 3 | 3 |
 | 13 | weave | 2 | 2 |
 | 14 | drift | 2 | 2 |
 | 15 | anchor | 0 | 0 |
-| 16 | glide | 2 | 2 |
-| 17 | spark | 3 | 3 |
+| 16 | glide | 2 | 3 |
+| 17 | spark | 3 | 2 |
 | 18 | lattice | 2 | 2 |
 | 19 | zenith | 1 | 1 |
 
@@ -35,11 +35,11 @@ Entropy: 4.157 -> 4.165
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | guard (10) | 2 |
-| analytics | draft (1) | 2 |
+| analytics | merge (8) | 2 |
 | billing | merge (8) | 2 |
 | catalog | trace (6) | 1 |
 | inventory | fuse (5) | 1 |
-| notifications | fuse (5) | 2 |
+| notifications | glide (16) | 2 |
 | orders | guard (10) | 2 |
 | payments | pulse (3) | 3 |
 | reporting | drift (14) | 2 |
@@ -58,11 +58,12 @@ Entropy: 4.157 -> 4.165
 
 ## This Run Changes
 
-- `apps/billing/selectors.py`: 11 -> 12 (orbit -> sync, score=4.624)
-- `apps/support/tasks.py`: 4 -> 3 (prune -> pulse, score=4.679)
+- `apps/analytics/models.py`: 7 -> 8 (tilt -> merge, score=4.504)
+- `apps/notifications/services.py`: 17 -> 16 (spark -> glide, score=4.525)
 
 ## Recent History
 
+- 2026-07-27 23:06:46 UTC: changed=2, drift=5
 - 2026-07-27 16:08:38 UTC: changed=2, drift=5
 - 2026-07-27 09:55:10 UTC: changed=2, drift=5
 - 2026-07-27 06:24:19 UTC: changed=2, drift=6
@@ -72,4 +73,3 @@ Entropy: 4.157 -> 4.165
 - 2026-07-25 15:04:32 UTC: changed=2, drift=6
 - 2026-07-25 05:29:48 UTC: changed=2, drift=6
 - 2026-07-24 23:03:19 UTC: changed=2, drift=6
-- 2026-07-23 08:47:12 UTC: changed=1, drift=7
