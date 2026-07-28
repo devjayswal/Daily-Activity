@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-07-28 05:42:52 UTC
-Files changed this run: 1
-Skew: 5 -> 5
-Entropy: 4.151 -> 4.151
+Last run: 2026-07-28 16:10:53 UTC
+Files changed this run: 2
+Skew: 5 -> 6
+Entropy: 4.151 -> 4.140
 
 ## State Distribution
 
@@ -12,13 +12,13 @@ Entropy: 4.151 -> 4.151
 | 0 | seed | 3 | 3 |
 | 1 | draft | 3 | 3 |
 | 2 | shape | 4 | 4 |
-| 3 | pulse | 5 | 5 |
-| 4 | prune | 4 | 4 |
+| 3 | pulse | 5 | 4 |
+| 4 | prune | 4 | 5 |
 | 5 | fuse | 4 | 4 |
-| 6 | trace | 3 | 2 |
-| 7 | tilt | 2 | 3 |
-| 8 | merge | 5 | 5 |
-| 9 | burst | 4 | 4 |
+| 6 | trace | 2 | 2 |
+| 7 | tilt | 3 | 3 |
+| 8 | merge | 5 | 6 |
+| 9 | burst | 4 | 3 |
 | 10 | guard | 5 | 5 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 3 | 3 |
@@ -41,7 +41,7 @@ Entropy: 4.151 -> 4.151
 | inventory | fuse (5) | 1 |
 | notifications | glide (16) | 2 |
 | orders | guard (10) | 2 |
-| payments | pulse (3) | 3 |
+| payments | pulse (3) | 2 |
 | reporting | drift (14) | 2 |
 | support | orbit (11) | 1 |
 
@@ -50,7 +50,7 @@ Entropy: 4.151 -> 4.151
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | guard (10) | 2 |
-| selectors | burst (9) | 2 |
+| selectors | spark (17) | 2 |
 | services | merge (8) | 2 |
 | tasks | guard (10) | 2 |
 | validators | tilt (7) | 1 |
@@ -58,10 +58,12 @@ Entropy: 4.151 -> 4.151
 
 ## This Run Changes
 
-- `apps/orders/services.py`: 6 -> 7 (trace -> tilt, score=4.686)
+- `apps/reporting/selectors.py`: 9 -> 8 (burst -> merge, score=2.209)
+- `apps/payments/services.py`: 3 -> 4 (pulse -> prune, score=4.759)
 
 ## Recent History
 
+- 2026-07-28 16:10:53 UTC: changed=2, drift=6
 - 2026-07-28 05:42:52 UTC: changed=1, drift=5
 - 2026-07-27 23:06:46 UTC: changed=2, drift=5
 - 2026-07-27 16:08:38 UTC: changed=2, drift=5
@@ -71,4 +73,3 @@ Entropy: 4.151 -> 4.151
 - 2026-07-26 15:11:16 UTC: changed=1, drift=5
 - 2026-07-26 05:49:41 UTC: changed=2, drift=6
 - 2026-07-25 15:04:32 UTC: changed=2, drift=6
-- 2026-07-25 05:29:48 UTC: changed=2, drift=6
