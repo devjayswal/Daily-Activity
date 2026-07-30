@@ -6902,5 +6902,29 @@
         "score": 3.335729113186725
       }
     ]
+  },
+  {
+    "timestamp": "2026-07-30 08:37:27 UTC",
+    "filesChanged": 2,
+    "driftAfter": 6,
+    "entropyAfter": 4.1274,
+    "changes": [
+      {
+        "path": "apps/accounts/selectors.py",
+        "from": 9,
+        "to": 10,
+        "fromLabel": "burst",
+        "toLabel": "guard",
+        "score": 3.1731987217963487
+      },
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 10,
+        "to": 9,
+        "fromLabel": "guard",
+        "toLabel": "burst",
+        "score": 4.908922571021671
+      }
+    ]
   }
 ]
