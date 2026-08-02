@@ -7118,5 +7118,21 @@
         "score": 4.640418101855736
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-02 22:53:21 UTC",
+    "filesChanged": 1,
+    "driftAfter": 6,
+    "entropyAfter": 4.1253,
+    "changes": [
+      {
+        "path": "apps/notifications/models.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 4.8864278604170766
+      }
+    ]
   }
 ]
