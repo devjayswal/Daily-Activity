@@ -1,29 +1,29 @@
 # Evolver Dashboard
 
-Last run: 2026-08-02 08:26:42 UTC
+Last run: 2026-08-02 14:53:34 UTC
 Files changed this run: 2
 Skew: 6 -> 6
-Entropy: 4.142 -> 4.073
+Entropy: 4.073 -> 4.079
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 2 |
-| 1 | draft | 4 | 5 |
-| 2 | shape | 3 | 2 |
+| 0 | seed | 2 | 3 |
+| 1 | draft | 5 | 4 |
+| 2 | shape | 2 | 2 |
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 4 | 4 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 6 | 6 |
-| 9 | burst | 3 | 3 |
-| 10 | guard | 3 | 3 |
+| 9 | burst | 3 | 2 |
+| 10 | guard | 3 | 4 |
 | 11 | orbit | 5 | 5 |
 | 12 | sync | 3 | 3 |
-| 13 | weave | 1 | 0 |
-| 14 | drift | 3 | 4 |
+| 13 | weave | 0 | 0 |
+| 14 | drift | 4 | 4 |
 | 15 | anchor | 0 | 0 |
 | 16 | glide | 3 | 3 |
 | 17 | spark | 1 | 1 |
@@ -50,7 +50,7 @@ Entropy: 4.142 -> 4.073
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | drift (14) | 2 |
-| selectors | guard (10) | 1 |
+| selectors | seed (0) | 2 |
 | services | merge (8) | 2 |
 | tasks | pulse (3) | 3 |
 | validators | fuse (5) | 2 |
@@ -58,11 +58,12 @@ Entropy: 4.142 -> 4.073
 
 ## This Run Changes
 
-- `apps/billing/models.py`: 13 -> 14 (weave -> drift, score=2.019)
-- `apps/billing/views.py`: 2 -> 1 (shape -> draft, score=4.530)
+- `apps/analytics/selectors.py`: 1 -> 0 (draft -> seed, score=4.791)
+- `apps/support/services.py`: 9 -> 10 (burst -> guard, score=4.640)
 
 ## Recent History
 
+- 2026-08-02 14:53:34 UTC: changed=2, drift=6
 - 2026-08-02 08:26:42 UTC: changed=2, drift=6
 - 2026-08-02 05:57:39 UTC: changed=1, drift=6
 - 2026-08-01 22:56:04 UTC: changed=2, drift=6
@@ -72,4 +73,3 @@ Entropy: 4.142 -> 4.073
 - 2026-07-31 09:02:24 UTC: changed=1, drift=6
 - 2026-07-30 15:49:28 UTC: changed=1, drift=6
 - 2026-07-30 08:37:27 UTC: changed=2, drift=6
-- 2026-07-28 23:03:26 UTC: changed=1, drift=6
