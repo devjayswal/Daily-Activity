@@ -7070,5 +7070,29 @@
         "score": 3.17451878557285
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-02 08:26:42 UTC",
+    "filesChanged": 2,
+    "driftAfter": 6,
+    "entropyAfter": 4.0733,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 13,
+        "to": 14,
+        "fromLabel": "weave",
+        "toLabel": "drift",
+        "score": 2.018600457080419
+      },
+      {
+        "path": "apps/billing/views.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 4.529678972929124
+      }
+    ]
   }
 ]
