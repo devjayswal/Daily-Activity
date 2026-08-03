@@ -7158,5 +7158,21 @@
         "score": 4.519413845696381
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-03 09:52:26 UTC",
+    "filesChanged": 1,
+    "driftAfter": 6,
+    "entropyAfter": 4.1274,
+    "changes": [
+      {
+        "path": "apps/accounts/models.py",
+        "from": 10,
+        "to": 9,
+        "fromLabel": "guard",
+        "toLabel": "burst",
+        "score": 4.689796728438894
+      }
+    ]
   }
 ]
