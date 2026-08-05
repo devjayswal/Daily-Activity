@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-03-25 05:56:36 UTC",
-    "filesChanged": 2,
-    "driftAfter": 32,
-    "entropyAfter": 0.6144,
-    "changes": [
-      {
-        "path": "apps/accounts/views.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 3.192756494711405
-      },
-      {
-        "path": "apps/orders/selectors.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 2.8722314933464954
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-25 05:57:49 UTC",
     "filesChanged": 2,
     "driftAfter": 30,
@@ -7276,6 +7252,22 @@
         "fromLabel": "draft",
         "toLabel": "shape",
         "score": 4.698426117676281
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-05 23:04:12 UTC",
+    "filesChanged": 1,
+    "driftAfter": 5,
+    "entropyAfter": 4.1652,
+    "changes": [
+      {
+        "path": "apps/billing/tasks.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": 7.040508836049348
       }
     ]
   }
