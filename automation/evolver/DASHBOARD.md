@@ -1,20 +1,20 @@
 # Evolver Dashboard
 
-Last run: 2026-08-05 05:36:50 UTC
-Files changed this run: 2
+Last run: 2026-08-05 08:49:48 UTC
+Files changed this run: 1
 Skew: 6 -> 6
-Entropy: 4.127 -> 4.140
+Entropy: 4.140 -> 4.154
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
-| 1 | draft | 5 | 5 |
-| 2 | shape | 2 | 2 |
+| 1 | draft | 5 | 4 |
+| 2 | shape | 2 | 3 |
 | 3 | pulse | 4 | 4 |
-| 4 | prune | 3 | 4 |
-| 5 | fuse | 4 | 3 |
+| 4 | prune | 4 | 4 |
+| 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 6 | 6 |
@@ -24,8 +24,8 @@ Entropy: 4.127 -> 4.140
 | 12 | sync | 3 | 3 |
 | 13 | weave | 0 | 0 |
 | 14 | drift | 4 | 4 |
-| 15 | anchor | 1 | 2 |
-| 16 | glide | 3 | 2 |
+| 15 | anchor | 2 | 2 |
+| 16 | glide | 2 | 2 |
 | 17 | spark | 1 | 1 |
 | 18 | lattice | 2 | 2 |
 | 19 | zenith | 2 | 2 |
@@ -41,7 +41,7 @@ Entropy: 4.127 -> 4.140
 | inventory | lattice (18) | 2 |
 | notifications | fuse (5) | 2 |
 | orders | orbit (11) | 3 |
-| payments | prune (4) | 2 |
+| payments | shape (2) | 2 |
 | reporting | drift (14) | 2 |
 | support | orbit (11) | 1 |
 
@@ -58,11 +58,11 @@ Entropy: 4.127 -> 4.140
 
 ## This Run Changes
 
-- `apps/inventory/models.py`: 5 -> 4 (fuse -> prune, score=4.666)
-- `apps/payments/views.py`: 16 -> 15 (glide -> anchor, score=4.805)
+- `apps/payments/models.py`: 1 -> 2 (draft -> shape, score=4.698)
 
 ## Recent History
 
+- 2026-08-05 08:49:48 UTC: changed=1, drift=6
 - 2026-08-05 05:36:50 UTC: changed=2, drift=6
 - 2026-08-04 22:57:27 UTC: changed=2, drift=6
 - 2026-08-04 16:12:54 UTC: changed=2, drift=6
@@ -72,4 +72,3 @@ Entropy: 4.127 -> 4.140
 - 2026-08-02 22:53:21 UTC: changed=1, drift=6
 - 2026-08-02 14:53:34 UTC: changed=2, drift=6
 - 2026-08-02 08:26:42 UTC: changed=2, drift=6
-- 2026-08-02 05:57:39 UTC: changed=1, drift=6
