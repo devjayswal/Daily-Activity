@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-03-25 05:57:54 UTC",
-    "filesChanged": 2,
-    "driftAfter": 26,
-    "entropyAfter": 1.2332,
-    "changes": [
-      {
-        "path": "apps/orders/tasks.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 7.235416544329054
-      },
-      {
-        "path": "apps/accounts/models.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 6.990684970703588
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-25 05:59:10 UTC",
     "filesChanged": 2,
     "driftAfter": 24,
@@ -7260,6 +7236,22 @@
         "fromLabel": "pulse",
         "toLabel": "shape",
         "score": 4.740631720416829
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-07 07:23:08 UTC",
+    "filesChanged": 1,
+    "driftAfter": 5,
+    "entropyAfter": 4.1591,
+    "changes": [
+      {
+        "path": "apps/inventory/tasks.py",
+        "from": 18,
+        "to": 17,
+        "fromLabel": "lattice",
+        "toLabel": "spark",
+        "score": 3.3749976782855002
       }
     ]
   }
