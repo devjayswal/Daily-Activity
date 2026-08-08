@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-03-25 06:30:13 UTC",
-    "filesChanged": 2,
-    "driftAfter": 44,
-    "entropyAfter": 1.1196,
-    "changes": [
-      {
-        "path": "apps/inventory/models.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 7.660179438952323
-      },
-      {
-        "path": "apps/catalog/selectors.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 7.335118632877013
-      }
-    ]
-  },
-  {
     "timestamp": "2026-03-25 22:44:32 UTC",
     "filesChanged": 2,
     "driftAfter": 42,
@@ -7252,6 +7228,30 @@
         "fromLabel": "tilt",
         "toLabel": "trace",
         "score": 4.424444452466217
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-08 22:22:57 UTC",
+    "filesChanged": 2,
+    "driftAfter": 4,
+    "entropyAfter": 4.2111,
+    "changes": [
+      {
+        "path": "apps/catalog/models.py",
+        "from": 6,
+        "to": 5,
+        "fromLabel": "trace",
+        "toLabel": "fuse",
+        "score": 4.515835677552744
+      },
+      {
+        "path": "apps/analytics/validators.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.574454221248607
       }
     ]
   }
