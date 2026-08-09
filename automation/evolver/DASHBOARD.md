@@ -1,7 +1,7 @@
 # Evolver Dashboard
 
-Last run: 2026-08-09 07:02:54 UTC
-Files changed this run: 1
+Last run: 2026-08-09 14:30:45 UTC
+Files changed this run: 2
 Skew: 4 -> 4
 Entropy: 4.238 -> 4.238
 
@@ -14,17 +14,17 @@ Entropy: 4.238 -> 4.238
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 4 | 4 |
-| 5 | fuse | 3 | 2 |
-| 6 | trace | 2 | 3 |
+| 5 | fuse | 2 | 2 |
+| 6 | trace | 3 | 3 |
 | 7 | tilt | 4 | 4 |
 | 8 | merge | 4 | 4 |
-| 9 | burst | 4 | 4 |
-| 10 | guard | 3 | 3 |
+| 9 | burst | 4 | 3 |
+| 10 | guard | 3 | 4 |
 | 11 | orbit | 4 | 4 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 2 | 2 |
-| 14 | drift | 3 | 3 |
-| 15 | anchor | 2 | 2 |
+| 14 | drift | 3 | 2 |
+| 15 | anchor | 2 | 3 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 1 | 1 |
@@ -42,14 +42,14 @@ Entropy: 4.238 -> 4.238
 | notifications | anchor (15) | 1 |
 | orders | orbit (11) | 2 |
 | payments | shape (2) | 2 |
-| reporting | drift (14) | 1 |
+| reporting | anchor (15) | 1 |
 | support | orbit (11) | 1 |
 
 ## Role Distribution
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | drift (14) | 2 |
+| models | anchor (15) | 2 |
 | selectors | seed (0) | 2 |
 | services | tilt (7) | 2 |
 | tasks | pulse (3) | 3 |
@@ -58,10 +58,12 @@ Entropy: 4.238 -> 4.238
 
 ## This Run Changes
 
-- `apps/notifications/validators.py`: 5 -> 6 (fuse -> trace, score=4.776)
+- `apps/catalog/views.py`: 9 -> 10 (burst -> guard, score=4.580)
+- `apps/reporting/models.py`: 14 -> 15 (drift -> anchor, score=4.598)
 
 ## Recent History
 
+- 2026-08-09 14:30:45 UTC: changed=2, drift=4
 - 2026-08-09 07:02:54 UTC: changed=1, drift=4
 - 2026-08-09 04:03:27 UTC: changed=2, drift=4
 - 2026-08-08 22:22:57 UTC: changed=2, drift=4
@@ -71,4 +73,3 @@ Entropy: 4.238 -> 4.238
 - 2026-08-07 07:23:08 UTC: changed=1, drift=5
 - 2026-08-07 04:47:52 UTC: changed=2, drift=5
 - 2026-08-07 01:42:54 UTC: changed=1, drift=5
-- 2026-08-05 23:04:12 UTC: changed=1, drift=5
