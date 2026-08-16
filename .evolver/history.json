@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-03-31 22:40:15 UTC",
-    "filesChanged": 2,
-    "driftAfter": 25,
-    "entropyAfter": 1.8803,
-    "changes": [
-      {
-        "path": "apps/orders/models.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 8.005501036558778
-      },
-      {
-        "path": "apps/support/models.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 7.828417231686755
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-01 07:34:54 UTC",
     "filesChanged": 2,
     "driftAfter": 24,
@@ -7252,6 +7228,30 @@
         "fromLabel": "seed",
         "toLabel": "zenith",
         "score": 4.851374659929353
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-16 06:57:14 UTC",
+    "filesChanged": 2,
+    "driftAfter": 5,
+    "entropyAfter": 4.2226,
+    "changes": [
+      {
+        "path": "apps/analytics/tasks.py",
+        "from": 19,
+        "to": 18,
+        "fromLabel": "zenith",
+        "toLabel": "lattice",
+        "score": 4.711786000873206
+      },
+      {
+        "path": "apps/payments/selectors.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 4.664073945266432
       }
     ]
   }
