@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-08-17 07:10:11 UTC
+Last run: 2026-08-17 22:16:53 UTC
 Files changed this run: 1
 Skew: 5 -> 5
-Entropy: 4.223 -> 4.214
+Entropy: 4.214 -> 4.194
 
 ## State Distribution
 
@@ -19,9 +19,9 @@ Entropy: 4.223 -> 4.214
 | 7 | tilt | 4 | 4 |
 | 8 | merge | 2 | 2 |
 | 9 | burst | 6 | 6 |
-| 10 | guard | 3 | 3 |
-| 11 | orbit | 3 | 2 |
-| 12 | sync | 3 | 4 |
+| 10 | guard | 3 | 4 |
+| 11 | orbit | 2 | 1 |
+| 12 | sync | 4 | 4 |
 | 13 | weave | 4 | 4 |
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
@@ -58,10 +58,11 @@ Entropy: 4.223 -> 4.214
 
 ## This Run Changes
 
-- `apps/orders/tasks.py`: 11 -> 12 (orbit -> sync, score=4.706)
+- `apps/orders/models.py`: 11 -> 10 (orbit -> guard, score=2.045)
 
 ## Recent History
 
+- 2026-08-17 22:16:53 UTC: changed=1, drift=5
 - 2026-08-17 07:10:11 UTC: changed=1, drift=5
 - 2026-08-17 03:39:58 UTC: changed=1, drift=5
 - 2026-08-16 06:57:14 UTC: changed=2, drift=5
@@ -71,4 +72,3 @@ Entropy: 4.223 -> 4.214
 - 2026-08-14 22:19:31 UTC: changed=2, drift=4
 - 2026-08-14 14:45:35 UTC: changed=1, drift=4
 - 2026-08-14 07:40:44 UTC: changed=2, drift=4
-- 2026-08-13 15:02:26 UTC: changed=1, drift=4
