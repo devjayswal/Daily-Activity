@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-04-01 15:05:21 UTC",
-    "filesChanged": 2,
-    "driftAfter": 24,
-    "entropyAfter": 1.9764,
-    "changes": [
-      {
-        "path": "apps/inventory/validators.py",
-        "from": 0,
-        "to": 19,
-        "fromLabel": "seed",
-        "toLabel": "zenith",
-        "score": 3.0028318759988184
-      },
-      {
-        "path": "apps/notifications/services.py",
-        "from": 0,
-        "to": 19,
-        "fromLabel": "seed",
-        "toLabel": "zenith",
-        "score": 2.9360322335490596
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-01 22:38:38 UTC",
     "filesChanged": 2,
     "driftAfter": 23,
@@ -7244,6 +7220,22 @@
         "fromLabel": "fuse",
         "toLabel": "trace",
         "score": 4.527778426519767
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-17 07:10:11 UTC",
+    "filesChanged": 1,
+    "driftAfter": 5,
+    "entropyAfter": 4.2144,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 4.705714736512204
       }
     ]
   }
