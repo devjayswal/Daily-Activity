@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-04 07:14:02 UTC",
-    "filesChanged": 1,
-    "driftAfter": 22,
-    "entropyAfter": 2.0813,
-    "changes": [
-      {
-        "path": "apps/billing/validators.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 8.013558263415756
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-04 14:41:37 UTC",
     "filesChanged": 2,
     "driftAfter": 20,
@@ -7252,6 +7236,22 @@
         "fromLabel": "shape",
         "toLabel": "pulse",
         "score": 4.738449115854019
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-19 22:22:45 UTC",
+    "filesChanged": 1,
+    "driftAfter": 5,
+    "entropyAfter": 4.1733,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 14,
+        "to": 15,
+        "fromLabel": "drift",
+        "toLabel": "anchor",
+        "score": -0.15336238303174016
       }
     ]
   }
