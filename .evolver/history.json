@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05 07:24:59 UTC",
-    "filesChanged": 1,
-    "driftAfter": 21,
-    "entropyAfter": 2.0985,
-    "changes": [
-      {
-        "path": "apps/accounts/selectors.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 7.639977973011405
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-05 14:42:05 UTC",
     "filesChanged": 1,
     "driftAfter": 20,
@@ -7236,6 +7220,30 @@
         "fromLabel": "draft",
         "toLabel": "seed",
         "score": 4.6962177904402065
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-20 14:28:56 UTC",
+    "filesChanged": 2,
+    "driftAfter": 4,
+    "entropyAfter": 4.24,
+    "changes": [
+      {
+        "path": "apps/accounts/services.py",
+        "from": 17,
+        "to": 16,
+        "fromLabel": "spark",
+        "toLabel": "glide",
+        "score": 4.655120280116325
+      },
+      {
+        "path": "apps/analytics/views.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.642556404220513
       }
     ]
   }
