@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-05 14:42:05 UTC",
-    "filesChanged": 1,
-    "driftAfter": 20,
-    "entropyAfter": 2.1085,
-    "changes": [
-      {
-        "path": "apps/catalog/selectors.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 7.788455637072707
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-06 07:50:12 UTC",
     "filesChanged": 2,
     "driftAfter": 20,
@@ -7244,6 +7228,30 @@
         "fromLabel": "seed",
         "toLabel": "draft",
         "score": 4.642556404220513
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-21 03:36:44 UTC",
+    "filesChanged": 2,
+    "driftAfter": 4,
+    "entropyAfter": 4.24,
+    "changes": [
+      {
+        "path": "apps/support/selectors.py",
+        "from": 16,
+        "to": 17,
+        "fromLabel": "glide",
+        "toLabel": "spark",
+        "score": 3.135885416917526
+      },
+      {
+        "path": "apps/payments/views.py",
+        "from": 15,
+        "to": 16,
+        "fromLabel": "anchor",
+        "toLabel": "glide",
+        "score": 4.627756488043895
       }
     ]
   }
