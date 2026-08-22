@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-07 07:39:57 UTC",
-    "filesChanged": 1,
-    "driftAfter": 19,
-    "entropyAfter": 2.2411,
-    "changes": [
-      {
-        "path": "apps/payments/models.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 7.444212674493739
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-08 05:03:53 UTC",
     "filesChanged": 1,
     "driftAfter": 20,
@@ -7252,6 +7236,22 @@
         "fromLabel": "pulse",
         "toLabel": "prune",
         "score": 4.683381955137587
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-22 06:54:56 UTC",
+    "filesChanged": 1,
+    "driftAfter": 4,
+    "entropyAfter": 4.2253,
+    "changes": [
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 2.0100578067730295
       }
     ]
   }
