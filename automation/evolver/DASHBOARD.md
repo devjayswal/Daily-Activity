@@ -1,23 +1,23 @@
 # Evolver Dashboard
 
-Last run: 2026-08-22 14:08:09 UTC
-Files changed this run: 2
-Skew: 4 -> 3
-Entropy: 4.225 -> 4.252
+Last run: 2026-08-22 22:18:28 UTC
+Files changed this run: 1
+Skew: 3 -> 3
+Entropy: 4.252 -> 4.252
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 4 | 4 |
-| 1 | draft | 1 | 2 |
-| 2 | shape | 4 | 3 |
+| 1 | draft | 2 | 2 |
+| 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 5 | 4 |
-| 8 | merge | 3 | 4 |
+| 7 | tilt | 4 | 4 |
+| 8 | merge | 4 | 4 |
 | 9 | burst | 4 | 4 |
 | 10 | guard | 4 | 4 |
 | 11 | orbit | 2 | 2 |
@@ -25,8 +25,8 @@ Entropy: 4.225 -> 4.252
 | 13 | weave | 4 | 4 |
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 2 | 2 |
-| 16 | glide | 2 | 2 |
-| 17 | spark | 3 | 3 |
+| 16 | glide | 2 | 3 |
+| 17 | spark | 3 | 2 |
 | 18 | lattice | 2 | 2 |
 | 19 | zenith | 3 | 3 |
 
@@ -58,11 +58,11 @@ Entropy: 4.225 -> 4.252
 
 ## This Run Changes
 
-- `apps/reporting/tasks.py`: 2 -> 1 (shape -> draft, score=4.531)
-- `apps/analytics/services.py`: 7 -> 8 (tilt -> merge, score=7.002)
+- `apps/inventory/tasks.py`: 17 -> 16 (spark -> glide, score=4.508)
 
 ## Recent History
 
+- 2026-08-22 22:18:28 UTC: changed=1, drift=3
 - 2026-08-22 14:08:09 UTC: changed=2, drift=3
 - 2026-08-22 06:54:56 UTC: changed=1, drift=4
 - 2026-08-22 03:40:38 UTC: changed=2, drift=4
@@ -72,4 +72,3 @@ Entropy: 4.225 -> 4.252
 - 2026-08-20 14:28:56 UTC: changed=2, drift=4
 - 2026-08-20 06:59:55 UTC: changed=1, drift=4
 - 2026-08-20 03:24:44 UTC: changed=1, drift=4
-- 2026-08-19 22:22:45 UTC: changed=1, drift=5
