@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-08-23 22:21:03 UTC
+Last run: 2026-08-24 07:11:25 UTC
 Files changed this run: 3
-Skew: 2 -> 2
-Entropy: 4.281 -> 4.273
+Skew: 2 -> 4
+Entropy: 4.273 -> 4.254
 
 ## State Distribution
 
@@ -14,18 +14,18 @@ Entropy: 4.281 -> 4.273
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 3 | 3 |
-| 5 | fuse | 3 | 4 |
-| 6 | trace | 3 | 2 |
+| 5 | fuse | 4 | 4 |
+| 6 | trace | 2 | 2 |
 | 7 | tilt | 3 | 3 |
-| 8 | merge | 4 | 4 |
-| 9 | burst | 4 | 4 |
-| 10 | guard | 4 | 3 |
-| 11 | orbit | 2 | 3 |
-| 12 | sync | 3 | 2 |
-| 13 | weave | 3 | 4 |
+| 8 | merge | 4 | 5 |
+| 9 | burst | 4 | 3 |
+| 10 | guard | 3 | 3 |
+| 11 | orbit | 3 | 3 |
+| 12 | sync | 2 | 3 |
+| 13 | weave | 4 | 3 |
 | 14 | drift | 3 | 3 |
-| 15 | anchor | 2 | 2 |
-| 16 | glide | 3 | 3 |
+| 15 | anchor | 2 | 1 |
+| 16 | glide | 3 | 4 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 2 | 2 |
 | 19 | zenith | 3 | 3 |
@@ -38,32 +38,33 @@ Entropy: 4.281 -> 4.273
 | analytics | burst (9) | 1 |
 | billing | anchor (15) | 1 |
 | catalog | prune (4) | 2 |
-| inventory | weave (13) | 2 |
+| inventory | pulse (3) | 1 |
 | notifications | drift (14) | 1 |
 | orders | guard (10) | 1 |
 | payments | pulse (3) | 2 |
-| reporting | anchor (15) | 1 |
+| reporting | glide (16) | 1 |
 | support | sync (12) | 1 |
 
 ## Role Distribution
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | anchor (15) | 2 |
+| models | pulse (3) | 2 |
 | selectors | zenith (19) | 3 |
 | services | merge (8) | 2 |
 | tasks | guard (10) | 2 |
-| validators | trace (6) | 2 |
+| validators | merge (8) | 2 |
 | views | weave (13) | 2 |
 
 ## This Run Changes
 
-- `apps/catalog/views.py`: 10 -> 11 (guard -> orbit, score=4.664)
-- `apps/notifications/validators.py`: 6 -> 5 (trace -> fuse, score=4.428)
-- `apps/accounts/views.py`: 12 -> 13 (sync -> weave, score=4.372)
+- `apps/inventory/validators.py`: 13 -> 12 (weave -> sync, score=4.601)
+- `apps/reporting/models.py`: 15 -> 16 (anchor -> glide, score=-0.176)
+- `apps/billing/validators.py`: 9 -> 8 (burst -> merge, score=2.288)
 
 ## Recent History
 
+- 2026-08-24 07:11:25 UTC: changed=3, drift=4
 - 2026-08-23 22:21:03 UTC: changed=3, drift=2
 - 2026-08-23 14:14:56 UTC: changed=3, drift=2
 - 2026-08-23 06:57:35 UTC: changed=3, drift=2
@@ -73,4 +74,3 @@ Entropy: 4.281 -> 4.273
 - 2026-08-22 06:54:56 UTC: changed=1, drift=4
 - 2026-08-22 03:40:38 UTC: changed=2, drift=4
 - 2026-08-21 22:25:16 UTC: changed=2, drift=4
-- 2026-08-21 06:56:31 UTC: changed=2, drift=4
