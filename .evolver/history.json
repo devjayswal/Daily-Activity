@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-11 22:38:47 UTC",
-    "filesChanged": 1,
-    "driftAfter": 18,
-    "entropyAfter": 2.1681,
-    "changes": [
-      {
-        "path": "apps/analytics/tasks.py",
-        "from": 1,
-        "to": 0,
-        "fromLabel": "draft",
-        "toLabel": "seed",
-        "score": 5.092705938023554
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-12 05:24:49 UTC",
     "filesChanged": 1,
     "driftAfter": 19,
@@ -7308,6 +7292,38 @@
         "fromLabel": "orbit",
         "toLabel": "sync",
         "score": 4.672825450395934
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-26 06:54:40 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2603,
+    "changes": [
+      {
+        "path": "apps/support/tasks.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 2.4016320215845437
+      },
+      {
+        "path": "apps/payments/services.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 6.95157166838968
+      },
+      {
+        "path": "apps/orders/services.py",
+        "from": 8,
+        "to": 7,
+        "fromLabel": "merge",
+        "toLabel": "tilt",
+        "score": 4.692543864080059
       }
     ]
   }
