@@ -1,10 +1,10 @@
 {
-  "tick": 419,
+  "tick": 420,
   "fileTouches": {
     "apps/accounts/views.py": 414,
     "apps/orders/selectors.py": 413,
     "apps/orders/models.py": 394,
-    "apps/accounts/tasks.py": 387,
+    "apps/accounts/tasks.py": 420,
     "apps/support/models.py": 417,
     "apps/billing/tasks.py": 406,
     "apps/orders/tasks.py": 393,
@@ -58,7 +58,7 @@
     "apps/support/selectors.py": 404,
     "apps/catalog/validators.py": 416,
     "apps/analytics/selectors.py": 399,
-    "apps/analytics/models.py": 386,
+    "apps/analytics/models.py": 420,
     "apps/support/views.py": 413,
     "apps/billing/selectors.py": 418
   }

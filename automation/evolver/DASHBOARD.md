@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-08-26 06:54:40 UTC
-Files changed this run: 3
+Last run: 2026-08-26 14:47:50 UTC
+Files changed this run: 2
 Skew: 3 -> 3
-Entropy: 4.252 -> 4.260
+Entropy: 4.260 -> 4.260
 
 ## State Distribution
 
@@ -16,11 +16,11 @@ Entropy: 4.252 -> 4.260
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 4 | 4 |
-| 7 | tilt | 2 | 3 |
-| 8 | merge | 4 | 3 |
-| 9 | burst | 3 | 3 |
+| 7 | tilt | 3 | 3 |
+| 8 | merge | 3 | 3 |
+| 9 | burst | 3 | 2 |
 | 10 | guard | 3 | 3 |
-| 11 | orbit | 2 | 2 |
+| 11 | orbit | 2 | 3 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 4 | 4 |
 | 14 | drift | 3 | 3 |
@@ -35,7 +35,7 @@ Entropy: 4.252 -> 4.260
 | App | Dominant State | Count |
 |---|---|---:|
 | accounts | merge (8) | 1 |
-| analytics | burst (9) | 1 |
+| analytics | guard (10) | 1 |
 | billing | anchor (15) | 1 |
 | catalog | prune (4) | 2 |
 | inventory | pulse (3) | 1 |
@@ -49,21 +49,21 @@ Entropy: 4.252 -> 4.260
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | pulse (3) | 2 |
+| models | guard (10) | 2 |
 | selectors | zenith (19) | 3 |
 | services | glide (16) | 1 |
-| tasks | guard (10) | 2 |
+| tasks | orbit (11) | 1 |
 | validators | trace (6) | 3 |
 | views | weave (13) | 2 |
 
 ## This Run Changes
 
-- `apps/support/tasks.py`: 4 -> 5 (prune -> fuse, score=2.402)
-- `apps/payments/services.py`: 5 -> 4 (fuse -> prune, score=6.952)
-- `apps/orders/services.py`: 8 -> 7 (merge -> tilt, score=4.693)
+- `apps/analytics/models.py`: 9 -> 10 (burst -> guard, score=4.508)
+- `apps/accounts/tasks.py`: 10 -> 11 (guard -> orbit, score=4.545)
 
 ## Recent History
 
+- 2026-08-26 14:47:50 UTC: changed=2, drift=3
 - 2026-08-26 06:54:40 UTC: changed=3, drift=3
 - 2026-08-26 03:39:27 UTC: changed=1, drift=3
 - 2026-08-25 14:44:20 UTC: changed=2, drift=3
@@ -73,4 +73,3 @@ Entropy: 4.252 -> 4.260
 - 2026-08-23 14:14:56 UTC: changed=3, drift=2
 - 2026-08-23 06:57:35 UTC: changed=3, drift=2
 - 2026-08-23 03:47:51 UTC: changed=1, drift=2
-- 2026-08-22 22:18:28 UTC: changed=1, drift=3

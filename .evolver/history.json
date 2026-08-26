@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12 05:24:49 UTC",
-    "filesChanged": 1,
-    "driftAfter": 19,
-    "entropyAfter": 2.134,
-    "changes": [
-      {
-        "path": "apps/analytics/models.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 2.3465387018686634
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-12 07:21:26 UTC",
     "filesChanged": 1,
     "driftAfter": 18,
@@ -7324,6 +7308,30 @@
         "fromLabel": "merge",
         "toLabel": "tilt",
         "score": 4.692543864080059
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-26 14:47:50 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2603,
+    "changes": [
+      {
+        "path": "apps/analytics/models.py",
+        "from": 9,
+        "to": 10,
+        "fromLabel": "burst",
+        "toLabel": "guard",
+        "score": 4.507994456251099
+      },
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 10,
+        "to": 11,
+        "fromLabel": "guard",
+        "toLabel": "orbit",
+        "score": 4.54487661010552
       }
     ]
   }
