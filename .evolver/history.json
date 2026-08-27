@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-04-12 14:40:26 UTC",
-    "filesChanged": 2,
-    "driftAfter": 18,
-    "entropyAfter": 2.2183,
-    "changes": [
-      {
-        "path": "apps/support/validators.py",
-        "from": 1,
-        "to": 0,
-        "fromLabel": "draft",
-        "toLabel": "seed",
-        "score": 3.0270859924487556
-      },
-      {
-        "path": "apps/catalog/services.py",
-        "from": 1,
-        "to": 0,
-        "fromLabel": "draft",
-        "toLabel": "seed",
-        "score": 2.958810883553191
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-12 22:29:21 UTC",
     "filesChanged": 1,
     "driftAfter": 18,
@@ -7348,6 +7324,38 @@
         "fromLabel": "burst",
         "toLabel": "merge",
         "score": 1.8602738780719952
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-27 13:03:38 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.227,
+    "changes": [
+      {
+        "path": "apps/support/validators.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.471156526294608
+      },
+      {
+        "path": "apps/orders/validators.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.5912012282722054
+      },
+      {
+        "path": "apps/notifications/selectors.py",
+        "from": 19,
+        "to": 0,
+        "fromLabel": "zenith",
+        "toLabel": "seed",
+        "score": 4.3801905932404
       }
     ]
   }
