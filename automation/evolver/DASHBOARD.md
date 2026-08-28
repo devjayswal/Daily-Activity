@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-08-27 23:31:02 UTC
+Last run: 2026-08-28 14:41:19 UTC
 Files changed this run: 2
-Skew: 3 -> 4
-Entropy: 4.240 -> 4.177
+Skew: 4 -> 4
+Entropy: 4.177 -> 4.225
 
 ## State Distribution
 
@@ -16,13 +16,13 @@ Entropy: 4.240 -> 4.177
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 4 | 4 |
-| 7 | tilt | 4 | 4 |
-| 8 | merge | 4 | 4 |
-| 9 | burst | 1 | 0 |
-| 10 | guard | 3 | 4 |
+| 7 | tilt | 4 | 3 |
+| 8 | merge | 4 | 5 |
+| 9 | burst | 0 | 1 |
+| 10 | guard | 4 | 3 |
 | 11 | orbit | 3 | 3 |
-| 12 | sync | 3 | 2 |
-| 13 | weave | 3 | 4 |
+| 12 | sync | 2 | 2 |
+| 13 | weave | 4 | 4 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 1 | 1 |
 | 16 | glide | 4 | 4 |
@@ -49,7 +49,7 @@ Entropy: 4.240 -> 4.177
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | guard (10) | 2 |
+| models | pulse (3) | 2 |
 | selectors | zenith (19) | 2 |
 | services | lattice (18) | 2 |
 | tasks | orbit (11) | 1 |
@@ -58,11 +58,12 @@ Entropy: 4.240 -> 4.177
 
 ## This Run Changes
 
-- `apps/accounts/selectors.py`: 9 -> 10 (burst -> guard, score=-0.506)
-- `apps/orders/tasks.py`: 12 -> 13 (sync -> weave, score=4.667)
+- `apps/catalog/selectors.py`: 7 -> 8 (tilt -> merge, score=2.420)
+- `apps/orders/models.py`: 10 -> 9 (guard -> burst, score=6.852)
 
 ## Recent History
 
+- 2026-08-28 14:41:19 UTC: changed=2, drift=4
 - 2026-08-27 23:31:02 UTC: changed=2, drift=4
 - 2026-08-27 17:36:59 UTC: changed=2, drift=3
 - 2026-08-27 13:03:38 UTC: changed=3, drift=3
@@ -72,4 +73,3 @@ Entropy: 4.240 -> 4.177
 - 2026-08-26 03:39:27 UTC: changed=1, drift=3
 - 2026-08-25 14:44:20 UTC: changed=2, drift=3
 - 2026-08-25 03:37:35 UTC: changed=2, drift=3
-- 2026-08-24 07:11:25 UTC: changed=3, drift=4
