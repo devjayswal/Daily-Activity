@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-04-14 07:56:41 UTC",
-    "filesChanged": 2,
-    "driftAfter": 17,
-    "entropyAfter": 2.3383,
-    "changes": [
-      {
-        "path": "apps/reporting/validators.py",
-        "from": 19,
-        "to": 0,
-        "fromLabel": "zenith",
-        "toLabel": "seed",
-        "score": 5.144030812172278
-      },
-      {
-        "path": "apps/support/models.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 7.73859668885677
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-15 05:30:54 UTC",
     "filesChanged": 1,
     "driftAfter": 17,
@@ -7364,6 +7340,38 @@
         "fromLabel": "merge",
         "toLabel": "burst",
         "score": 6.670691227475797
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-28 23:17:52 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2314,
+    "changes": [
+      {
+        "path": "apps/payments/tasks.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 4.685157497604742
+      },
+      {
+        "path": "apps/support/services.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 4.602931968801422
+      },
+      {
+        "path": "apps/catalog/services.py",
+        "from": 18,
+        "to": 17,
+        "fromLabel": "lattice",
+        "toLabel": "spark",
+        "score": 4.481887332758452
       }
     ]
   }
