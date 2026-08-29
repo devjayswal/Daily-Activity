@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-15 15:03:48 UTC",
-    "filesChanged": 1,
-    "driftAfter": 16,
-    "entropyAfter": 2.3776,
-    "changes": [
-      {
-        "path": "apps/orders/models.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 7.711197888982085
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-15 22:37:24 UTC",
     "filesChanged": 2,
     "driftAfter": 16,
@@ -7388,6 +7372,22 @@
         "fromLabel": "seed",
         "toLabel": "zenith",
         "score": 4.427253092095568
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-29 12:34:19 UTC",
+    "filesChanged": 1,
+    "driftAfter": 3,
+    "entropyAfter": 4.2668,
+    "changes": [
+      {
+        "path": "apps/notifications/models.py",
+        "from": 14,
+        "to": 15,
+        "fromLabel": "drift",
+        "toLabel": "anchor",
+        "score": 6.852572426923251
       }
     ]
   }
