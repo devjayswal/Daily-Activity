@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-16 07:59:09 UTC",
-    "filesChanged": 1,
-    "driftAfter": 14,
-    "entropyAfter": 2.492,
-    "changes": [
-      {
-        "path": "apps/notifications/models.py",
-        "from": 19,
-        "to": 18,
-        "fromLabel": "zenith",
-        "toLabel": "lattice",
-        "score": 2.77580796099396
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-16 15:21:09 UTC",
     "filesChanged": 1,
     "driftAfter": 14,
@@ -7388,6 +7372,30 @@
         "fromLabel": "glide",
         "toLabel": "anchor",
         "score": 4.361733153766137
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-30 11:27:38 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2685,
+    "changes": [
+      {
+        "path": "apps/accounts/services.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 4.577864618851348
+      },
+      {
+        "path": "apps/support/selectors.py",
+        "from": 17,
+        "to": 16,
+        "fromLabel": "spark",
+        "toLabel": "glide",
+        "score": 4.356219979695372
       }
     ]
   }
