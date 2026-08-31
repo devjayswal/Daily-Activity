@@ -1,15 +1,15 @@
 # Evolver Dashboard
 
-Last run: 2026-08-31 08:56:07 UTC
+Last run: 2026-08-31 13:13:36 UTC
 Files changed this run: 1
-Skew: 3 -> 3
-Entropy: 4.268 -> 4.268
+Skew: 3 -> 2
+Entropy: 4.268 -> 4.281
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 3 |
+| 0 | seed | 3 | 2 |
 | 1 | draft | 4 | 4 |
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
@@ -18,8 +18,8 @@ Entropy: 4.268 -> 4.268
 | 6 | trace | 4 | 4 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 4 | 4 |
-| 9 | burst | 2 | 3 |
-| 10 | guard | 3 | 2 |
+| 9 | burst | 3 | 3 |
+| 10 | guard | 2 | 2 |
 | 11 | orbit | 2 | 2 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 4 | 4 |
@@ -28,7 +28,7 @@ Entropy: 4.268 -> 4.268
 | 16 | glide | 3 | 3 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 3 | 3 |
-| 19 | zenith | 1 | 1 |
+| 19 | zenith | 1 | 2 |
 
 ## App Distribution
 
@@ -58,10 +58,11 @@ Entropy: 4.268 -> 4.268
 
 ## This Run Changes
 
-- `apps/billing/tasks.py`: 10 -> 9 (guard -> burst, score=4.441)
+- `apps/orders/views.py`: 0 -> 19 (seed -> zenith, score=5.472)
 
 ## Recent History
 
+- 2026-08-31 13:13:36 UTC: changed=1, drift=2
 - 2026-08-31 08:56:07 UTC: changed=1, drift=3
 - 2026-08-30 11:27:38 UTC: changed=2, drift=3
 - 2026-08-30 08:43:18 UTC: changed=1, drift=3
@@ -71,4 +72,3 @@ Entropy: 4.268 -> 4.268
 - 2026-08-29 03:30:06 UTC: changed=1, drift=3
 - 2026-08-28 23:17:52 UTC: changed=3, drift=3
 - 2026-08-28 18:31:13 UTC: changed=1, drift=3
-- 2026-08-28 14:41:19 UTC: changed=2, drift=4
