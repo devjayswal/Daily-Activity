@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-04 17:25:17 UTC
+Last run: 2026-09-04 23:43:13 UTC
 Files changed this run: 1
 Skew: 4 -> 4
-Entropy: 4.233 -> 4.254
+Entropy: 4.254 -> 4.246
 
 ## State Distribution
 
@@ -14,10 +14,10 @@ Entropy: 4.233 -> 4.254
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 4 | 4 |
-| 5 | fuse | 1 | 2 |
-| 6 | trace | 4 | 3 |
-| 7 | tilt | 3 | 3 |
-| 8 | merge | 3 | 3 |
+| 5 | fuse | 2 | 2 |
+| 6 | trace | 3 | 3 |
+| 7 | tilt | 3 | 4 |
+| 8 | merge | 3 | 2 |
 | 9 | burst | 4 | 4 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 2 | 2 |
@@ -53,15 +53,16 @@ Entropy: 4.233 -> 4.254
 | selectors | lattice (18) | 2 |
 | services | anchor (15) | 2 |
 | tasks | spark (17) | 2 |
-| validators | trace (6) | 2 |
+| validators | tilt (7) | 3 |
 | views | drift (14) | 2 |
 
 ## This Run Changes
 
-- `apps/billing/services.py`: 6 -> 5 (trace -> fuse, score=4.579)
+- `apps/billing/validators.py`: 8 -> 7 (merge -> tilt, score=4.569)
 
 ## Recent History
 
+- 2026-09-04 23:43:13 UTC: changed=1, drift=4
 - 2026-09-04 17:25:17 UTC: changed=1, drift=4
 - 2026-09-04 11:07:02 UTC: changed=1, drift=4
 - 2026-09-04 07:28:37 UTC: changed=1, drift=4
@@ -71,4 +72,3 @@ Entropy: 4.233 -> 4.254
 - 2026-09-02 10:52:59 UTC: changed=1, drift=2
 - 2026-09-02 07:20:41 UTC: changed=2, drift=2
 - 2026-09-01 23:51:28 UTC: changed=3, drift=2
-- 2026-09-01 17:43:39 UTC: changed=1, drift=2
