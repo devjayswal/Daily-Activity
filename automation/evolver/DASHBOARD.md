@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-04 07:28:37 UTC
+Last run: 2026-09-04 11:07:02 UTC
 Files changed this run: 1
 Skew: 4 -> 4
-Entropy: 4.254 -> 4.254
+Entropy: 4.254 -> 4.233
 
 ## State Distribution
 
@@ -19,14 +19,14 @@ Entropy: 4.254 -> 4.254
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 4 | 4 |
-| 10 | guard | 2 | 3 |
-| 11 | orbit | 3 | 2 |
+| 10 | guard | 3 | 3 |
+| 11 | orbit | 2 | 2 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 2 | 2 |
 | 14 | drift | 3 | 3 |
 | 15 | anchor | 5 | 5 |
-| 16 | glide | 2 | 2 |
-| 17 | spark | 3 | 3 |
+| 16 | glide | 2 | 1 |
+| 17 | spark | 3 | 4 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
 
@@ -42,7 +42,7 @@ Entropy: 4.254 -> 4.254
 | notifications | anchor (15) | 1 |
 | orders | tilt (7) | 2 |
 | payments | shape (2) | 2 |
-| reporting | glide (16) | 1 |
+| reporting | spark (17) | 1 |
 | support | weave (13) | 1 |
 
 ## Role Distribution
@@ -58,10 +58,11 @@ Entropy: 4.254 -> 4.254
 
 ## This Run Changes
 
-- `apps/catalog/views.py`: 11 -> 10 (orbit -> guard, score=4.611)
+- `apps/reporting/models.py`: 16 -> 17 (glide -> spark, score=1.877)
 
 ## Recent History
 
+- 2026-09-04 11:07:02 UTC: changed=1, drift=4
 - 2026-09-04 07:28:37 UTC: changed=1, drift=4
 - 2026-09-03 07:27:40 UTC: changed=1, drift=4
 - 2026-09-02 23:51:17 UTC: changed=3, drift=4
@@ -71,4 +72,3 @@ Entropy: 4.254 -> 4.254
 - 2026-09-01 23:51:28 UTC: changed=3, drift=2
 - 2026-09-01 17:43:39 UTC: changed=1, drift=2
 - 2026-09-01 11:15:15 UTC: changed=2, drift=2
-- 2026-08-31 19:48:28 UTC: changed=3, drift=2
