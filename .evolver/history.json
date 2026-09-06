@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-23 05:28:35 UTC",
-    "filesChanged": 1,
-    "driftAfter": 16,
-    "entropyAfter": 2.66,
-    "changes": [
-      {
-        "path": "apps/reporting/tasks.py",
-        "from": 0,
-        "to": 1,
-        "fromLabel": "seed",
-        "toLabel": "draft",
-        "score": 5.339557218955082
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-23 08:14:16 UTC",
     "filesChanged": 2,
     "driftAfter": 17,
@@ -7444,6 +7428,22 @@
         "fromLabel": "guard",
         "toLabel": "orbit",
         "score": 4.690358035416618
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-06 23:25:42 UTC",
+    "filesChanged": 1,
+    "driftAfter": 4,
+    "entropyAfter": 4.2461,
+    "changes": [
+      {
+        "path": "apps/support/validators.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 4.644079194889921
       }
     ]
   }
