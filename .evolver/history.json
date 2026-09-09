@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-26 07:59:09 UTC",
-    "filesChanged": 1,
-    "driftAfter": 16,
-    "entropyAfter": 2.6838,
-    "changes": [
-      {
-        "path": "apps/catalog/validators.py",
-        "from": 1,
-        "to": 2,
-        "fromLabel": "draft",
-        "toLabel": "shape",
-        "score": 4.813399158533696
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-27 05:41:32 UTC",
     "filesChanged": 2,
     "driftAfter": 15,
@@ -7452,6 +7436,30 @@
         "fromLabel": "merge",
         "toLabel": "burst",
         "score": 4.464871498570018
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-09 11:11:52 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2603,
+    "changes": [
+      {
+        "path": "apps/payments/tasks.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 4.544376256665146
+      },
+      {
+        "path": "apps/notifications/models.py",
+        "from": 15,
+        "to": 16,
+        "fromLabel": "anchor",
+        "toLabel": "glide",
+        "score": 6.936117314158942
       }
     ]
   }
