@@ -1,17 +1,17 @@
 # Evolver Dashboard
 
-Last run: 2026-09-09 17:27:42 UTC
-Files changed this run: 2
-Skew: 3 -> 2
-Entropy: 4.260 -> 4.289
+Last run: 2026-09-10 07:31:04 UTC
+Files changed this run: 3
+Skew: 2 -> 2
+Entropy: 4.289 -> 4.281
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 3 |
-| 1 | draft | 2 | 3 |
-| 2 | shape | 4 | 3 |
+| 0 | seed | 3 | 4 |
+| 1 | draft | 3 | 2 |
+| 2 | shape | 3 | 4 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
@@ -21,14 +21,14 @@ Entropy: 4.260 -> 4.289
 | 9 | burst | 4 | 4 |
 | 10 | guard | 2 | 2 |
 | 11 | orbit | 4 | 4 |
-| 12 | sync | 4 | 3 |
-| 13 | weave | 1 | 2 |
+| 12 | sync | 3 | 3 |
+| 13 | weave | 2 | 2 |
 | 14 | drift | 3 | 3 |
 | 15 | anchor | 4 | 4 |
 | 16 | glide | 3 | 3 |
-| 17 | spark | 3 | 3 |
-| 18 | lattice | 2 | 2 |
-| 19 | zenith | 4 | 4 |
+| 17 | spark | 3 | 2 |
+| 18 | lattice | 2 | 3 |
+| 19 | zenith | 4 | 3 |
 
 ## App Distribution
 
@@ -42,7 +42,7 @@ Entropy: 4.260 -> 4.289
 | notifications | zenith (19) | 2 |
 | orders | merge (8) | 2 |
 | payments | shape (2) | 1 |
-| reporting | spark (17) | 1 |
+| reporting | seed (0) | 2 |
 | support | drift (14) | 1 |
 
 ## Role Distribution
@@ -54,15 +54,17 @@ Entropy: 4.260 -> 4.289
 | services | anchor (15) | 2 |
 | tasks | sync (12) | 2 |
 | validators | tilt (7) | 2 |
-| views | shape (2) | 2 |
+| views | shape (2) | 3 |
 
 ## This Run Changes
 
-- `apps/support/services.py`: 12 -> 13 (sync -> weave, score=6.880)
-- `apps/payments/validators.py`: 2 -> 1 (shape -> draft, score=4.759)
+- `apps/catalog/services.py`: 17 -> 18 (spark -> lattice, score=4.447)
+- `apps/reporting/validators.py`: 19 -> 0 (zenith -> seed, score=4.437)
+- `apps/billing/views.py`: 1 -> 2 (draft -> shape, score=1.932)
 
 ## Recent History
 
+- 2026-09-10 07:31:04 UTC: changed=3, drift=2
 - 2026-09-09 17:27:42 UTC: changed=2, drift=2
 - 2026-09-09 11:11:52 UTC: changed=2, drift=3
 - 2026-09-08 23:58:18 UTC: changed=1, drift=4
@@ -72,4 +74,3 @@ Entropy: 4.260 -> 4.289
 - 2026-09-07 12:05:18 UTC: changed=1, drift=4
 - 2026-09-07 07:47:58 UTC: changed=1, drift=4
 - 2026-09-06 23:25:42 UTC: changed=1, drift=4
-- 2026-09-06 16:38:50 UTC: changed=2, drift=4
