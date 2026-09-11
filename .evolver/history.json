@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-04-29 08:36:34 UTC",
-    "filesChanged": 1,
-    "driftAfter": 14,
-    "entropyAfter": 2.7219,
-    "changes": [
-      {
-        "path": "apps/orders/tasks.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 7.401257991138701
-      }
-    ]
-  },
-  {
     "timestamp": "2026-04-29 22:56:25 UTC",
     "filesChanged": 2,
     "driftAfter": 14,
@@ -7476,6 +7460,30 @@
         "fromLabel": "anchor",
         "toLabel": "drift",
         "score": 4.638840976460962
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-11 10:52:59 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2685,
+    "changes": [
+      {
+        "path": "apps/billing/models.py",
+        "from": 14,
+        "to": 13,
+        "fromLabel": "drift",
+        "toLabel": "weave",
+        "score": 4.520232176959005
+      },
+      {
+        "path": "apps/support/selectors.py",
+        "from": 16,
+        "to": 17,
+        "fromLabel": "glide",
+        "toLabel": "spark",
+        "score": 4.384179771402149
       }
     ]
   }
