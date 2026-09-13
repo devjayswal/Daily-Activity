@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-12 16:36:33 UTC
+Last run: 2026-09-13 07:50:23 UTC
 Files changed this run: 1
 Skew: 2 -> 2
-Entropy: 4.289 -> 4.289
+Entropy: 4.289 -> 4.297
 
 ## State Distribution
 
@@ -11,8 +11,8 @@ Entropy: 4.289 -> 4.289
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
 | 1 | draft | 4 | 4 |
-| 2 | shape | 2 | 3 |
-| 3 | pulse | 3 | 2 |
+| 2 | shape | 3 | 3 |
+| 3 | pulse | 2 | 2 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
@@ -27,8 +27,8 @@ Entropy: 4.289 -> 4.289
 | 15 | anchor | 2 | 2 |
 | 16 | glide | 3 | 3 |
 | 17 | spark | 4 | 4 |
-| 18 | lattice | 2 | 2 |
-| 19 | zenith | 4 | 4 |
+| 18 | lattice | 2 | 3 |
+| 19 | zenith | 4 | 3 |
 
 ## App Distribution
 
@@ -39,7 +39,7 @@ Entropy: 4.289 -> 4.289
 | billing | weave (13) | 1 |
 | catalog | pulse (3) | 1 |
 | inventory | spark (17) | 2 |
-| notifications | zenith (19) | 2 |
+| notifications | glide (16) | 1 |
 | orders | merge (8) | 2 |
 | payments | draft (1) | 2 |
 | reporting | spark (17) | 1 |
@@ -58,10 +58,11 @@ Entropy: 4.289 -> 4.289
 
 ## This Run Changes
 
-- `apps/catalog/tasks.py`: 3 -> 2 (pulse -> shape, score=4.511)
+- `apps/notifications/tasks.py`: 19 -> 18 (zenith -> lattice, score=4.498)
 
 ## Recent History
 
+- 2026-09-13 07:50:23 UTC: changed=1, drift=2
 - 2026-09-12 16:36:33 UTC: changed=1, drift=2
 - 2026-09-12 10:22:37 UTC: changed=2, drift=2
 - 2026-09-12 07:34:31 UTC: changed=2, drift=2
@@ -71,4 +72,3 @@ Entropy: 4.289 -> 4.289
 - 2026-09-10 17:25:00 UTC: changed=1, drift=2
 - 2026-09-10 10:51:27 UTC: changed=1, drift=2
 - 2026-09-10 07:31:04 UTC: changed=3, drift=2
-- 2026-09-09 17:27:42 UTC: changed=2, drift=2
