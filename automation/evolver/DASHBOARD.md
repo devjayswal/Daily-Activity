@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-14 12:11:22 UTC
-Files changed this run: 3
-Skew: 2 -> 3
-Entropy: 4.289 -> 4.260
+Last run: 2026-09-15 08:09:33 UTC
+Files changed this run: 1
+Skew: 3 -> 3
+Entropy: 4.260 -> 4.268
 
 ## State Distribution
 
@@ -11,8 +11,8 @@ Entropy: 4.289 -> 4.260
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
 | 1 | draft | 4 | 4 |
-| 2 | shape | 3 | 2 |
-| 3 | pulse | 2 | 3 |
+| 2 | shape | 2 | 2 |
+| 3 | pulse | 3 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
@@ -20,11 +20,11 @@ Entropy: 4.289 -> 4.260
 | 8 | merge | 4 | 4 |
 | 9 | burst | 2 | 2 |
 | 10 | guard | 3 | 3 |
-| 11 | orbit | 4 | 4 |
-| 12 | sync | 3 | 2 |
-| 13 | weave | 3 | 4 |
-| 14 | drift | 3 | 4 |
-| 15 | anchor | 2 | 1 |
+| 11 | orbit | 4 | 3 |
+| 12 | sync | 2 | 3 |
+| 13 | weave | 4 | 4 |
+| 14 | drift | 4 | 4 |
+| 15 | anchor | 1 | 1 |
 | 16 | glide | 4 | 4 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
@@ -58,12 +58,11 @@ Entropy: 4.289 -> 4.260
 
 ## This Run Changes
 
-- `apps/notifications/views.py`: 2 -> 3 (shape -> pulse, score=4.611)
-- `apps/reporting/services.py`: 15 -> 14 (anchor -> drift, score=-0.268)
-- `apps/orders/selectors.py`: 12 -> 13 (sync -> weave, score=4.653)
+- `apps/inventory/validators.py`: 11 -> 12 (orbit -> sync, score=4.700)
 
 ## Recent History
 
+- 2026-09-15 08:09:33 UTC: changed=1, drift=3
 - 2026-09-14 12:11:22 UTC: changed=3, drift=3
 - 2026-09-13 17:15:10 UTC: changed=3, drift=2
 - 2026-09-13 07:50:23 UTC: changed=1, drift=2
@@ -73,4 +72,3 @@ Entropy: 4.289 -> 4.260
 - 2026-09-11 17:24:21 UTC: changed=3, drift=2
 - 2026-09-11 10:52:59 UTC: changed=2, drift=3
 - 2026-09-11 07:42:08 UTC: changed=2, drift=3
-- 2026-09-10 17:25:00 UTC: changed=1, drift=2
