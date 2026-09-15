@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-15 08:09:33 UTC
-Files changed this run: 1
+Last run: 2026-09-15 17:57:52 UTC
+Files changed this run: 2
 Skew: 3 -> 3
-Entropy: 4.260 -> 4.268
+Entropy: 4.268 -> 4.268
 
 ## State Distribution
 
@@ -11,17 +11,17 @@ Entropy: 4.260 -> 4.268
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
 | 1 | draft | 4 | 4 |
-| 2 | shape | 2 | 2 |
+| 2 | shape | 2 | 3 |
 | 3 | pulse | 3 | 3 |
-| 4 | prune | 3 | 3 |
+| 4 | prune | 3 | 2 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 2 | 2 |
 | 8 | merge | 4 | 4 |
 | 9 | burst | 2 | 2 |
 | 10 | guard | 3 | 3 |
-| 11 | orbit | 4 | 3 |
-| 12 | sync | 2 | 3 |
+| 11 | orbit | 3 | 3 |
+| 12 | sync | 3 | 3 |
 | 13 | weave | 4 | 4 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 1 | 1 |
@@ -37,8 +37,8 @@ Entropy: 4.260 -> 4.268
 | accounts | guard (10) | 1 |
 | analytics | orbit (11) | 1 |
 | billing | weave (13) | 1 |
-| catalog | pulse (3) | 1 |
-| inventory | pulse (3) | 1 |
+| catalog | shape (2) | 2 |
+| inventory | pulse (3) | 2 |
 | notifications | glide (16) | 1 |
 | orders | merge (8) | 2 |
 | payments | draft (1) | 2 |
@@ -49,7 +49,7 @@ Entropy: 4.260 -> 4.268
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | pulse (3) | 2 |
+| models | guard (10) | 1 |
 | selectors | orbit (11) | 2 |
 | services | fuse (5) | 2 |
 | tasks | sync (12) | 2 |
@@ -58,10 +58,12 @@ Entropy: 4.260 -> 4.268
 
 ## This Run Changes
 
-- `apps/inventory/validators.py`: 11 -> 12 (orbit -> sync, score=4.700)
+- `apps/inventory/services.py`: 4 -> 3 (prune -> pulse, score=4.671)
+- `apps/catalog/models.py`: 3 -> 2 (pulse -> shape, score=4.673)
 
 ## Recent History
 
+- 2026-09-15 17:57:52 UTC: changed=2, drift=3
 - 2026-09-15 08:09:33 UTC: changed=1, drift=3
 - 2026-09-14 12:11:22 UTC: changed=3, drift=3
 - 2026-09-13 17:15:10 UTC: changed=3, drift=2
@@ -71,4 +73,3 @@ Entropy: 4.260 -> 4.268
 - 2026-09-12 07:34:31 UTC: changed=2, drift=2
 - 2026-09-11 17:24:21 UTC: changed=3, drift=2
 - 2026-09-11 10:52:59 UTC: changed=2, drift=3
-- 2026-09-11 07:42:08 UTC: changed=2, drift=3
