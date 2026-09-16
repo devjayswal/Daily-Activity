@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-05-02 22:46:50 UTC",
-    "filesChanged": 2,
-    "driftAfter": 14,
-    "entropyAfter": 2.724,
-    "changes": [
-      {
-        "path": "apps/billing/validators.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 4.856321661023934
-      },
-      {
-        "path": "apps/analytics/validators.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 5.110779705416412
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-03 08:11:51 UTC",
     "filesChanged": 2,
     "driftAfter": 14,
@@ -7516,6 +7492,38 @@
         "fromLabel": "drift",
         "toLabel": "anchor",
         "score": 6.8723242950764165
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-16 18:03:58 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2685,
+    "changes": [
+      {
+        "path": "apps/accounts/validators.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.5740270780207855
+      },
+      {
+        "path": "apps/notifications/validators.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": -0.2731798723390031
+      },
+      {
+        "path": "apps/catalog/views.py",
+        "from": 10,
+        "to": 9,
+        "fromLabel": "guard",
+        "toLabel": "burst",
+        "score": 4.70923525075118
       }
     ]
   }
