@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-09-16 18:03:58 UTC
-Files changed this run: 3
-Skew: 2 -> 3
-Entropy: 4.289 -> 4.268
+Last run: 2026-09-17 00:09:50 UTC
+Files changed this run: 1
+Skew: 3 -> 3
+Entropy: 4.268 -> 4.248
 
 ## State Distribution
 
@@ -13,18 +13,18 @@ Entropy: 4.289 -> 4.268
 | 1 | draft | 4 | 4 |
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
-| 4 | prune | 2 | 1 |
-| 5 | fuse | 3 | 4 |
-| 6 | trace | 3 | 2 |
-| 7 | tilt | 2 | 3 |
+| 4 | prune | 1 | 1 |
+| 5 | fuse | 4 | 4 |
+| 6 | trace | 2 | 2 |
+| 7 | tilt | 3 | 3 |
 | 8 | merge | 4 | 4 |
-| 9 | burst | 2 | 3 |
-| 10 | guard | 3 | 2 |
+| 9 | burst | 3 | 3 |
+| 10 | guard | 2 | 2 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 4 | 4 |
-| 14 | drift | 3 | 3 |
-| 15 | anchor | 2 | 2 |
+| 14 | drift | 3 | 4 |
+| 15 | anchor | 2 | 1 |
 | 16 | glide | 4 | 4 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
@@ -43,7 +43,7 @@ Entropy: 4.289 -> 4.268
 | orders | merge (8) | 2 |
 | payments | draft (1) | 2 |
 | reporting | spark (17) | 1 |
-| support | drift (14) | 1 |
+| support | drift (14) | 2 |
 
 ## Role Distribution
 
@@ -54,16 +54,15 @@ Entropy: 4.289 -> 4.268
 | services | fuse (5) | 2 |
 | tasks | sync (12) | 2 |
 | validators | tilt (7) | 2 |
-| views | anchor (15) | 2 |
+| views | drift (14) | 2 |
 
 ## This Run Changes
 
-- `apps/accounts/validators.py`: 6 -> 7 (trace -> tilt, score=4.574)
-- `apps/notifications/validators.py`: 4 -> 5 (prune -> fuse, score=-0.273)
-- `apps/catalog/views.py`: 10 -> 9 (guard -> burst, score=4.709)
+- `apps/support/views.py`: 15 -> 14 (anchor -> drift, score=1.806)
 
 ## Recent History
 
+- 2026-09-17 00:09:50 UTC: changed=1, drift=3
 - 2026-09-16 18:03:58 UTC: changed=3, drift=3
 - 2026-09-16 08:11:01 UTC: changed=1, drift=2
 - 2026-09-15 17:57:52 UTC: changed=2, drift=3
@@ -73,4 +72,3 @@ Entropy: 4.289 -> 4.268
 - 2026-09-13 07:50:23 UTC: changed=1, drift=2
 - 2026-09-12 16:36:33 UTC: changed=1, drift=2
 - 2026-09-12 10:22:37 UTC: changed=2, drift=2
-- 2026-09-12 07:34:31 UTC: changed=2, drift=2
