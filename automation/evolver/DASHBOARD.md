@@ -1,6 +1,6 @@
 # Evolver Dashboard
 
-Last run: 2026-09-20 23:59:19 UTC
+Last run: 2026-09-21 08:10:23 UTC
 Files changed this run: 2
 Skew: 3 -> 3
 Entropy: 4.283 -> 4.283
@@ -16,12 +16,12 @@ Entropy: 4.283 -> 4.283
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 2 | 2 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 3 | 4 |
-| 8 | merge | 3 | 2 |
-| 9 | burst | 2 | 3 |
-| 10 | guard | 4 | 3 |
-| 11 | orbit | 2 | 2 |
-| 12 | sync | 3 | 3 |
+| 7 | tilt | 4 | 4 |
+| 8 | merge | 2 | 3 |
+| 9 | burst | 3 | 2 |
+| 10 | guard | 3 | 3 |
+| 11 | orbit | 2 | 3 |
+| 12 | sync | 3 | 2 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 3 | 3 |
@@ -52,17 +52,18 @@ Entropy: 4.283 -> 4.283
 | models | burst (9) | 1 |
 | selectors | guard (10) | 2 |
 | services | prune (4) | 2 |
-| tasks | orbit (11) | 1 |
+| tasks | orbit (11) | 2 |
 | validators | tilt (7) | 2 |
 | views | drift (14) | 3 |
 
 ## This Run Changes
 
-- `apps/accounts/models.py`: 10 -> 9 (guard -> burst, score=4.589)
-- `apps/orders/models.py`: 8 -> 7 (merge -> tilt, score=4.638)
+- `apps/orders/tasks.py`: 12 -> 11 (sync -> orbit, score=4.452)
+- `apps/catalog/selectors.py`: 9 -> 8 (burst -> merge, score=4.534)
 
 ## Recent History
 
+- 2026-09-21 08:10:23 UTC: changed=2, drift=3
 - 2026-09-20 23:59:19 UTC: changed=2, drift=3
 - 2026-09-20 10:52:57 UTC: changed=1, drift=3
 - 2026-09-20 07:57:12 UTC: changed=2, drift=3
@@ -72,4 +73,3 @@ Entropy: 4.283 -> 4.283
 - 2026-09-18 17:19:53 UTC: changed=2, drift=3
 - 2026-09-18 11:01:33 UTC: changed=1, drift=3
 - 2026-09-18 07:37:08 UTC: changed=1, drift=3
-- 2026-09-18 00:02:27 UTC: changed=1, drift=3
