@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-05-11 23:06:05 UTC",
-    "filesChanged": 1,
-    "driftAfter": 13,
-    "entropyAfter": 2.9483,
-    "changes": [
-      {
-        "path": "apps/catalog/models.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 4.747526491855734
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-12 09:01:10 UTC",
     "filesChanged": 1,
     "driftAfter": 13,
@@ -7604,6 +7588,30 @@
         "fromLabel": "zenith",
         "toLabel": "seed",
         "score": 4.554088638843413
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-25 11:24:36 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2444,
+    "changes": [
+      {
+        "path": "apps/payments/models.py",
+        "from": 1,
+        "to": 2,
+        "fromLabel": "draft",
+        "toLabel": "shape",
+        "score": 4.765719651775128
+      },
+      {
+        "path": "apps/inventory/models.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 4.610449233763557
       }
     ]
   }
