@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-05-12 09:01:10 UTC",
-    "filesChanged": 1,
-    "driftAfter": 13,
-    "entropyAfter": 2.9437,
-    "changes": [
-      {
-        "path": "apps/billing/services.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 4.701133670352351
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-12 16:14:21 UTC",
     "filesChanged": 2,
     "driftAfter": 14,
@@ -7612,6 +7596,30 @@
         "fromLabel": "pulse",
         "toLabel": "shape",
         "score": 4.610449233763557
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-25 18:18:09 UTC",
+    "filesChanged": 2,
+    "driftAfter": 3,
+    "entropyAfter": 4.2444,
+    "changes": [
+      {
+        "path": "apps/reporting/views.py",
+        "from": 4,
+        "to": 3,
+        "fromLabel": "prune",
+        "toLabel": "pulse",
+        "score": 4.446337269946243
+      },
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 18,
+        "to": 19,
+        "fromLabel": "lattice",
+        "toLabel": "zenith",
+        "score": 4.674812105051195
       }
     ]
   }
