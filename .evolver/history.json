@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-05-13 08:58:47 UTC",
-    "filesChanged": 1,
-    "driftAfter": 14,
-    "entropyAfter": 2.9325,
-    "changes": [
-      {
-        "path": "apps/catalog/validators.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 4.769301719258121
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-13 16:25:25 UTC",
     "filesChanged": 1,
     "driftAfter": 13,
@@ -7612,6 +7596,22 @@
         "fromLabel": "shape",
         "toLabel": "draft",
         "score": 4.593355119851401
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-09-26 17:43:48 UTC",
+    "filesChanged": 1,
+    "driftAfter": 3,
+    "entropyAfter": 4.2526,
+    "changes": [
+      {
+        "path": "apps/analytics/services.py",
+        "from": 10,
+        "to": 11,
+        "fromLabel": "guard",
+        "toLabel": "orbit",
+        "score": 4.4350408606328635
       }
     ]
   }
