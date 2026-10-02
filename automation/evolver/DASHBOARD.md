@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-02 12:03:58 UTC
-Files changed this run: 1
-Skew: 2 -> 2
-Entropy: 4.273 -> 4.273
+Last run: 2026-10-02 19:03:28 UTC
+Files changed this run: 2
+Skew: 2 -> 3
+Entropy: 4.273 -> 4.260
 
 ## State Distribution
 
@@ -19,16 +19,16 @@ Entropy: 4.273 -> 4.273
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 2 | 2 |
-| 10 | guard | 3 | 2 |
-| 11 | orbit | 2 | 3 |
+| 10 | guard | 2 | 2 |
+| 11 | orbit | 3 | 3 |
 | 12 | sync | 4 | 4 |
 | 13 | weave | 4 | 4 |
-| 14 | drift | 2 | 2 |
-| 15 | anchor | 3 | 3 |
+| 14 | drift | 2 | 1 |
+| 15 | anchor | 3 | 4 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 4 | 4 |
-| 18 | lattice | 2 | 2 |
-| 19 | zenith | 4 | 4 |
+| 18 | lattice | 2 | 3 |
+| 19 | zenith | 4 | 3 |
 
 ## App Distribution
 
@@ -43,7 +43,7 @@ Entropy: 4.273 -> 4.273
 | orders | tilt (7) | 2 |
 | payments | shape (2) | 1 |
 | reporting | spark (17) | 1 |
-| support | drift (14) | 1 |
+| support | lattice (18) | 2 |
 
 ## Role Distribution
 
@@ -58,10 +58,12 @@ Entropy: 4.273 -> 4.273
 
 ## This Run Changes
 
-- `apps/billing/selectors.py`: 10 -> 11 (guard -> orbit, score=4.495)
+- `apps/inventory/views.py`: 14 -> 15 (drift -> anchor, score=-0.473)
+- `apps/support/validators.py`: 19 -> 18 (zenith -> lattice, score=4.583)
 
 ## Recent History
 
+- 2026-10-02 19:03:28 UTC: changed=2, drift=3
 - 2026-10-02 12:03:58 UTC: changed=1, drift=2
 - 2026-10-02 09:03:13 UTC: changed=2, drift=2
 - 2026-10-02 01:29:48 UTC: changed=1, drift=3
@@ -71,4 +73,3 @@ Entropy: 4.273 -> 4.273
 - 2026-09-30 01:11:14 UTC: changed=2, drift=4
 - 2026-09-29 19:03:09 UTC: changed=1, drift=4
 - 2026-09-29 12:30:03 UTC: changed=3, drift=4
-- 2026-09-29 01:38:50 UTC: changed=1, drift=3
