@@ -1,5 +1,5 @@
 {
-  "tick": 518,
+  "tick": 519,
   "fileTouches": {
     "apps/accounts/views.py": 508,
     "apps/orders/selectors.py": 507,
@@ -60,6 +60,6 @@
     "apps/analytics/selectors.py": 499,
     "apps/analytics/models.py": 517,
     "apps/support/views.py": 511,
-    "apps/billing/selectors.py": 487
+    "apps/billing/selectors.py": 519
   }
 }
