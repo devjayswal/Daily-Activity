@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-05-20 06:36:17 UTC",
-    "filesChanged": 2,
-    "driftAfter": 12,
-    "entropyAfter": 3.1,
-    "changes": [
-      {
-        "path": "apps/payments/selectors.py",
-        "from": 2,
-        "to": 3,
-        "fromLabel": "shape",
-        "toLabel": "pulse",
-        "score": 6.979415795008123
-      },
-      {
-        "path": "apps/reporting/services.py",
-        "from": 19,
-        "to": 18,
-        "fromLabel": "zenith",
-        "toLabel": "lattice",
-        "score": 5.073347286777434
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-20 09:43:06 UTC",
     "filesChanged": 2,
     "driftAfter": 12,
@@ -7628,6 +7604,38 @@
         "fromLabel": "tilt",
         "toLabel": "merge",
         "score": 4.667003597778813
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-04 12:10:42 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2729,
+    "changes": [
+      {
+        "path": "apps/reporting/selectors.py",
+        "from": 10,
+        "to": 9,
+        "fromLabel": "guard",
+        "toLabel": "burst",
+        "score": 1.1829562999442111
+      },
+      {
+        "path": "apps/accounts/models.py",
+        "from": 9,
+        "to": 10,
+        "fromLabel": "burst",
+        "toLabel": "guard",
+        "score": 6.946458191905714
+      },
+      {
+        "path": "apps/support/services.py",
+        "from": 12,
+        "to": 11,
+        "fromLabel": "sync",
+        "toLabel": "orbit",
+        "score": 4.446667333081513
       }
     ]
   }
