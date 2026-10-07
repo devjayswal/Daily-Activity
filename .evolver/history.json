@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-05-22 09:32:35 UTC",
-    "filesChanged": 2,
-    "driftAfter": 13,
-    "entropyAfter": 3.1614,
-    "changes": [
-      {
-        "path": "apps/notifications/tasks.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 4.783159539689447
-      },
-      {
-        "path": "apps/orders/views.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 4.91368101256184
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-22 16:17:24 UTC",
     "filesChanged": 1,
     "driftAfter": 12,
@@ -7652,6 +7628,38 @@
         "fromLabel": "zenith",
         "toLabel": "seed",
         "score": 4.48170623038682
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-07 09:11:45 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2811,
+    "changes": [
+      {
+        "path": "apps/billing/tasks.py",
+        "from": 9,
+        "to": 8,
+        "fromLabel": "burst",
+        "toLabel": "merge",
+        "score": 4.670749011686365
+      },
+      {
+        "path": "apps/billing/models.py",
+        "from": 12,
+        "to": 11,
+        "fromLabel": "sync",
+        "toLabel": "orbit",
+        "score": 3.3494747214259712
+      },
+      {
+        "path": "apps/accounts/services.py",
+        "from": 15,
+        "to": 14,
+        "fromLabel": "anchor",
+        "toLabel": "drift",
+        "score": 4.591317469312729
       }
     ]
   }
