@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-05-23 06:09:56 UTC",
-    "filesChanged": 1,
-    "driftAfter": 13,
-    "entropyAfter": 3.1403,
-    "changes": [
-      {
-        "path": "apps/notifications/selectors.py",
-        "from": 19,
-        "to": 18,
-        "fromLabel": "zenith",
-        "toLabel": "lattice",
-        "score": 4.79126586171588
-      }
-    ]
-  },
-  {
     "timestamp": "2026-05-24 06:25:06 UTC",
     "filesChanged": 2,
     "driftAfter": 12,
@@ -7668,6 +7652,30 @@
         "fromLabel": "seed",
         "toLabel": "draft",
         "score": 2.148018391342766
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-08 01:47:32 UTC",
+    "filesChanged": 2,
+    "driftAfter": 4,
+    "entropyAfter": 4.2542,
+    "changes": [
+      {
+        "path": "apps/reporting/views.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 4.601250154300141
+      },
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 19,
+        "to": 0,
+        "fromLabel": "zenith",
+        "toLabel": "seed",
+        "score": 2.3915643751251743
       }
     ]
   }
