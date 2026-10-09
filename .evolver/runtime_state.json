@@ -1,7 +1,7 @@
 {
-  "tick": 541,
+  "tick": 542,
   "fileTouches": {
-    "apps/accounts/views.py": 508,
+    "apps/accounts/views.py": 542,
     "apps/orders/selectors.py": 540,
     "apps/orders/models.py": 524,
     "apps/accounts/tasks.py": 518,

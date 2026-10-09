@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-09 09:34:54 UTC
-Files changed this run: 2
+Last run: 2026-10-09 19:23:12 UTC
+Files changed this run: 1
 Skew: 4 -> 4
-Entropy: 4.233 -> 4.233
+Entropy: 4.233 -> 4.242
 
 ## State Distribution
 
@@ -13,19 +13,19 @@ Entropy: 4.233 -> 4.233
 | 1 | draft | 5 | 5 |
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
-| 4 | prune | 3 | 2 |
-| 5 | fuse | 3 | 4 |
+| 4 | prune | 2 | 2 |
+| 5 | fuse | 4 | 4 |
 | 6 | trace | 4 | 4 |
 | 7 | tilt | 1 | 1 |
-| 8 | merge | 4 | 3 |
-| 9 | burst | 2 | 3 |
+| 8 | merge | 3 | 3 |
+| 9 | burst | 3 | 3 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 2 | 2 |
 | 13 | weave | 4 | 4 |
 | 14 | drift | 4 | 4 |
-| 15 | anchor | 2 | 2 |
-| 16 | glide | 4 | 4 |
+| 15 | anchor | 2 | 3 |
+| 16 | glide | 4 | 3 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 1 | 1 |
@@ -54,15 +54,15 @@ Entropy: 4.233 -> 4.233
 | services | drift (14) | 1 |
 | tasks | guard (10) | 2 |
 | validators | trace (6) | 3 |
-| views | shape (2) | 2 |
+| views | anchor (15) | 2 |
 
 ## This Run Changes
 
-- `apps/notifications/views.py`: 4 -> 5 (prune -> fuse, score=4.404)
-- `apps/accounts/validators.py`: 8 -> 9 (merge -> burst, score=4.681)
+- `apps/accounts/views.py`: 16 -> 15 (glide -> anchor, score=4.516)
 
 ## Recent History
 
+- 2026-10-09 19:23:12 UTC: changed=1, drift=4
 - 2026-10-09 09:34:54 UTC: changed=2, drift=4
 - 2026-10-09 01:48:08 UTC: changed=2, drift=4
 - 2026-10-08 19:39:49 UTC: changed=1, drift=4
@@ -72,4 +72,3 @@ Entropy: 4.233 -> 4.233
 - 2026-10-07 19:49:17 UTC: changed=2, drift=3
 - 2026-10-07 12:56:32 UTC: changed=2, drift=4
 - 2026-10-07 09:11:45 UTC: changed=3, drift=2
-- 2026-10-06 19:12:05 UTC: changed=3, drift=2
