@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-13 02:56:00 UTC
-Files changed this run: 2
-Skew: 2 -> 3
-Entropy: 4.273 -> 4.259
+Last run: 2026-10-13 09:57:34 UTC
+Files changed this run: 1
+Skew: 3 -> 3
+Entropy: 4.259 -> 4.259
 
 ## State Distribution
 
@@ -18,13 +18,13 @@ Entropy: 4.273 -> 4.259
 | 6 | trace | 2 | 2 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 2 | 2 |
-| 9 | burst | 3 | 4 |
-| 10 | guard | 3 | 2 |
-| 11 | orbit | 3 | 3 |
+| 9 | burst | 4 | 4 |
+| 10 | guard | 2 | 3 |
+| 11 | orbit | 3 | 2 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 2 | 2 |
-| 14 | drift | 4 | 5 |
-| 15 | anchor | 4 | 3 |
+| 14 | drift | 5 | 5 |
+| 15 | anchor | 3 | 3 |
 | 16 | glide | 3 | 3 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 3 | 3 |
@@ -36,7 +36,7 @@ Entropy: 4.273 -> 4.259
 |---|---|---:|
 | accounts | burst (9) | 2 |
 | analytics | drift (14) | 2 |
-| billing | orbit (11) | 2 |
+| billing | prune (4) | 2 |
 | catalog | shape (2) | 2 |
 | inventory | pulse (3) | 2 |
 | notifications | seed (0) | 2 |
@@ -58,11 +58,11 @@ Entropy: 4.273 -> 4.259
 
 ## This Run Changes
 
-- `apps/accounts/tasks.py`: 10 -> 9 (guard -> burst, score=4.668)
-- `apps/inventory/views.py`: 15 -> 14 (anchor -> drift, score=2.450)
+- `apps/billing/selectors.py`: 11 -> 10 (orbit -> guard, score=4.610)
 
 ## Recent History
 
+- 2026-10-13 09:57:34 UTC: changed=1, drift=3
 - 2026-10-13 02:56:00 UTC: changed=2, drift=3
 - 2026-10-12 21:57:01 UTC: changed=3, drift=2
 - 2026-10-12 14:40:19 UTC: changed=2, drift=3
@@ -72,4 +72,3 @@ Entropy: 4.273 -> 4.259
 - 2026-10-11 00:46:01 UTC: changed=2, drift=4
 - 2026-10-10 18:12:53 UTC: changed=1, drift=4
 - 2026-10-10 12:22:19 UTC: changed=1, drift=4
-- 2026-10-10 09:08:15 UTC: changed=2, drift=4
