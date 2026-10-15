@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-14 18:26:41 UTC
+Last run: 2026-10-15 00:14:45 UTC
 Files changed this run: 2
-Skew: 3 -> 2
-Entropy: 4.252 -> 4.281
+Skew: 2 -> 2
+Entropy: 4.281 -> 4.281
 
 ## State Distribution
 
@@ -17,17 +17,17 @@ Entropy: 4.252 -> 4.281
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 2 | 2 |
 | 7 | tilt | 3 | 3 |
-| 8 | merge | 4 | 3 |
-| 9 | burst | 2 | 3 |
-| 10 | guard | 4 | 3 |
-| 11 | orbit | 1 | 2 |
+| 8 | merge | 3 | 3 |
+| 9 | burst | 3 | 3 |
+| 10 | guard | 3 | 2 |
+| 11 | orbit | 2 | 3 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 3 | 3 |
-| 17 | spark | 2 | 2 |
-| 18 | lattice | 3 | 3 |
+| 17 | spark | 2 | 3 |
+| 18 | lattice | 3 | 2 |
 | 19 | zenith | 2 | 2 |
 
 ## App Distribution
@@ -58,11 +58,12 @@ Entropy: 4.252 -> 4.281
 
 ## This Run Changes
 
-- `apps/accounts/models.py`: 10 -> 11 (guard -> orbit, score=6.998)
-- `apps/orders/models.py`: 8 -> 9 (merge -> burst, score=4.518)
+- `apps/orders/tasks.py`: 10 -> 11 (guard -> orbit, score=4.542)
+- `apps/payments/tasks.py`: 18 -> 17 (lattice -> spark, score=4.676)
 
 ## Recent History
 
+- 2026-10-15 00:14:45 UTC: changed=2, drift=2
 - 2026-10-14 18:26:41 UTC: changed=2, drift=2
 - 2026-10-14 01:05:59 UTC: changed=3, drift=3
 - 2026-10-13 20:18:11 UTC: changed=2, drift=2
@@ -72,4 +73,3 @@ Entropy: 4.252 -> 4.281
 - 2026-10-12 21:57:01 UTC: changed=3, drift=2
 - 2026-10-12 14:40:19 UTC: changed=2, drift=3
 - 2026-10-12 09:45:55 UTC: changed=1, drift=4
-- 2026-10-11 12:28:51 UTC: changed=1, drift=4
