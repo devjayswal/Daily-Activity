@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-16 11:01:48 UTC
+Last run: 2026-10-16 17:49:00 UTC
 Files changed this run: 3
-Skew: 3 -> 2
-Entropy: 4.268 -> 4.289
+Skew: 2 -> 2
+Entropy: 4.289 -> 4.289
 
 ## State Distribution
 
@@ -16,25 +16,25 @@ Entropy: 4.268 -> 4.289
 | 4 | prune | 4 | 4 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 2 | 2 |
-| 7 | tilt | 3 | 3 |
-| 8 | merge | 3 | 3 |
+| 7 | tilt | 3 | 4 |
+| 8 | merge | 3 | 2 |
 | 9 | burst | 3 | 3 |
 | 10 | guard | 2 | 2 |
 | 11 | orbit | 3 | 3 |
-| 12 | sync | 4 | 3 |
-| 13 | weave | 2 | 3 |
-| 14 | drift | 4 | 4 |
-| 15 | anchor | 3 | 2 |
-| 16 | glide | 3 | 4 |
-| 17 | spark | 3 | 3 |
-| 18 | lattice | 1 | 2 |
-| 19 | zenith | 4 | 3 |
+| 12 | sync | 3 | 3 |
+| 13 | weave | 3 | 3 |
+| 14 | drift | 4 | 3 |
+| 15 | anchor | 2 | 3 |
+| 16 | glide | 4 | 4 |
+| 17 | spark | 3 | 2 |
+| 18 | lattice | 2 | 3 |
+| 19 | zenith | 3 | 3 |
 
 ## App Distribution
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | burst (9) | 2 |
+| accounts | anchor (15) | 2 |
 | analytics | drift (14) | 1 |
 | billing | prune (4) | 2 |
 | catalog | shape (2) | 2 |
@@ -58,12 +58,13 @@ Entropy: 4.268 -> 4.289
 
 ## This Run Changes
 
-- `apps/payments/views.py`: 12 -> 13 (sync -> weave, score=4.500)
-- `apps/inventory/selectors.py`: 15 -> 16 (anchor -> glide, score=4.385)
-- `apps/payments/validators.py`: 19 -> 18 (zenith -> lattice, score=6.814)
+- `apps/support/selectors.py`: 17 -> 18 (spark -> lattice, score=4.441)
+- `apps/billing/tasks.py`: 8 -> 7 (merge -> tilt, score=4.669)
+- `apps/accounts/services.py`: 14 -> 15 (drift -> anchor, score=4.567)
 
 ## Recent History
 
+- 2026-10-16 17:49:00 UTC: changed=3, drift=2
 - 2026-10-16 11:01:48 UTC: changed=3, drift=2
 - 2026-10-16 07:34:35 UTC: changed=1, drift=3
 - 2026-10-16 00:03:34 UTC: changed=1, drift=2
@@ -73,4 +74,3 @@ Entropy: 4.268 -> 4.289
 - 2026-10-14 01:05:59 UTC: changed=3, drift=3
 - 2026-10-13 20:18:11 UTC: changed=2, drift=2
 - 2026-10-13 13:47:15 UTC: changed=3, drift=3
-- 2026-10-13 09:57:34 UTC: changed=1, drift=3
