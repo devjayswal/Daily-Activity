@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-06-05 10:02:43 UTC",
-    "filesChanged": 2,
-    "driftAfter": 12,
-    "entropyAfter": 3.354,
-    "changes": [
-      {
-        "path": "apps/payments/models.py",
-        "from": 3,
-        "to": 2,
-        "fromLabel": "pulse",
-        "toLabel": "shape",
-        "score": 5.315220207485659
-      },
-      {
-        "path": "apps/reporting/tasks.py",
-        "from": 3,
-        "to": 4,
-        "fromLabel": "pulse",
-        "toLabel": "prune",
-        "score": 4.790815365155808
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-05 16:25:22 UTC",
     "filesChanged": 2,
     "driftAfter": 12,
@@ -7748,6 +7724,38 @@
         "fromLabel": "draft",
         "toLabel": "shape",
         "score": 1.8929132680693976
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-17 23:45:46 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2892,
+    "changes": [
+      {
+        "path": "apps/inventory/tasks.py",
+        "from": 16,
+        "to": 17,
+        "fromLabel": "glide",
+        "toLabel": "spark",
+        "score": 4.7457767606929515
+      },
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.640570392408454
+      },
+      {
+        "path": "apps/inventory/validators.py",
+        "from": 14,
+        "to": 13,
+        "fromLabel": "drift",
+        "toLabel": "weave",
+        "score": 4.4073322934826775
       }
     ]
   }
