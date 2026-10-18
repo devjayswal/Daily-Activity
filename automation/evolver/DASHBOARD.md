@@ -1,16 +1,16 @@
 # Evolver Dashboard
 
-Last run: 2026-10-17 23:45:46 UTC
-Files changed this run: 3
+Last run: 2026-10-18 10:49:13 UTC
+Files changed this run: 2
 Skew: 2 -> 2
-Entropy: 4.281 -> 4.289
+Entropy: 4.289 -> 4.297
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 4 | 3 |
-| 1 | draft | 2 | 3 |
+| 0 | seed | 3 | 3 |
+| 1 | draft | 3 | 3 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 4 | 4 |
@@ -20,13 +20,13 @@ Entropy: 4.281 -> 4.289
 | 8 | merge | 2 | 2 |
 | 9 | burst | 3 | 3 |
 | 10 | guard | 3 | 3 |
-| 11 | orbit | 2 | 2 |
+| 11 | orbit | 2 | 3 |
 | 12 | sync | 3 | 3 |
-| 13 | weave | 3 | 4 |
-| 14 | drift | 3 | 2 |
+| 13 | weave | 4 | 3 |
+| 14 | drift | 2 | 2 |
 | 15 | anchor | 3 | 3 |
-| 16 | glide | 4 | 3 |
-| 17 | spark | 2 | 3 |
+| 16 | glide | 3 | 3 |
+| 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
 
@@ -50,7 +50,7 @@ Entropy: 4.281 -> 4.289
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | shape (2) | 3 |
-| selectors | seed (0) | 2 |
+| selectors | sync (12) | 2 |
 | services | prune (4) | 2 |
 | tasks | spark (17) | 2 |
 | validators | prune (4) | 2 |
@@ -58,12 +58,12 @@ Entropy: 4.281 -> 4.289
 
 ## This Run Changes
 
-- `apps/inventory/tasks.py`: 16 -> 17 (glide -> spark, score=4.746)
-- `apps/notifications/tasks.py`: 0 -> 1 (seed -> draft, score=4.641)
-- `apps/inventory/validators.py`: 14 -> 13 (drift -> weave, score=4.407)
+- `apps/analytics/services.py`: 12 -> 11 (sync -> orbit, score=4.597)
+- `apps/orders/selectors.py`: 13 -> 12 (weave -> sync, score=4.767)
 
 ## Recent History
 
+- 2026-10-18 10:49:13 UTC: changed=2, drift=2
 - 2026-10-17 23:45:46 UTC: changed=3, drift=2
 - 2026-10-17 16:50:34 UTC: changed=1, drift=2
 - 2026-10-17 10:17:28 UTC: changed=3, drift=2
@@ -73,4 +73,3 @@ Entropy: 4.281 -> 4.289
 - 2026-10-16 11:01:48 UTC: changed=3, drift=2
 - 2026-10-16 07:34:35 UTC: changed=1, drift=3
 - 2026-10-16 00:03:34 UTC: changed=1, drift=2
-- 2026-10-15 18:12:04 UTC: changed=3, drift=3
