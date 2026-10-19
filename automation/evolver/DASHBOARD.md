@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-18 23:56:10 UTC
+Last run: 2026-10-19 08:03:16 UTC
 Files changed this run: 2
 Skew: 2 -> 2
-Entropy: 4.297 -> 4.289
+Entropy: 4.289 -> 4.297
 
 ## State Distribution
 
@@ -14,18 +14,18 @@ Entropy: 4.297 -> 4.289
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 4 | 4 |
-| 5 | fuse | 3 | 2 |
-| 6 | trace | 2 | 3 |
+| 5 | fuse | 2 | 2 |
+| 6 | trace | 3 | 3 |
 | 7 | tilt | 4 | 4 |
-| 8 | merge | 2 | 2 |
-| 9 | burst | 3 | 3 |
+| 8 | merge | 2 | 3 |
+| 9 | burst | 3 | 2 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 2 | 2 |
-| 15 | anchor | 3 | 4 |
-| 16 | glide | 3 | 2 |
+| 15 | anchor | 4 | 3 |
+| 16 | glide | 2 | 3 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
@@ -34,7 +34,7 @@ Entropy: 4.297 -> 4.289
 
 | App | Dominant State | Count |
 |---|---|---:|
-| accounts | anchor (15) | 2 |
+| accounts | orbit (11) | 1 |
 | analytics | seed (0) | 2 |
 | billing | guard (10) | 2 |
 | catalog | shape (2) | 1 |
@@ -58,11 +58,12 @@ Entropy: 4.297 -> 4.289
 
 ## This Run Changes
 
-- `apps/reporting/services.py`: 16 -> 15 (glide -> anchor, score=4.613)
-- `apps/notifications/views.py`: 5 -> 6 (fuse -> trace, score=4.718)
+- `apps/accounts/views.py`: 15 -> 16 (anchor -> glide, score=4.687)
+- `apps/accounts/validators.py`: 9 -> 8 (burst -> merge, score=4.538)
 
 ## Recent History
 
+- 2026-10-19 08:03:16 UTC: changed=2, drift=2
 - 2026-10-18 23:56:10 UTC: changed=2, drift=2
 - 2026-10-18 10:49:13 UTC: changed=2, drift=2
 - 2026-10-17 23:45:46 UTC: changed=3, drift=2
@@ -72,4 +73,3 @@ Entropy: 4.297 -> 4.289
 - 2026-10-17 00:11:59 UTC: changed=2, drift=2
 - 2026-10-16 17:49:00 UTC: changed=3, drift=2
 - 2026-10-16 11:01:48 UTC: changed=3, drift=2
-- 2026-10-16 07:34:35 UTC: changed=1, drift=3
