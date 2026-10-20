@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-06-07 06:50:11 UTC",
-    "filesChanged": 2,
-    "driftAfter": 12,
-    "entropyAfter": 3.4366,
-    "changes": [
-      {
-        "path": "apps/orders/models.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 7.375747189161256
-      },
-      {
-        "path": "apps/inventory/services.py",
-        "from": 5,
-        "to": 6,
-        "fromLabel": "fuse",
-        "toLabel": "trace",
-        "score": 2.3612379059080495
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-07 09:07:39 UTC",
     "filesChanged": 2,
     "driftAfter": 12,
@@ -7772,6 +7748,38 @@
         "fromLabel": "sync",
         "toLabel": "weave",
         "score": 4.679539024439803
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-20 18:15:00 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2832,
+    "changes": [
+      {
+        "path": "apps/notifications/validators.py",
+        "from": 7,
+        "to": 6,
+        "fromLabel": "tilt",
+        "toLabel": "trace",
+        "score": 4.708590461336026
+      },
+      {
+        "path": "apps/support/models.py",
+        "from": 15,
+        "to": 14,
+        "fromLabel": "anchor",
+        "toLabel": "drift",
+        "score": 4.49294466004913
+      },
+      {
+        "path": "apps/inventory/services.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 2.4011291079621655
       }
     ]
   }
