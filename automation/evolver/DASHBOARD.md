@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-21 08:05:23 UTC
-Files changed this run: 2
+Last run: 2026-10-21 11:33:42 UTC
+Files changed this run: 1
 Skew: 2 -> 2
-Entropy: 4.297 -> 4.289
+Entropy: 4.289 -> 4.281
 
 ## State Distribution
 
@@ -12,12 +12,12 @@ Entropy: 4.297 -> 4.289
 | 0 | seed | 3 | 3 |
 | 1 | draft | 3 | 3 |
 | 2 | shape | 4 | 4 |
-| 3 | pulse | 3 | 3 |
-| 4 | prune | 4 | 3 |
-| 5 | fuse | 3 | 4 |
+| 3 | pulse | 3 | 4 |
+| 4 | prune | 3 | 2 |
+| 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 3 | 2 |
-| 8 | merge | 3 | 4 |
+| 7 | tilt | 2 | 2 |
+| 8 | merge | 4 | 4 |
 | 9 | burst | 2 | 2 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 3 | 3 |
@@ -37,7 +37,7 @@ Entropy: 4.297 -> 4.289
 | accounts | orbit (11) | 1 |
 | analytics | seed (0) | 2 |
 | billing | guard (10) | 2 |
-| catalog | pulse (3) | 2 |
+| catalog | pulse (3) | 3 |
 | inventory | shape (2) | 2 |
 | notifications | trace (6) | 2 |
 | orders | burst (9) | 1 |
@@ -53,16 +53,16 @@ Entropy: 4.297 -> 4.289
 | selectors | sync (12) | 2 |
 | services | anchor (15) | 2 |
 | tasks | spark (17) | 2 |
-| validators | prune (4) | 2 |
+| validators | zenith (19) | 2 |
 | views | draft (1) | 2 |
 
 ## This Run Changes
 
-- `apps/catalog/views.py`: 7 -> 8 (tilt -> merge, score=4.427)
-- `apps/billing/services.py`: 4 -> 5 (prune -> fuse, score=4.296)
+- `apps/catalog/validators.py`: 4 -> 3 (prune -> pulse, score=3.241)
 
 ## Recent History
 
+- 2026-10-21 11:33:42 UTC: changed=1, drift=2
 - 2026-10-21 08:05:23 UTC: changed=2, drift=2
 - 2026-10-21 00:36:00 UTC: changed=1, drift=2
 - 2026-10-20 18:15:00 UTC: changed=3, drift=3
@@ -72,4 +72,3 @@ Entropy: 4.297 -> 4.289
 - 2026-10-18 10:49:13 UTC: changed=2, drift=2
 - 2026-10-17 23:45:46 UTC: changed=3, drift=2
 - 2026-10-17 16:50:34 UTC: changed=1, drift=2
-- 2026-10-17 10:17:28 UTC: changed=3, drift=2
