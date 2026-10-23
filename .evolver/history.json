@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-09 16:41:43 UTC",
-    "filesChanged": 1,
-    "driftAfter": 11,
-    "entropyAfter": 3.4225,
-    "changes": [
-      {
-        "path": "apps/analytics/models.py",
-        "from": 4,
-        "to": 5,
-        "fromLabel": "prune",
-        "toLabel": "fuse",
-        "score": 2.4968990668100894
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-09 23:14:26 UTC",
     "filesChanged": 2,
     "driftAfter": 11,
@@ -7772,6 +7756,30 @@
         "fromLabel": "seed",
         "toLabel": "zenith",
         "score": 1.8271370495538222
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-23 00:22:57 UTC",
+    "filesChanged": 2,
+    "driftAfter": 2,
+    "entropyAfter": 4.2729,
+    "changes": [
+      {
+        "path": "apps/payments/selectors.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.074931451794382
+      },
+      {
+        "path": "apps/payments/services.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 4.486489510924082
       }
     ]
   }
