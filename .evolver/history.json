@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-06-12 16:50:24 UTC",
-    "filesChanged": 2,
-    "driftAfter": 10,
-    "entropyAfter": 3.4561,
-    "changes": [
-      {
-        "path": "apps/billing/models.py",
-        "from": 16,
-        "to": 15,
-        "fromLabel": "glide",
-        "toLabel": "anchor",
-        "score": 4.876389222265654
-      },
-      {
-        "path": "apps/orders/services.py",
-        "from": 5,
-        "to": 6,
-        "fromLabel": "fuse",
-        "toLabel": "trace",
-        "score": 4.920894163055995
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-12 23:28:32 UTC",
     "filesChanged": 1,
     "driftAfter": 10,
@@ -7812,6 +7788,38 @@
         "fromLabel": "pulse",
         "toLabel": "prune",
         "score": 4.260246938138601
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-25 23:52:24 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2188,
+    "changes": [
+      {
+        "path": "apps/orders/tasks.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 1.7938750524071938
+      },
+      {
+        "path": "apps/catalog/services.py",
+        "from": 19,
+        "to": 0,
+        "fromLabel": "zenith",
+        "toLabel": "seed",
+        "score": 4.327226529968009
+      },
+      {
+        "path": "apps/analytics/views.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 1.7337919970104623
       }
     ]
   }
