@@ -1,15 +1,15 @@
 # Evolver Dashboard
 
-Last run: 2026-10-26 12:36:00 UTC
+Last run: 2026-10-26 19:55:43 UTC
 Files changed this run: 3
-Skew: 3 -> 3
-Entropy: 4.219 -> 4.260
+Skew: 3 -> 2
+Entropy: 4.260 -> 4.289
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 3 |
+| 0 | seed | 3 | 3 |
 | 1 | draft | 4 | 4 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 3 | 3 |
@@ -19,16 +19,16 @@ Entropy: 4.219 -> 4.260
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 2 | 2 |
 | 9 | burst | 3 | 3 |
-| 10 | guard | 4 | 4 |
-| 11 | orbit | 1 | 2 |
-| 12 | sync | 4 | 3 |
+| 10 | guard | 4 | 3 |
+| 11 | orbit | 2 | 3 |
+| 12 | sync | 3 | 3 |
 | 13 | weave | 4 | 4 |
-| 14 | drift | 1 | 1 |
-| 15 | anchor | 4 | 4 |
-| 16 | glide | 3 | 3 |
-| 17 | spark | 1 | 2 |
-| 18 | lattice | 4 | 3 |
-| 19 | zenith | 3 | 2 |
+| 14 | drift | 1 | 2 |
+| 15 | anchor | 4 | 3 |
+| 16 | glide | 3 | 2 |
+| 17 | spark | 2 | 3 |
+| 18 | lattice | 3 | 3 |
+| 19 | zenith | 2 | 2 |
 
 ## App Distribution
 
@@ -49,21 +49,22 @@ Entropy: 4.219 -> 4.260
 
 | Role | Dominant State | Count |
 |---|---|---:|
-| models | guard (10) | 3 |
+| models | guard (10) | 2 |
 | selectors | burst (9) | 2 |
-| services | anchor (15) | 3 |
+| services | fuse (5) | 2 |
 | tasks | sync (12) | 2 |
 | validators | fuse (5) | 2 |
 | views | draft (1) | 3 |
 
 ## This Run Changes
 
-- `apps/accounts/selectors.py`: 12 -> 11 (sync -> orbit, score=4.415)
-- `apps/support/selectors.py`: 18 -> 17 (lattice -> spark, score=4.278)
-- `apps/reporting/validators.py`: 19 -> 0 (zenith -> seed, score=4.328)
+- `apps/inventory/selectors.py`: 16 -> 17 (glide -> spark, score=4.152)
+- `apps/accounts/services.py`: 15 -> 14 (anchor -> drift, score=6.427)
+- `apps/billing/models.py`: 10 -> 11 (guard -> orbit, score=4.005)
 
 ## Recent History
 
+- 2026-10-26 19:55:43 UTC: changed=3, drift=2
 - 2026-10-26 12:36:00 UTC: changed=3, drift=3
 - 2026-10-25 23:52:24 UTC: changed=3, drift=3
 - 2026-10-24 17:21:20 UTC: changed=3, drift=3
@@ -73,4 +74,3 @@ Entropy: 4.219 -> 4.260
 - 2026-10-23 11:24:15 UTC: changed=2, drift=2
 - 2026-10-23 08:01:25 UTC: changed=2, drift=2
 - 2026-10-23 00:22:57 UTC: changed=2, drift=2
-- 2026-10-22 18:30:29 UTC: changed=2, drift=2
