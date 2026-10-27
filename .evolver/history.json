@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-15 08:37:14 UTC",
-    "filesChanged": 1,
-    "driftAfter": 10,
-    "entropyAfter": 3.4326,
-    "changes": [
-      {
-        "path": "apps/support/models.py",
-        "from": 7,
-        "to": 8,
-        "fromLabel": "tilt",
-        "toLabel": "merge",
-        "score": 7.20063909568282
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-15 12:32:39 UTC",
     "filesChanged": 1,
     "driftAfter": 10,
@@ -7852,6 +7836,38 @@
         "fromLabel": "lattice",
         "toLabel": "zenith",
         "score": 4.213875775183598
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-27 19:02:17 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2974,
+    "changes": [
+      {
+        "path": "apps/billing/tasks.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 4.406308504710993
+      },
+      {
+        "path": "apps/reporting/tasks.py",
+        "from": 2,
+        "to": 3,
+        "fromLabel": "shape",
+        "toLabel": "pulse",
+        "score": 4.173800273466991
+      },
+      {
+        "path": "apps/reporting/views.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 4.123055834528654
       }
     ]
   }
