@@ -1,6 +1,6 @@
 # Evolver Dashboard
 
-Last run: 2026-10-28 00:53:14 UTC
+Last run: 2026-10-29 01:41:58 UTC
 Files changed this run: 3
 Skew: 2 -> 2
 Entropy: 4.297 -> 4.297
@@ -9,10 +9,10 @@ Entropy: 4.297 -> 4.297
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 4 | 3 |
-| 1 | draft | 3 | 4 |
-| 2 | shape | 3 | 3 |
-| 3 | pulse | 4 | 4 |
+| 0 | seed | 3 | 4 |
+| 1 | draft | 4 | 3 |
+| 2 | shape | 3 | 4 |
+| 3 | pulse | 4 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
@@ -26,8 +26,8 @@ Entropy: 4.297 -> 4.297
 | 14 | drift | 3 | 3 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 2 | 2 |
-| 17 | spark | 3 | 3 |
-| 18 | lattice | 2 | 2 |
+| 17 | spark | 3 | 2 |
+| 18 | lattice | 2 | 3 |
 | 19 | zenith | 3 | 3 |
 
 ## App Distribution
@@ -37,8 +37,8 @@ Entropy: 4.297 -> 4.297
 | accounts | guard (10) | 2 |
 | analytics | draft (1) | 2 |
 | billing | fuse (5) | 2 |
-| catalog | pulse (3) | 3 |
-| inventory | spark (17) | 2 |
+| catalog | pulse (3) | 2 |
+| inventory | weave (13) | 2 |
 | notifications | trace (6) | 2 |
 | orders | sync (12) | 2 |
 | payments | shape (2) | 1 |
@@ -58,12 +58,13 @@ Entropy: 4.297 -> 4.297
 
 ## This Run Changes
 
-- `apps/orders/views.py`: 1 -> 2 (draft -> shape, score=3.054)
-- `apps/analytics/selectors.py`: 0 -> 1 (seed -> draft, score=4.448)
-- `apps/inventory/models.py`: 2 -> 1 (shape -> draft, score=4.008)
+- `apps/catalog/tasks.py`: 3 -> 2 (pulse -> shape, score=4.207)
+- `apps/notifications/tasks.py`: 1 -> 0 (draft -> seed, score=3.973)
+- `apps/inventory/tasks.py`: 17 -> 18 (spark -> lattice, score=4.058)
 
 ## Recent History
 
+- 2026-10-29 01:41:58 UTC: changed=3, drift=2
 - 2026-10-28 00:53:14 UTC: changed=3, drift=2
 - 2026-10-27 19:02:17 UTC: changed=3, drift=2
 - 2026-10-27 11:45:56 UTC: changed=2, drift=2
@@ -73,4 +74,3 @@ Entropy: 4.297 -> 4.297
 - 2026-10-24 17:21:20 UTC: changed=3, drift=3
 - 2026-10-24 10:43:45 UTC: changed=3, drift=3
 - 2026-10-24 07:49:29 UTC: changed=2, drift=3
-- 2026-10-24 00:25:19 UTC: changed=2, drift=3

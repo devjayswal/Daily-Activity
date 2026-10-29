@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-15 18:24:23 UTC",
-    "filesChanged": 1,
-    "driftAfter": 11,
-    "entropyAfter": 3.4302,
-    "changes": [
-      {
-        "path": "apps/catalog/selectors.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 2.523178773443644
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-15 23:41:36 UTC",
     "filesChanged": 2,
     "driftAfter": 11,
@@ -7884,6 +7868,38 @@
         "fromLabel": "shape",
         "toLabel": "draft",
         "score": 4.008409765586936
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-10-29 01:41:58 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2974,
+    "changes": [
+      {
+        "path": "apps/catalog/tasks.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 4.20721574787731
+      },
+      {
+        "path": "apps/notifications/tasks.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 3.9725879957655703
+      },
+      {
+        "path": "apps/inventory/tasks.py",
+        "from": 17,
+        "to": 18,
+        "fromLabel": "spark",
+        "toLabel": "lattice",
+        "score": 4.0584645781265065
       }
     ]
   }
