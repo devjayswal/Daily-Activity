@@ -1,33 +1,33 @@
 # Evolver Dashboard
 
-Last run: 2026-10-29 01:41:58 UTC
+Last run: 2026-10-29 09:07:03 UTC
 Files changed this run: 3
 Skew: 2 -> 2
-Entropy: 4.297 -> 4.297
+Entropy: 4.297 -> 4.289
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 3 | 4 |
-| 1 | draft | 4 | 3 |
-| 2 | shape | 3 | 4 |
-| 3 | pulse | 4 | 3 |
+| 0 | seed | 4 | 4 |
+| 1 | draft | 3 | 3 |
+| 2 | shape | 4 | 3 |
+| 3 | pulse | 3 | 4 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 2 | 2 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 3 | 3 |
-| 10 | guard | 3 | 3 |
-| 11 | orbit | 3 | 3 |
+| 10 | guard | 3 | 4 |
+| 11 | orbit | 3 | 2 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 3 | 3 |
-| 15 | anchor | 3 | 3 |
-| 16 | glide | 2 | 2 |
-| 17 | spark | 3 | 2 |
-| 18 | lattice | 2 | 3 |
+| 15 | anchor | 3 | 2 |
+| 16 | glide | 2 | 3 |
+| 17 | spark | 2 | 2 |
+| 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
 
 ## App Distribution
@@ -41,7 +41,7 @@ Entropy: 4.297 -> 4.297
 | inventory | weave (13) | 2 |
 | notifications | trace (6) | 2 |
 | orders | sync (12) | 2 |
-| payments | shape (2) | 1 |
+| payments | pulse (3) | 1 |
 | reporting | seed (0) | 2 |
 | support | drift (14) | 1 |
 
@@ -58,12 +58,13 @@ Entropy: 4.297 -> 4.297
 
 ## This Run Changes
 
-- `apps/catalog/tasks.py`: 3 -> 2 (pulse -> shape, score=4.207)
-- `apps/notifications/tasks.py`: 1 -> 0 (draft -> seed, score=3.973)
-- `apps/inventory/tasks.py`: 17 -> 18 (spark -> lattice, score=4.058)
+- `apps/payments/models.py`: 2 -> 3 (shape -> pulse, score=4.339)
+- `apps/reporting/services.py`: 15 -> 16 (anchor -> glide, score=3.809)
+- `apps/analytics/services.py`: 11 -> 10 (orbit -> guard, score=4.167)
 
 ## Recent History
 
+- 2026-10-29 09:07:03 UTC: changed=3, drift=2
 - 2026-10-29 01:41:58 UTC: changed=3, drift=2
 - 2026-10-28 00:53:14 UTC: changed=3, drift=2
 - 2026-10-27 19:02:17 UTC: changed=3, drift=2
@@ -73,4 +74,3 @@ Entropy: 4.297 -> 4.297
 - 2026-10-25 23:52:24 UTC: changed=3, drift=3
 - 2026-10-24 17:21:20 UTC: changed=3, drift=3
 - 2026-10-24 10:43:45 UTC: changed=3, drift=3
-- 2026-10-24 07:49:29 UTC: changed=2, drift=3
