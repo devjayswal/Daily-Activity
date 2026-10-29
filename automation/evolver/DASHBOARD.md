@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-29 09:07:03 UTC
-Files changed this run: 3
+Last run: 2026-10-29 12:34:49 UTC
+Files changed this run: 2
 Skew: 2 -> 2
-Entropy: 4.297 -> 4.289
+Entropy: 4.289 -> 4.289
 
 ## State Distribution
 
@@ -11,21 +11,21 @@ Entropy: 4.297 -> 4.289
 |---|---|---:|---:|
 | 0 | seed | 4 | 4 |
 | 1 | draft | 3 | 3 |
-| 2 | shape | 4 | 3 |
-| 3 | pulse | 3 | 4 |
+| 2 | shape | 3 | 3 |
+| 3 | pulse | 4 | 4 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
-| 6 | trace | 3 | 3 |
-| 7 | tilt | 2 | 2 |
+| 6 | trace | 3 | 2 |
+| 7 | tilt | 2 | 3 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 3 | 3 |
-| 10 | guard | 3 | 4 |
-| 11 | orbit | 3 | 2 |
-| 12 | sync | 3 | 3 |
+| 10 | guard | 4 | 4 |
+| 11 | orbit | 2 | 3 |
+| 12 | sync | 3 | 2 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 3 | 3 |
-| 15 | anchor | 3 | 2 |
-| 16 | glide | 2 | 3 |
+| 15 | anchor | 2 | 2 |
+| 16 | glide | 3 | 3 |
 | 17 | spark | 2 | 2 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
@@ -39,8 +39,8 @@ Entropy: 4.297 -> 4.289
 | billing | fuse (5) | 2 |
 | catalog | pulse (3) | 2 |
 | inventory | weave (13) | 2 |
-| notifications | trace (6) | 2 |
-| orders | sync (12) | 2 |
+| notifications | glide (16) | 1 |
+| orders | guard (10) | 1 |
 | payments | pulse (3) | 1 |
 | reporting | seed (0) | 2 |
 | support | drift (14) | 1 |
@@ -50,7 +50,7 @@ Entropy: 4.297 -> 4.289
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | guard (10) | 2 |
-| selectors | burst (9) | 2 |
+| selectors | orbit (11) | 2 |
 | services | fuse (5) | 2 |
 | tasks | sync (12) | 2 |
 | validators | fuse (5) | 2 |
@@ -58,12 +58,12 @@ Entropy: 4.297 -> 4.289
 
 ## This Run Changes
 
-- `apps/payments/models.py`: 2 -> 3 (shape -> pulse, score=4.339)
-- `apps/reporting/services.py`: 15 -> 16 (anchor -> glide, score=3.809)
-- `apps/analytics/services.py`: 11 -> 10 (orbit -> guard, score=4.167)
+- `apps/orders/selectors.py`: 12 -> 11 (sync -> orbit, score=4.186)
+- `apps/notifications/views.py`: 6 -> 7 (trace -> tilt, score=3.941)
 
 ## Recent History
 
+- 2026-10-29 12:34:49 UTC: changed=2, drift=2
 - 2026-10-29 09:07:03 UTC: changed=3, drift=2
 - 2026-10-29 01:41:58 UTC: changed=3, drift=2
 - 2026-10-28 00:53:14 UTC: changed=3, drift=2
@@ -73,4 +73,3 @@ Entropy: 4.297 -> 4.289
 - 2026-10-26 12:36:00 UTC: changed=3, drift=3
 - 2026-10-25 23:52:24 UTC: changed=3, drift=3
 - 2026-10-24 17:21:20 UTC: changed=3, drift=3
-- 2026-10-24 10:43:45 UTC: changed=3, drift=3
