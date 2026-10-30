@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-10-29 19:22:04 UTC
+Last run: 2026-10-30 01:38:11 UTC
 Files changed this run: 1
 Skew: 2 -> 2
-Entropy: 4.289 -> 4.289
+Entropy: 4.289 -> 4.297
 
 ## State Distribution
 
@@ -14,15 +14,15 @@ Entropy: 4.289 -> 4.289
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 4 | 4 |
 | 4 | prune | 3 | 3 |
-| 5 | fuse | 4 | 4 |
-| 6 | trace | 2 | 2 |
+| 5 | fuse | 4 | 3 |
+| 6 | trace | 2 | 3 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 3 | 3 |
 | 10 | guard | 4 | 4 |
 | 11 | orbit | 3 | 3 |
-| 12 | sync | 2 | 3 |
-| 13 | weave | 3 | 2 |
+| 12 | sync | 3 | 3 |
+| 13 | weave | 2 | 2 |
 | 14 | drift | 3 | 3 |
 | 15 | anchor | 2 | 2 |
 | 16 | glide | 3 | 3 |
@@ -53,15 +53,16 @@ Entropy: 4.289 -> 4.289
 | selectors | orbit (11) | 2 |
 | services | fuse (5) | 2 |
 | tasks | sync (12) | 2 |
-| validators | fuse (5) | 2 |
+| validators | trace (6) | 3 |
 | views | weave (13) | 2 |
 
 ## This Run Changes
 
-- `apps/inventory/validators.py`: 13 -> 12 (weave -> sync, score=4.319)
+- `apps/analytics/validators.py`: 5 -> 6 (fuse -> trace, score=3.975)
 
 ## Recent History
 
+- 2026-10-30 01:38:11 UTC: changed=1, drift=2
 - 2026-10-29 19:22:04 UTC: changed=1, drift=2
 - 2026-10-29 12:34:49 UTC: changed=2, drift=2
 - 2026-10-29 09:07:03 UTC: changed=3, drift=2
@@ -71,4 +72,3 @@ Entropy: 4.289 -> 4.289
 - 2026-10-27 11:45:56 UTC: changed=2, drift=2
 - 2026-10-26 19:55:43 UTC: changed=3, drift=2
 - 2026-10-26 12:36:00 UTC: changed=3, drift=3
-- 2026-10-25 23:52:24 UTC: changed=3, drift=3
