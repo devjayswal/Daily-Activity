@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-01 00:53:53 UTC
+Last run: 2026-11-01 12:51:55 UTC
 Files changed this run: 2
-Skew: 3 -> 3
-Entropy: 4.267 -> 4.260
+Skew: 3 -> 4
+Entropy: 4.260 -> 4.254
 
 ## State Distribution
 
@@ -11,19 +11,19 @@ Entropy: 4.267 -> 4.260
 |---|---|---:|---:|
 | 0 | seed | 4 | 4 |
 | 1 | draft | 3 | 3 |
-| 2 | shape | 2 | 3 |
-| 3 | pulse | 5 | 4 |
+| 2 | shape | 3 | 3 |
+| 3 | pulse | 4 | 4 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 3 | 3 |
 | 6 | trace | 2 | 2 |
 | 7 | tilt | 4 | 4 |
-| 8 | merge | 2 | 2 |
-| 9 | burst | 4 | 4 |
+| 8 | merge | 2 | 1 |
+| 9 | burst | 4 | 5 |
 | 10 | guard | 4 | 4 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 3 | 3 |
-| 13 | weave | 2 | 1 |
-| 14 | drift | 3 | 4 |
+| 13 | weave | 1 | 2 |
+| 14 | drift | 4 | 3 |
 | 15 | anchor | 2 | 2 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 3 | 3 |
@@ -43,7 +43,7 @@ Entropy: 4.267 -> 4.260
 | orders | guard (10) | 1 |
 | payments | pulse (3) | 1 |
 | reporting | seed (0) | 2 |
-| support | drift (14) | 2 |
+| support | weave (13) | 1 |
 
 ## Role Distribution
 
@@ -58,11 +58,12 @@ Entropy: 4.267 -> 4.260
 
 ## This Run Changes
 
-- `apps/catalog/models.py`: 3 -> 2 (pulse -> shape, score=6.619)
-- `apps/support/views.py`: 13 -> 14 (weave -> drift, score=-0.396)
+- `apps/support/models.py`: 14 -> 13 (drift -> weave, score=6.659)
+- `apps/catalog/views.py`: 8 -> 9 (merge -> burst, score=-2.878)
 
 ## Recent History
 
+- 2026-11-01 12:51:55 UTC: changed=2, drift=4
 - 2026-11-01 00:53:53 UTC: changed=2, drift=3
 - 2026-10-31 18:09:02 UTC: changed=2, drift=3
 - 2026-10-31 08:50:36 UTC: changed=2, drift=2
@@ -72,4 +73,3 @@ Entropy: 4.267 -> 4.260
 - 2026-10-29 09:07:03 UTC: changed=3, drift=2
 - 2026-10-29 01:41:58 UTC: changed=3, drift=2
 - 2026-10-28 00:53:14 UTC: changed=3, drift=2
-- 2026-10-27 19:02:17 UTC: changed=3, drift=2
