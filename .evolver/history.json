@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-06-20 09:18:30 UTC",
-    "filesChanged": 2,
-    "driftAfter": 9,
-    "entropyAfter": 3.6733,
-    "changes": [
-      {
-        "path": "apps/payments/models.py",
-        "from": 2,
-        "to": 1,
-        "fromLabel": "shape",
-        "toLabel": "draft",
-        "score": 4.991063776742527
-      },
-      {
-        "path": "apps/accounts/models.py",
-        "from": 7,
-        "to": 8,
-        "fromLabel": "tilt",
-        "toLabel": "merge",
-        "score": 7.228740105140426
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-20 15:37:02 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -7916,6 +7892,22 @@
         "fromLabel": "tilt",
         "toLabel": "merge",
         "score": 6.332610955817471
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04 02:02:30 UTC",
+    "filesChanged": 1,
+    "driftAfter": 3,
+    "entropyAfter": 4.275,
+    "changes": [
+      {
+        "path": "apps/payments/services.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 4.450769509149641
       }
     ]
   }
