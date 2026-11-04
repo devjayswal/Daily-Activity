@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-06-21 10:03:25 UTC",
-    "filesChanged": 2,
-    "driftAfter": 10,
-    "entropyAfter": 3.6411,
-    "changes": [
-      {
-        "path": "apps/reporting/services.py",
-        "from": 17,
-        "to": 16,
-        "fromLabel": "spark",
-        "toLabel": "glide",
-        "score": 4.91157203946749
-      },
-      {
-        "path": "apps/inventory/services.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 2.421585354767693
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-21 15:54:39 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -7908,6 +7884,38 @@
         "fromLabel": "burst",
         "toLabel": "merge",
         "score": 6.567506638704437
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-04 20:51:50 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2685,
+    "changes": [
+      {
+        "path": "apps/notifications/selectors.py",
+        "from": 19,
+        "to": 18,
+        "fromLabel": "zenith",
+        "toLabel": "lattice",
+        "score": 3.3394856354979963
+      },
+      {
+        "path": "apps/analytics/tasks.py",
+        "from": 12,
+        "to": 13,
+        "fromLabel": "sync",
+        "toLabel": "weave",
+        "score": 4.214036799682328
+      },
+      {
+        "path": "apps/analytics/models.py",
+        "from": 15,
+        "to": 16,
+        "fromLabel": "anchor",
+        "toLabel": "glide",
+        "score": 0.9229851664354846
       }
     ]
   }
