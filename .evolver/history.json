@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-23 09:46:22 UTC",
-    "filesChanged": 1,
-    "driftAfter": 9,
-    "entropyAfter": 3.7009,
-    "changes": [
-      {
-        "path": "apps/inventory/validators.py",
-        "from": 15,
-        "to": 14,
-        "fromLabel": "anchor",
-        "toLabel": "drift",
-        "score": 5.018709180945699
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-23 23:11:44 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -7948,6 +7932,22 @@
         "fromLabel": "guard",
         "toLabel": "orbit",
         "score": 2.068954374212008
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-06 20:25:57 UTC",
+    "filesChanged": 1,
+    "driftAfter": 5,
+    "entropyAfter": 4.2597,
+    "changes": [
+      {
+        "path": "apps/notifications/models.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 6.592849666493689
       }
     ]
   }

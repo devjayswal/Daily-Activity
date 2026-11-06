@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-06 09:47:32 UTC
-Files changed this run: 2
-Skew: 4 -> 6
-Entropy: 4.231 -> 4.206
+Last run: 2026-11-06 20:25:57 UTC
+Files changed this run: 1
+Skew: 6 -> 5
+Entropy: 4.206 -> 4.260
 
 ## State Distribution
 
@@ -19,13 +19,13 @@ Entropy: 4.231 -> 4.206
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 3 | 3 |
 | 9 | burst | 3 | 3 |
-| 10 | guard | 4 | 2 |
-| 11 | orbit | 4 | 6 |
+| 10 | guard | 2 | 2 |
+| 11 | orbit | 6 | 6 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 2 | 2 |
 | 14 | drift | 3 | 3 |
-| 15 | anchor | 0 | 0 |
-| 16 | glide | 4 | 4 |
+| 15 | anchor | 0 | 1 |
+| 16 | glide | 4 | 3 |
 | 17 | spark | 3 | 3 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
@@ -39,7 +39,7 @@ Entropy: 4.231 -> 4.206
 | billing | merge (8) | 2 |
 | catalog | shape (2) | 2 |
 | inventory | sync (12) | 2 |
-| notifications | glide (16) | 2 |
+| notifications | tilt (7) | 2 |
 | orders | orbit (11) | 2 |
 | payments | zenith (19) | 2 |
 | reporting | seed (0) | 2 |
@@ -58,11 +58,11 @@ Entropy: 4.231 -> 4.206
 
 ## This Run Changes
 
-- `apps/orders/models.py`: 10 -> 11 (guard -> orbit, score=2.132)
-- `apps/accounts/models.py`: 10 -> 11 (guard -> orbit, score=2.069)
+- `apps/notifications/models.py`: 16 -> 15 (glide -> anchor, score=6.593)
 
 ## Recent History
 
+- 2026-11-06 20:25:57 UTC: changed=1, drift=5
 - 2026-11-06 09:47:32 UTC: changed=2, drift=6
 - 2026-11-05 20:55:22 UTC: changed=3, drift=4
 - 2026-11-05 14:12:58 UTC: changed=3, drift=3
@@ -72,4 +72,3 @@ Entropy: 4.231 -> 4.206
 - 2026-11-03 20:36:59 UTC: changed=2, drift=3
 - 2026-11-03 13:59:21 UTC: changed=2, drift=4
 - 2026-11-03 03:28:45 UTC: changed=1, drift=4
-- 2026-11-02 10:07:40 UTC: changed=1, drift=4
