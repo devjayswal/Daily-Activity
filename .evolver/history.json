@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-27 08:43:13 UTC",
-    "filesChanged": 1,
-    "driftAfter": 9,
-    "entropyAfter": 3.7594,
-    "changes": [
-      {
-        "path": "apps/accounts/validators.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 4.8072315079755565
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-27 15:22:55 UTC",
     "filesChanged": 2,
     "driftAfter": 10,
@@ -7956,6 +7940,22 @@
         "fromLabel": "seed",
         "toLabel": "zenith",
         "score": 1.9725696399984705
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-10 04:11:37 UTC",
+    "filesChanged": 1,
+    "driftAfter": 4,
+    "entropyAfter": 4.2461,
+    "changes": [
+      {
+        "path": "apps/support/selectors.py",
+        "from": 17,
+        "to": 16,
+        "fromLabel": "spark",
+        "toLabel": "glide",
+        "score": 4.690560869893073
       }
     ]
   }
