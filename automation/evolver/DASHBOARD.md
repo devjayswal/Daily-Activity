@@ -1,15 +1,15 @@
 # Evolver Dashboard
 
-Last run: 2026-11-10 04:11:37 UTC
-Files changed this run: 1
+Last run: 2026-11-10 14:39:25 UTC
+Files changed this run: 2
 Skew: 4 -> 4
-Entropy: 4.254 -> 4.246
+Entropy: 4.246 -> 4.227
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
-| 0 | seed | 2 | 2 |
+| 0 | seed | 2 | 3 |
 | 1 | draft | 3 | 3 |
 | 2 | shape | 4 | 4 |
 | 3 | pulse | 3 | 3 |
@@ -25,10 +25,10 @@ Entropy: 4.254 -> 4.246
 | 13 | weave | 3 | 3 |
 | 14 | drift | 3 | 3 |
 | 15 | anchor | 1 | 1 |
-| 16 | glide | 3 | 4 |
-| 17 | spark | 3 | 2 |
+| 16 | glide | 4 | 5 |
+| 17 | spark | 2 | 1 |
 | 18 | lattice | 3 | 3 |
-| 19 | zenith | 4 | 4 |
+| 19 | zenith | 4 | 3 |
 
 ## App Distribution
 
@@ -41,7 +41,7 @@ Entropy: 4.254 -> 4.246
 | inventory | sync (12) | 2 |
 | notifications | tilt (7) | 2 |
 | orders | orbit (11) | 2 |
-| payments | zenith (19) | 2 |
+| payments | pulse (3) | 1 |
 | reporting | lattice (18) | 1 |
 | support | weave (13) | 1 |
 
@@ -58,10 +58,12 @@ Entropy: 4.254 -> 4.246
 
 ## This Run Changes
 
-- `apps/support/selectors.py`: 17 -> 16 (spark -> glide, score=4.691)
+- `apps/inventory/selectors.py`: 17 -> 16 (spark -> glide, score=4.502)
+- `apps/payments/validators.py`: 19 -> 0 (zenith -> seed, score=4.531)
 
 ## Recent History
 
+- 2026-11-10 14:39:25 UTC: changed=2, drift=4
 - 2026-11-10 04:11:37 UTC: changed=1, drift=4
 - 2026-11-09 10:15:35 UTC: changed=1, drift=4
 - 2026-11-09 01:37:33 UTC: changed=1, drift=4
@@ -71,4 +73,3 @@ Entropy: 4.254 -> 4.246
 - 2026-11-08 01:16:28 UTC: changed=1, drift=4
 - 2026-11-07 18:32:46 UTC: changed=2, drift=4
 - 2026-11-06 20:25:57 UTC: changed=1, drift=5
-- 2026-11-06 09:47:32 UTC: changed=2, drift=6
