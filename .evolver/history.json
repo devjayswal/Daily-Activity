@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-06-29 07:16:29 UTC",
-    "filesChanged": 1,
-    "driftAfter": 9,
-    "entropyAfter": 3.8076,
-    "changes": [
-      {
-        "path": "apps/support/models.py",
-        "from": 8,
-        "to": 9,
-        "fromLabel": "merge",
-        "toLabel": "burst",
-        "score": 7.380354653330663
-      }
-    ]
-  },
-  {
     "timestamp": "2026-06-30 06:47:28 UTC",
     "filesChanged": 2,
     "driftAfter": 10,
@@ -7956,6 +7940,30 @@
         "fromLabel": "pulse",
         "toLabel": "prune",
         "score": 4.444625697367803
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-12 21:18:59 UTC",
+    "filesChanged": 2,
+    "driftAfter": 4,
+    "entropyAfter": 4.2417,
+    "changes": [
+      {
+        "path": "apps/reporting/views.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.691620240703298
+      },
+      {
+        "path": "apps/analytics/selectors.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 4.710393726046312
       }
     ]
   }
