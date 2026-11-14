@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-02 06:28:10 UTC",
-    "filesChanged": 2,
-    "driftAfter": 10,
-    "entropyAfter": 3.6982,
-    "changes": [
-      {
-        "path": "apps/inventory/selectors.py",
-        "from": 15,
-        "to": 16,
-        "fromLabel": "anchor",
-        "toLabel": "glide",
-        "score": 4.7532538993185485
-      },
-      {
-        "path": "apps/orders/validators.py",
-        "from": 6,
-        "to": 5,
-        "fromLabel": "trace",
-        "toLabel": "fuse",
-        "score": 4.9902019557161
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-02 08:58:56 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -7964,6 +7940,22 @@
         "fromLabel": "orbit",
         "toLabel": "guard",
         "score": 4.52554104613291
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-14 13:15:04 UTC",
+    "filesChanged": 1,
+    "driftAfter": 4,
+    "entropyAfter": 4.2624,
+    "changes": [
+      {
+        "path": "apps/payments/models.py",
+        "from": 3,
+        "to": 2,
+        "fromLabel": "pulse",
+        "toLabel": "shape",
+        "score": 4.494367778914192
       }
     ]
   }
