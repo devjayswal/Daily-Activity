@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-13 20:56:08 UTC
+Last run: 2026-11-14 02:14:28 UTC
 Files changed this run: 2
-Skew: 4 -> 3
-Entropy: 4.254 -> 4.268
+Skew: 3 -> 4
+Entropy: 4.268 -> 4.254
 
 ## State Distribution
 
@@ -11,22 +11,22 @@ Entropy: 4.254 -> 4.268
 |---|---|---:|---:|
 | 0 | seed | 3 | 3 |
 | 1 | draft | 3 | 3 |
-| 2 | shape | 3 | 2 |
-| 3 | pulse | 2 | 3 |
+| 2 | shape | 2 | 2 |
+| 3 | pulse | 3 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 3 | 3 |
-| 8 | merge | 4 | 4 |
-| 9 | burst | 2 | 2 |
-| 10 | guard | 3 | 3 |
+| 7 | tilt | 3 | 2 |
+| 8 | merge | 4 | 5 |
+| 9 | burst | 2 | 3 |
+| 10 | guard | 3 | 2 |
 | 11 | orbit | 4 | 4 |
 | 12 | sync | 3 | 3 |
 | 13 | weave | 3 | 3 |
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
-| 16 | glide | 5 | 4 |
-| 17 | spark | 2 | 3 |
+| 16 | glide | 4 | 4 |
+| 17 | spark | 3 | 3 |
 | 18 | lattice | 2 | 2 |
 | 19 | zenith | 4 | 4 |
 
@@ -39,7 +39,7 @@ Entropy: 4.254 -> 4.268
 | billing | trace (6) | 2 |
 | catalog | shape (2) | 1 |
 | inventory | sync (12) | 2 |
-| notifications | tilt (7) | 2 |
+| notifications | anchor (15) | 1 |
 | orders | orbit (11) | 2 |
 | payments | pulse (3) | 1 |
 | reporting | draft (1) | 2 |
@@ -51,18 +51,19 @@ Entropy: 4.254 -> 4.268
 |---|---|---:|
 | models | orbit (11) | 2 |
 | selectors | merge (8) | 4 |
-| services | guard (10) | 2 |
+| services | anchor (15) | 1 |
 | tasks | weave (13) | 2 |
 | validators | trace (6) | 2 |
 | views | draft (1) | 2 |
 
 ## This Run Changes
 
-- `apps/catalog/tasks.py`: 2 -> 3 (shape -> pulse, score=4.762)
-- `apps/reporting/services.py`: 16 -> 17 (glide -> spark, score=6.984)
+- `apps/analytics/services.py`: 10 -> 9 (guard -> burst, score=4.453)
+- `apps/notifications/views.py`: 7 -> 8 (tilt -> merge, score=2.420)
 
 ## Recent History
 
+- 2026-11-14 02:14:28 UTC: changed=2, drift=4
 - 2026-11-13 20:56:08 UTC: changed=2, drift=3
 - 2026-11-13 10:10:12 UTC: changed=1, drift=4
 - 2026-11-13 02:25:49 UTC: changed=1, drift=4
@@ -72,4 +73,3 @@ Entropy: 4.254 -> 4.268
 - 2026-11-11 09:56:12 UTC: changed=1, drift=4
 - 2026-11-11 01:38:38 UTC: changed=2, drift=4
 - 2026-11-10 14:39:25 UTC: changed=2, drift=4
-- 2026-11-10 04:11:37 UTC: changed=1, drift=4
