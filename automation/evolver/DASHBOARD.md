@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-14 18:59:47 UTC
+Last run: 2026-11-15 01:44:09 UTC
 Files changed this run: 1
 Skew: 4 -> 4
-Entropy: 4.262 -> 4.254
+Entropy: 4.254 -> 4.254
 
 ## State Distribution
 
@@ -15,14 +15,14 @@ Entropy: 4.262 -> 4.254
 | 3 | pulse | 2 | 2 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 4 | 4 |
-| 6 | trace | 3 | 3 |
-| 7 | tilt | 2 | 2 |
+| 6 | trace | 3 | 2 |
+| 7 | tilt | 2 | 3 |
 | 8 | merge | 5 | 5 |
 | 9 | burst | 3 | 3 |
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 3 | 3 |
-| 12 | sync | 3 | 2 |
-| 13 | weave | 3 | 4 |
+| 12 | sync | 2 | 2 |
+| 13 | weave | 4 | 4 |
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 4 | 4 |
@@ -53,15 +53,16 @@ Entropy: 4.262 -> 4.254
 | selectors | merge (8) | 4 |
 | services | anchor (15) | 1 |
 | tasks | weave (13) | 2 |
-| validators | trace (6) | 2 |
+| validators | tilt (7) | 2 |
 | views | draft (1) | 2 |
 
 ## This Run Changes
 
-- `apps/inventory/validators.py`: 12 -> 13 (sync -> weave, score=4.587)
+- `apps/analytics/validators.py`: 6 -> 7 (trace -> tilt, score=4.728)
 
 ## Recent History
 
+- 2026-11-15 01:44:09 UTC: changed=1, drift=4
 - 2026-11-14 18:59:47 UTC: changed=1, drift=4
 - 2026-11-14 13:15:04 UTC: changed=1, drift=4
 - 2026-11-14 09:26:37 UTC: changed=1, drift=4
@@ -71,4 +72,3 @@ Entropy: 4.262 -> 4.254
 - 2026-11-13 02:25:49 UTC: changed=1, drift=4
 - 2026-11-12 21:18:59 UTC: changed=2, drift=4
 - 2026-11-12 10:18:21 UTC: changed=2, drift=4
-- 2026-11-11 13:56:24 UTC: changed=1, drift=4
