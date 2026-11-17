@@ -1,6 +1,6 @@
 # Evolver Dashboard
 
-Last run: 2026-11-17 04:20:04 UTC
+Last run: 2026-11-17 11:09:15 UTC
 Files changed this run: 1
 Skew: 4 -> 4
 Entropy: 4.246 -> 4.246
@@ -12,8 +12,8 @@ Entropy: 4.246 -> 4.246
 | 0 | seed | 3 | 3 |
 | 1 | draft | 3 | 3 |
 | 2 | shape | 3 | 3 |
-| 3 | pulse | 2 | 3 |
-| 4 | prune | 3 | 2 |
+| 3 | pulse | 3 | 3 |
+| 4 | prune | 2 | 2 |
 | 5 | fuse | 4 | 4 |
 | 6 | trace | 3 | 3 |
 | 7 | tilt | 2 | 2 |
@@ -26,8 +26,8 @@ Entropy: 4.246 -> 4.246
 | 14 | drift | 1 | 1 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 4 | 4 |
-| 17 | spark | 2 | 2 |
-| 18 | lattice | 3 | 3 |
+| 17 | spark | 2 | 3 |
+| 18 | lattice | 3 | 2 |
 | 19 | zenith | 4 | 4 |
 
 ## App Distribution
@@ -42,7 +42,7 @@ Entropy: 4.246 -> 4.246
 | notifications | anchor (15) | 1 |
 | orders | fuse (5) | 2 |
 | payments | shape (2) | 1 |
-| reporting | draft (1) | 2 |
+| reporting | spark (17) | 2 |
 | support | drift (14) | 1 |
 
 ## Role Distribution
@@ -58,10 +58,11 @@ Entropy: 4.246 -> 4.246
 
 ## This Run Changes
 
-- `apps/catalog/validators.py`: 4 -> 3 (prune -> pulse, score=4.663)
+- `apps/reporting/models.py`: 18 -> 17 (lattice -> spark, score=4.623)
 
 ## Recent History
 
+- 2026-11-17 11:09:15 UTC: changed=1, drift=4
 - 2026-11-17 04:20:04 UTC: changed=1, drift=4
 - 2026-11-16 23:14:05 UTC: changed=1, drift=4
 - 2026-11-16 10:08:11 UTC: changed=2, drift=3
@@ -71,4 +72,3 @@ Entropy: 4.246 -> 4.246
 - 2026-11-15 09:47:20 UTC: changed=1, drift=4
 - 2026-11-15 01:44:09 UTC: changed=1, drift=4
 - 2026-11-14 18:59:47 UTC: changed=1, drift=4
-- 2026-11-14 13:15:04 UTC: changed=1, drift=4
