@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-17 15:47:00 UTC
+Last run: 2026-11-17 22:13:25 UTC
 Files changed this run: 2
 Skew: 4 -> 4
-Entropy: 4.246 -> 4.227
+Entropy: 4.227 -> 4.236
 
 ## State Distribution
 
@@ -14,12 +14,12 @@ Entropy: 4.246 -> 4.227
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 2 | 2 |
-| 5 | fuse | 4 | 4 |
+| 5 | fuse | 4 | 3 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 2 | 2 |
+| 7 | tilt | 2 | 3 |
 | 8 | merge | 5 | 5 |
-| 9 | burst | 2 | 1 |
-| 10 | guard | 4 | 5 |
+| 9 | burst | 1 | 1 |
+| 10 | guard | 5 | 5 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 2 | 2 |
 | 13 | weave | 4 | 4 |
@@ -27,8 +27,8 @@ Entropy: 4.246 -> 4.227
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 4 | 4 |
 | 17 | spark | 3 | 3 |
-| 18 | lattice | 2 | 3 |
-| 19 | zenith | 4 | 3 |
+| 18 | lattice | 3 | 3 |
+| 19 | zenith | 3 | 3 |
 
 ## App Distribution
 
@@ -36,11 +36,11 @@ Entropy: 4.246 -> 4.227
 |---|---|---:|
 | accounts | orbit (11) | 2 |
 | analytics | glide (16) | 1 |
-| billing | trace (6) | 2 |
+| billing | tilt (7) | 2 |
 | catalog | pulse (3) | 3 |
 | inventory | seed (0) | 1 |
 | notifications | anchor (15) | 1 |
-| orders | fuse (5) | 2 |
+| orders | orbit (11) | 1 |
 | payments | shape (2) | 1 |
 | reporting | spark (17) | 2 |
 | support | drift (14) | 1 |
@@ -58,11 +58,12 @@ Entropy: 4.246 -> 4.227
 
 ## This Run Changes
 
-- `apps/support/validators.py`: 19 -> 18 (zenith -> lattice, score=4.786)
-- `apps/catalog/views.py`: 9 -> 10 (burst -> guard, score=2.023)
+- `apps/billing/services.py`: 6 -> 7 (trace -> tilt, score=4.658)
+- `apps/orders/services.py`: 5 -> 6 (fuse -> trace, score=4.691)
 
 ## Recent History
 
+- 2026-11-17 22:13:25 UTC: changed=2, drift=4
 - 2026-11-17 15:47:00 UTC: changed=2, drift=4
 - 2026-11-17 11:09:15 UTC: changed=1, drift=4
 - 2026-11-17 04:20:04 UTC: changed=1, drift=4
@@ -72,4 +73,3 @@ Entropy: 4.246 -> 4.227
 - 2026-11-15 19:45:00 UTC: changed=1, drift=4
 - 2026-11-15 13:37:47 UTC: changed=1, drift=4
 - 2026-11-15 09:47:20 UTC: changed=1, drift=4
-- 2026-11-15 01:44:09 UTC: changed=1, drift=4
