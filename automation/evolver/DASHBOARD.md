@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-17 22:13:25 UTC
-Files changed this run: 2
+Last run: 2026-11-18 03:25:36 UTC
+Files changed this run: 1
 Skew: 4 -> 4
-Entropy: 4.227 -> 4.236
+Entropy: 4.236 -> 4.262
 
 ## State Distribution
 
@@ -14,11 +14,11 @@ Entropy: 4.227 -> 4.236
 | 2 | shape | 3 | 3 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 2 | 2 |
-| 5 | fuse | 4 | 3 |
+| 5 | fuse | 3 | 3 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 2 | 3 |
-| 8 | merge | 5 | 5 |
-| 9 | burst | 1 | 1 |
+| 7 | tilt | 3 | 3 |
+| 8 | merge | 5 | 4 |
+| 9 | burst | 1 | 2 |
 | 10 | guard | 5 | 5 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 2 | 2 |
@@ -50,7 +50,7 @@ Entropy: 4.227 -> 4.236
 | Role | Dominant State | Count |
 |---|---|---:|
 | models | orbit (11) | 2 |
-| selectors | merge (8) | 4 |
+| selectors | merge (8) | 3 |
 | services | anchor (15) | 1 |
 | tasks | weave (13) | 2 |
 | validators | trace (6) | 2 |
@@ -58,11 +58,11 @@ Entropy: 4.227 -> 4.236
 
 ## This Run Changes
 
-- `apps/billing/services.py`: 6 -> 7 (trace -> tilt, score=4.658)
-- `apps/orders/services.py`: 5 -> 6 (fuse -> trace, score=4.691)
+- `apps/billing/selectors.py`: 8 -> 9 (merge -> burst, score=4.699)
 
 ## Recent History
 
+- 2026-11-18 03:25:36 UTC: changed=1, drift=4
 - 2026-11-17 22:13:25 UTC: changed=2, drift=4
 - 2026-11-17 15:47:00 UTC: changed=2, drift=4
 - 2026-11-17 11:09:15 UTC: changed=1, drift=4
@@ -72,4 +72,3 @@ Entropy: 4.227 -> 4.236
 - 2026-11-16 01:31:39 UTC: changed=1, drift=3
 - 2026-11-15 19:45:00 UTC: changed=1, drift=4
 - 2026-11-15 13:37:47 UTC: changed=1, drift=4
-- 2026-11-15 09:47:20 UTC: changed=1, drift=4
