@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-06 23:05:33 UTC",
-    "filesChanged": 2,
-    "driftAfter": 7,
-    "entropyAfter": 3.9179,
-    "changes": [
-      {
-        "path": "apps/reporting/tasks.py",
-        "from": 3,
-        "to": 2,
-        "fromLabel": "pulse",
-        "toLabel": "shape",
-        "score": 4.633187742911685
-      },
-      {
-        "path": "apps/reporting/services.py",
-        "from": 16,
-        "to": 15,
-        "fromLabel": "glide",
-        "toLabel": "anchor",
-        "score": 4.844324103170779
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-07 09:55:09 UTC",
     "filesChanged": 2,
     "driftAfter": 8,
@@ -7932,6 +7908,38 @@
         "fromLabel": "guard",
         "toLabel": "orbit",
         "score": 6.902341876684603
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-19 03:07:07 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.3056,
+    "changes": [
+      {
+        "path": "apps/analytics/tasks.py",
+        "from": 13,
+        "to": 14,
+        "fromLabel": "weave",
+        "toLabel": "drift",
+        "score": 6.959306267192518
+      },
+      {
+        "path": "apps/analytics/models.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 4.407769962799584
+      },
+      {
+        "path": "apps/accounts/tasks.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 4.562181268074937
       }
     ]
   }
