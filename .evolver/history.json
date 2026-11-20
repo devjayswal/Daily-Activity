@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-07-07 16:15:50 UTC",
-    "filesChanged": 1,
-    "driftAfter": 8,
-    "entropyAfter": 3.8995,
-    "changes": [
-      {
-        "path": "apps/inventory/services.py",
-        "from": 7,
-        "to": 8,
-        "fromLabel": "tilt",
-        "toLabel": "merge",
-        "score": 4.578204135894155
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-07 23:05:48 UTC",
     "filesChanged": 1,
     "driftAfter": 8,
@@ -7948,6 +7932,22 @@
         "fromLabel": "zenith",
         "toLabel": "seed",
         "score": 4.47353132677048
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-20 15:17:38 UTC",
+    "filesChanged": 1,
+    "driftAfter": 3,
+    "entropyAfter": 4.2685,
+    "changes": [
+      {
+        "path": "apps/accounts/models.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 4.600897222065961
       }
     ]
   }
