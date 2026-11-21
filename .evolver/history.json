@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-08 05:47:23 UTC",
-    "filesChanged": 2,
-    "driftAfter": 9,
-    "entropyAfter": 3.9039,
-    "changes": [
-      {
-        "path": "apps/catalog/models.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 4.726164880005458
-      },
-      {
-        "path": "apps/analytics/services.py",
-        "from": 8,
-        "to": 9,
-        "fromLabel": "merge",
-        "toLabel": "burst",
-        "score": 2.574342005825392
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-08 08:37:11 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -7964,6 +7940,38 @@
         "fromLabel": "anchor",
         "toLabel": "drift",
         "score": 4.611008151319988
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-21 14:35:48 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2892,
+    "changes": [
+      {
+        "path": "apps/orders/models.py",
+        "from": 11,
+        "to": 12,
+        "fromLabel": "orbit",
+        "toLabel": "sync",
+        "score": 3.1916786773279235
+      },
+      {
+        "path": "apps/accounts/selectors.py",
+        "from": 10,
+        "to": 11,
+        "fromLabel": "guard",
+        "toLabel": "orbit",
+        "score": 4.4611069023163825
+      },
+      {
+        "path": "apps/notifications/services.py",
+        "from": 16,
+        "to": 17,
+        "fromLabel": "glide",
+        "toLabel": "spark",
+        "score": 4.351932186473362
       }
     ]
   }
