@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-09 06:43:49 UTC",
-    "filesChanged": 2,
-    "driftAfter": 9,
-    "entropyAfter": 3.9608,
-    "changes": [
-      {
-        "path": "apps/inventory/validators.py",
-        "from": 14,
-        "to": 13,
-        "fromLabel": "drift",
-        "toLabel": "weave",
-        "score": 4.922713777970823
-      },
-      {
-        "path": "apps/support/views.py",
-        "from": 10,
-        "to": 11,
-        "fromLabel": "guard",
-        "toLabel": "orbit",
-        "score": 3.559394838477535
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-09 09:54:24 UTC",
     "filesChanged": 2,
     "driftAfter": 9,
@@ -7980,6 +7956,38 @@
         "fromLabel": "draft",
         "toLabel": "shape",
         "score": 4.352132412403018
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-22 10:27:33 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2477,
+    "changes": [
+      {
+        "path": "apps/analytics/views.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 4.486808265704613
+      },
+      {
+        "path": "apps/catalog/selectors.py",
+        "from": 8,
+        "to": 9,
+        "fromLabel": "merge",
+        "toLabel": "burst",
+        "score": -0.42114657781677967
+      },
+      {
+        "path": "apps/billing/views.py",
+        "from": 5,
+        "to": 4,
+        "fromLabel": "fuse",
+        "toLabel": "prune",
+        "score": 3.3184948817744795
       }
     ]
   }
