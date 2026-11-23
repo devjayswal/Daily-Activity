@@ -1,6 +1,6 @@
 # Evolver Dashboard
 
-Last run: 2026-11-22 20:35:16 UTC
+Last run: 2026-11-23 11:15:33 UTC
 Files changed this run: 1
 Skew: 3 -> 3
 Entropy: 4.248 -> 4.248
@@ -22,13 +22,13 @@ Entropy: 4.248 -> 4.248
 | 10 | guard | 3 | 3 |
 | 11 | orbit | 3 | 3 |
 | 12 | sync | 3 | 3 |
-| 13 | weave | 4 | 3 |
-| 14 | drift | 3 | 4 |
+| 13 | weave | 3 | 3 |
+| 14 | drift | 4 | 4 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 2 | 2 |
 | 17 | spark | 4 | 4 |
-| 18 | lattice | 2 | 2 |
-| 19 | zenith | 3 | 3 |
+| 18 | lattice | 2 | 3 |
+| 19 | zenith | 3 | 2 |
 
 ## App Distribution
 
@@ -58,10 +58,11 @@ Entropy: 4.248 -> 4.248
 
 ## This Run Changes
 
-- `apps/orders/tasks.py`: 13 -> 14 (weave -> drift, score=4.550)
+- `apps/catalog/services.py`: 19 -> 18 (zenith -> lattice, score=4.402)
 
 ## Recent History
 
+- 2026-11-23 11:15:33 UTC: changed=1, drift=3
 - 2026-11-22 20:35:15 UTC: changed=1, drift=3
 - 2026-11-22 10:27:33 UTC: changed=3, drift=3
 - 2026-11-22 02:04:59 UTC: changed=2, drift=2
@@ -71,4 +72,3 @@ Entropy: 4.248 -> 4.248
 - 2026-11-20 15:17:38 UTC: changed=1, drift=3
 - 2026-11-20 02:57:06 UTC: changed=3, drift=3
 - 2026-11-19 03:07:07 UTC: changed=3, drift=2
-- 2026-11-18 15:24:11 UTC: changed=2, drift=3
