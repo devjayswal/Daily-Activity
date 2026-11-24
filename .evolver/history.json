@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10 16:11:52 UTC",
-    "filesChanged": 2,
-    "driftAfter": 8,
-    "entropyAfter": 4.0046,
-    "changes": [
-      {
-        "path": "apps/accounts/validators.py",
-        "from": 7,
-        "to": 8,
-        "fromLabel": "tilt",
-        "toLabel": "merge",
-        "score": 4.573132137048839
-      },
-      {
-        "path": "apps/analytics/models.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 4.65091813719878
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-10 23:10:18 UTC",
     "filesChanged": 1,
     "driftAfter": 7,
@@ -8004,6 +7980,38 @@
         "fromLabel": "prune",
         "toLabel": "fuse",
         "score": 6.635381592696393
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-24 13:03:37 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2892,
+    "changes": [
+      {
+        "path": "apps/analytics/selectors.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 4.767151258125618
+      },
+      {
+        "path": "apps/inventory/tasks.py",
+        "from": 17,
+        "to": 16,
+        "fromLabel": "spark",
+        "toLabel": "glide",
+        "score": 4.4435864292085885
+      },
+      {
+        "path": "apps/inventory/models.py",
+        "from": 0,
+        "to": 1,
+        "fromLabel": "seed",
+        "toLabel": "draft",
+        "score": 3.319987203959449
       }
     ]
   }
