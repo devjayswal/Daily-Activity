@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10 23:10:18 UTC",
-    "filesChanged": 1,
-    "driftAfter": 7,
-    "entropyAfter": 4.0311,
-    "changes": [
-      {
-        "path": "apps/support/models.py",
-        "from": 9,
-        "to": 10,
-        "fromLabel": "burst",
-        "toLabel": "guard",
-        "score": 7.147153227705924
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-11 14:57:45 UTC",
     "filesChanged": 2,
     "driftAfter": 7,
@@ -8012,6 +7996,38 @@
         "fromLabel": "seed",
         "toLabel": "draft",
         "score": 3.319987203959449
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-24 17:18:53 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2974,
+    "changes": [
+      {
+        "path": "apps/reporting/views.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 4.674063043868525
+      },
+      {
+        "path": "apps/analytics/services.py",
+        "from": 9,
+        "to": 8,
+        "fromLabel": "burst",
+        "toLabel": "merge",
+        "score": 4.608178581160123
+      },
+      {
+        "path": "apps/reporting/services.py",
+        "from": 17,
+        "to": 18,
+        "fromLabel": "spark",
+        "toLabel": "lattice",
+        "score": 4.667138369578944
       }
     ]
   }
