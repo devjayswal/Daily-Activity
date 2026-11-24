@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10 06:37:55 UTC",
-    "filesChanged": 1,
-    "driftAfter": 8,
-    "entropyAfter": 4.0148,
-    "changes": [
-      {
-        "path": "apps/catalog/validators.py",
-        "from": 6,
-        "to": 7,
-        "fromLabel": "trace",
-        "toLabel": "tilt",
-        "score": 4.788476332466501
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-10 09:38:40 UTC",
     "filesChanged": 2,
     "driftAfter": 8,
@@ -7980,6 +7964,38 @@
         "fromLabel": "glide",
         "toLabel": "anchor",
         "score": 1.7866914694942908
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-24 01:29:56 UTC",
+    "filesChanged": 3,
+    "driftAfter": 3,
+    "entropyAfter": 4.2559,
+    "changes": [
+      {
+        "path": "apps/payments/validators.py",
+        "from": 0,
+        "to": 19,
+        "fromLabel": "seed",
+        "toLabel": "zenith",
+        "score": 4.561244962951779
+      },
+      {
+        "path": "apps/accounts/services.py",
+        "from": 15,
+        "to": 16,
+        "fromLabel": "anchor",
+        "toLabel": "glide",
+        "score": 4.549999019100966
+      },
+      {
+        "path": "apps/inventory/selectors.py",
+        "from": 16,
+        "to": 15,
+        "fromLabel": "glide",
+        "toLabel": "anchor",
+        "score": 1.7346287742213025
       }
     ]
   }
