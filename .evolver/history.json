@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-10 09:38:40 UTC",
-    "filesChanged": 2,
-    "driftAfter": 8,
-    "entropyAfter": 4.0237,
-    "changes": [
-      {
-        "path": "apps/billing/selectors.py",
-        "from": 12,
-        "to": 11,
-        "fromLabel": "sync",
-        "toLabel": "orbit",
-        "score": 1.381576591173368
-      },
-      {
-        "path": "apps/accounts/views.py",
-        "from": 9,
-        "to": 10,
-        "fromLabel": "burst",
-        "toLabel": "guard",
-        "score": 7.181087923043677
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-10 16:11:52 UTC",
     "filesChanged": 2,
     "driftAfter": 8,
@@ -7996,6 +7972,38 @@
         "fromLabel": "glide",
         "toLabel": "anchor",
         "score": 1.7346287742213025
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-24 05:51:57 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2811,
+    "changes": [
+      {
+        "path": "apps/payments/views.py",
+        "from": 15,
+        "to": 16,
+        "fromLabel": "anchor",
+        "toLabel": "glide",
+        "score": 4.47930734621298
+      },
+      {
+        "path": "apps/orders/views.py",
+        "from": 1,
+        "to": 0,
+        "fromLabel": "draft",
+        "toLabel": "seed",
+        "score": 3.170787788394926
+      },
+      {
+        "path": "apps/reporting/tasks.py",
+        "from": 4,
+        "to": 5,
+        "fromLabel": "prune",
+        "toLabel": "fuse",
+        "score": 6.635381592696393
       }
     ]
   }
