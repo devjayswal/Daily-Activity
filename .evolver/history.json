@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-11 22:42:42 UTC",
-    "filesChanged": 2,
-    "driftAfter": 8,
-    "entropyAfter": 4.0318,
-    "changes": [
-      {
-        "path": "apps/support/tasks.py",
-        "from": 5,
-        "to": 4,
-        "fromLabel": "fuse",
-        "toLabel": "prune",
-        "score": 4.4463786708999
-      },
-      {
-        "path": "apps/reporting/selectors.py",
-        "from": 8,
-        "to": 9,
-        "fromLabel": "merge",
-        "toLabel": "burst",
-        "score": 2.454140306542693
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-12 06:01:51 UTC",
     "filesChanged": 1,
     "driftAfter": 8,
@@ -8028,6 +8004,38 @@
         "fromLabel": "pulse",
         "toLabel": "prune",
         "score": 4.739548726843567
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-25 17:01:12 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2729,
+    "changes": [
+      {
+        "path": "apps/orders/selectors.py",
+        "from": 10,
+        "to": 9,
+        "fromLabel": "guard",
+        "toLabel": "burst",
+        "score": 4.4422817642651315
+      },
+      {
+        "path": "apps/notifications/views.py",
+        "from": 8,
+        "to": 7,
+        "fromLabel": "merge",
+        "toLabel": "tilt",
+        "score": 3.160181505317487
+      },
+      {
+        "path": "apps/payments/models.py",
+        "from": 2,
+        "to": 1,
+        "fromLabel": "shape",
+        "toLabel": "draft",
+        "score": 4.580803964605382
       }
     ]
   }
