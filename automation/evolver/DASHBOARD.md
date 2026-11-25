@@ -1,34 +1,34 @@
 # Evolver Dashboard
 
-Last run: 2026-11-25 17:01:12 UTC
-Files changed this run: 3
+Last run: 2026-11-25 23:07:12 UTC
+Files changed this run: 2
 Skew: 2 -> 2
-Entropy: 4.297 -> 4.273
+Entropy: 4.273 -> 4.273
 
 ## State Distribution
 
 | State | Label | Before | After |
 |---|---|---:|---:|
 | 0 | seed | 4 | 4 |
-| 1 | draft | 3 | 4 |
-| 2 | shape | 3 | 2 |
+| 1 | draft | 4 | 4 |
+| 2 | shape | 2 | 2 |
 | 3 | pulse | 3 | 3 |
 | 4 | prune | 3 | 3 |
 | 5 | fuse | 2 | 2 |
 | 6 | trace | 3 | 3 |
-| 7 | tilt | 3 | 4 |
-| 8 | merge | 3 | 2 |
-| 9 | burst | 3 | 4 |
-| 10 | guard | 3 | 2 |
+| 7 | tilt | 4 | 4 |
+| 8 | merge | 2 | 2 |
+| 9 | burst | 4 | 4 |
+| 10 | guard | 2 | 2 |
 | 11 | orbit | 3 | 3 |
-| 12 | sync | 3 | 3 |
-| 13 | weave | 3 | 3 |
+| 12 | sync | 3 | 4 |
+| 13 | weave | 3 | 2 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 3 | 3 |
 | 16 | glide | 3 | 3 |
 | 17 | spark | 2 | 2 |
-| 18 | lattice | 4 | 4 |
-| 19 | zenith | 2 | 2 |
+| 18 | lattice | 4 | 3 |
+| 19 | zenith | 2 | 3 |
 
 ## App Distribution
 
@@ -58,12 +58,12 @@ Entropy: 4.297 -> 4.273
 
 ## This Run Changes
 
-- `apps/orders/selectors.py`: 10 -> 9 (guard -> burst, score=4.442)
-- `apps/notifications/views.py`: 8 -> 7 (merge -> tilt, score=3.160)
-- `apps/payments/models.py`: 2 -> 1 (shape -> draft, score=4.581)
+- `apps/inventory/validators.py`: 13 -> 12 (weave -> sync, score=4.643)
+- `apps/accounts/views.py`: 18 -> 19 (lattice -> zenith, score=4.466)
 
 ## Recent History
 
+- 2026-11-25 23:07:12 UTC: changed=2, drift=2
 - 2026-11-25 17:01:12 UTC: changed=3, drift=2
 - 2026-11-24 23:29:15 UTC: changed=2, drift=2
 - 2026-11-24 17:18:53 UTC: changed=3, drift=2
@@ -73,4 +73,3 @@ Entropy: 4.297 -> 4.273
 - 2026-11-23 17:43:39 UTC: changed=2, drift=3
 - 2026-11-23 11:15:33 UTC: changed=1, drift=3
 - 2026-11-22 20:35:15 UTC: changed=1, drift=3
-- 2026-11-22 10:27:33 UTC: changed=3, drift=3

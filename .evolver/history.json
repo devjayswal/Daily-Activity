@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12 06:01:51 UTC",
-    "filesChanged": 1,
-    "driftAfter": 8,
-    "entropyAfter": 4.0318,
-    "changes": [
-      {
-        "path": "apps/inventory/views.py",
-        "from": 14,
-        "to": 13,
-        "fromLabel": "drift",
-        "toLabel": "weave",
-        "score": 4.7959516915294405
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-12 08:28:20 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -8036,6 +8020,30 @@
         "fromLabel": "shape",
         "toLabel": "draft",
         "score": 4.580803964605382
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-25 23:07:12 UTC",
+    "filesChanged": 2,
+    "driftAfter": 2,
+    "entropyAfter": 4.2729,
+    "changes": [
+      {
+        "path": "apps/inventory/validators.py",
+        "from": 13,
+        "to": 12,
+        "fromLabel": "weave",
+        "toLabel": "sync",
+        "score": 4.643001117295668
+      },
+      {
+        "path": "apps/accounts/views.py",
+        "from": 18,
+        "to": 19,
+        "fromLabel": "lattice",
+        "toLabel": "zenith",
+        "score": 4.4659825995908795
       }
     ]
   }
