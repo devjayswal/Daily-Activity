@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "2026-07-12 08:28:20 UTC",
-    "filesChanged": 1,
-    "driftAfter": 9,
-    "entropyAfter": 4.0165,
-    "changes": [
-      {
-        "path": "apps/accounts/selectors.py",
-        "from": 8,
-        "to": 9,
-        "fromLabel": "merge",
-        "toLabel": "burst",
-        "score": 2.344383510198131
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-12 22:42:53 UTC",
     "filesChanged": 1,
     "driftAfter": 9,
@@ -8044,6 +8028,38 @@
         "fromLabel": "lattice",
         "toLabel": "zenith",
         "score": 4.4659825995908795
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-26 11:29:51 UTC",
+    "filesChanged": 3,
+    "driftAfter": 2,
+    "entropyAfter": 4.2892,
+    "changes": [
+      {
+        "path": "apps/analytics/validators.py",
+        "from": 7,
+        "to": 8,
+        "fromLabel": "tilt",
+        "toLabel": "merge",
+        "score": 4.6935079599015115
+      },
+      {
+        "path": "apps/notifications/validators.py",
+        "from": 6,
+        "to": 5,
+        "fromLabel": "trace",
+        "toLabel": "fuse",
+        "score": 4.511972065434683
+      },
+      {
+        "path": "apps/support/models.py",
+        "from": 14,
+        "to": 13,
+        "fromLabel": "drift",
+        "toLabel": "weave",
+        "score": 4.5408815462155
       }
     ]
   }
