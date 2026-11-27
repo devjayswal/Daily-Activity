@@ -1,9 +1,9 @@
 # Evolver Dashboard
 
-Last run: 2026-11-27 16:32:48 UTC
-Files changed this run: 3
-Skew: 3 -> 2
-Entropy: 4.260 -> 4.281
+Last run: 2026-11-27 22:34:58 UTC
+Files changed this run: 1
+Skew: 2 -> 3
+Entropy: 4.281 -> 4.260
 
 ## State Distribution
 
@@ -18,15 +18,15 @@ Entropy: 4.260 -> 4.281
 | 6 | trace | 2 | 2 |
 | 7 | tilt | 3 | 3 |
 | 8 | merge | 3 | 3 |
-| 9 | burst | 4 | 3 |
-| 10 | guard | 1 | 2 |
+| 9 | burst | 3 | 3 |
+| 10 | guard | 2 | 2 |
 | 11 | orbit | 4 | 4 |
 | 12 | sync | 4 | 4 |
 | 13 | weave | 2 | 2 |
 | 14 | drift | 4 | 4 |
 | 15 | anchor | 3 | 3 |
-| 16 | glide | 3 | 3 |
-| 17 | spark | 2 | 2 |
+| 16 | glide | 3 | 4 |
+| 17 | spark | 2 | 1 |
 | 18 | lattice | 3 | 3 |
 | 19 | zenith | 3 | 3 |
 
@@ -42,7 +42,7 @@ Entropy: 4.260 -> 4.281
 | notifications | drift (14) | 1 |
 | orders | sync (12) | 1 |
 | payments | draft (1) | 1 |
-| reporting | spark (17) | 1 |
+| reporting | glide (16) | 1 |
 | support | weave (13) | 1 |
 
 ## Role Distribution
@@ -58,12 +58,11 @@ Entropy: 4.260 -> 4.281
 
 ## This Run Changes
 
-- `apps/inventory/services.py`: 2 -> 3 (shape -> pulse, score=4.523)
-- `apps/billing/selectors.py`: 9 -> 10 (burst -> guard, score=6.355)
-- `apps/catalog/validators.py`: 3 -> 2 (pulse -> shape, score=4.430)
+- `apps/reporting/models.py`: 17 -> 16 (spark -> glide, score=-0.498)
 
 ## Recent History
 
+- 2026-11-27 22:34:58 UTC: changed=1, drift=3
 - 2026-11-27 16:32:48 UTC: changed=3, drift=2
 - 2026-11-27 11:22:58 UTC: changed=1, drift=3
 - 2026-11-26 16:44:20 UTC: changed=2, drift=3
@@ -73,4 +72,3 @@ Entropy: 4.260 -> 4.281
 - 2026-11-24 23:29:15 UTC: changed=2, drift=2
 - 2026-11-24 17:18:53 UTC: changed=3, drift=2
 - 2026-11-24 13:03:37 UTC: changed=3, drift=2
-- 2026-11-24 05:51:57 UTC: changed=3, drift=2
