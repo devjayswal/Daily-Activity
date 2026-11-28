@@ -1,29 +1,5 @@
 [
   {
-    "timestamp": "2026-07-14 15:25:47 UTC",
-    "filesChanged": 2,
-    "driftAfter": 8,
-    "entropyAfter": 4.0379,
-    "changes": [
-      {
-        "path": "apps/catalog/services.py",
-        "from": 1,
-        "to": 0,
-        "fromLabel": "draft",
-        "toLabel": "seed",
-        "score": 4.840250617591836
-      },
-      {
-        "path": "apps/orders/validators.py",
-        "from": 5,
-        "to": 4,
-        "fromLabel": "fuse",
-        "toLabel": "prune",
-        "score": 4.660217703625394
-      }
-    ]
-  },
-  {
     "timestamp": "2026-07-14 23:01:49 UTC",
     "filesChanged": 1,
     "driftAfter": 7,
@@ -8100,6 +8076,22 @@
         "fromLabel": "guard",
         "toLabel": "burst",
         "score": -0.47715598207105225
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-11-28 10:48:16 UTC",
+    "filesChanged": 1,
+    "driftAfter": 3,
+    "entropyAfter": 4.2522,
+    "changes": [
+      {
+        "path": "apps/orders/services.py",
+        "from": 6,
+        "to": 7,
+        "fromLabel": "trace",
+        "toLabel": "tilt",
+        "score": 4.484089514218693
       }
     ]
   }
